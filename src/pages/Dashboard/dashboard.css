@@ -1,1 +1,36 @@
-/* Empty CSS for dashboard page */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    padding: 1.2rem 1.8rem;
+    background-color: #f8f9fb;
+    border-bottom: 1px solid #e6e6e6;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+/* menu button */
+.menu-btn img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+/* logo alanı */
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    gap:0.8rem;
+}
+
+.logo-wrapper img{
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.logo-wrapper span{
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #365983;
+}
