@@ -8,12 +8,25 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 1em;
+}
+
+.footer-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
 footer svg {
     fill: var(--background-color-1);
     width: auto;
     height: 4em;
+}
+
+footer span {
+    color: var(--background-color-1);
 }
