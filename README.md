@@ -29,9 +29,9 @@ src/
       checkout.css
       checkout.html
       index.md
-    Dashboard/
-      dashboard.css
-      dashboard.html
+    Gallery/
+      gallery.css
+      gallery.html
       index.md
     Favorites/
       favorites.css

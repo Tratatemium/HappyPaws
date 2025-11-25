@@ -36,7 +36,7 @@ HappyPaws is an animal rescue organization seeking a mobile-first landing page t
 - **Featured pets carousel:** Highlight urgent cases.
 - **Navigation at the footer:** Galery, chats, user page.
 
-### 2. Dashboard / Gallery
+### 2. Gallery
 - **Pet cards:** Grid of animals with photo, name, age.
 - **Urgent badge:** Visual marker for urgent adoption.
 - **Add to Favorites:** Paw shaped button with feedback (animation/change color).
