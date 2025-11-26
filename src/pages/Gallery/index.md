@@ -3,4 +3,4 @@ Gallery Page: Displays pet cards with photos, names, ages, urgent badges, favori
 -->
 # Gallery Page
 
-Placeholder for the Gallery (Dashboard) implementation.
+Placeholder for the Gallery implementation.

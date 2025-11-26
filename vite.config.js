@@ -6,7 +6,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: "index.html",
-        dashboard: "src/pages/Dashboard/dashboard.html",
+        gallery: "src/pages/Gallery/gallery.html",
         landing: "src/pages/Landing/landing.html",
         favorites: "src/pages/Favorites/favorites.html",
         chat: "src/pages/Chat/chat.html",
