@@ -6,7 +6,7 @@ export const state = {
 
 const init = async () => {
     await loadPetDataFromJSON();
-    console.log(state);
+    console.log(state);            // Just for development conviniance
 };
 
 init();
