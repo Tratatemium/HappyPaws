@@ -1,0 +1,1705 @@
+[
+  {
+    "name": "Barnaby",
+    "species": "dog",
+    "breed": "Beagle Mix",
+    "age": {
+      "value": 10,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": true,
+    "urgent_reason": "Senior dogs are often overlooked in shelters, and our facility is at full capacity. Barnaby deserves a loving home for his golden years.",
+    "story": {
+      "summary": "Barnaby is a gentle, sweet-natured senior who wants nothing more than a soft bed and a loving companion.",
+      "details": "Barnaby was a cherished family pet whose owner had to move into an assisted living facility that doesn't allow dogs. He is a quiet and well-behaved gentleman who enjoys short, leisurely walks and long naps in sunny spots. He gets along well with other calm dogs and ignores cats, making him an easy addition to a peaceful household."
+    },
+    "traits": [
+      "Gentle",
+      "Loyal",
+      "Quiet",
+      "House-trained",
+      "Good with other dogs"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Mild, age-related arthritis managed with a daily, over-the-counter joint supplement mixed into his food.",
+    "image_urls": [
+      "https://i.postimg.cc/VLLmq1gc/01-Barnaby-81365e07-2a62-455c-98ad-ce0bf4a2bdef-(1).png",
+      "https://i.postimg.cc/022PYxn5/01-Barnaby-81365e07-2a62-455c-98ad-ce0bf4a2bdef-(2).png",
+      "https://i.postimg.cc/L662tRD6/01-Barnaby-81365e07-2a62-455c-98ad-ce0bf4a2bdef-(3).png",
+      "https://i.postimg.cc/FssNymph/01-Barnaby-81365e07-2a62-455c-98ad-ce0bf4a2bdef-(4).png"
+    ],
+    "id": "81365e07-2a62-455c-98ad-ce0bf4a2bdef"
+  },
+  {
+    "name": "Piper",
+    "species": "cat",
+    "breed": "Domestic Shorthair",
+    "age": {
+      "value": 1,
+      "unit": "year"
+    },
+    "gender": "Female",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A playful and curious young cat, Piper will keep you entertained with her acrobatic antics and bold personality.",
+      "details": "Piper was found as a stray, fending for herself but clearly eager for affection. After a little time to warm up, she has blossomed into a confident and mischievous character. She loves chasing feather wands, exploring cardboard boxes, and will greet you with happy chirps when you come home. Piper would do best as the only cat where she can be the star of the show."
+    },
+    "traits": [
+      "Playful",
+      "Curious",
+      "Energetic",
+      "Vocal",
+      "Affectionate on her terms"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/X774f3LX/02-Piper-386401f2-71e4-40ec-bfd7-37aab6ad4bdc-(1).png",
+      "https://i.postimg.cc/hPPcLgsX/02-Piper-386401f2-71e4-40ec-bfd7-37aab6ad4bdc-(2).png",
+      "https://i.postimg.cc/3JJYX71p/02-Piper-386401f2-71e4-40ec-bfd7-37aab6ad4bdc-(3).png",
+      "https://i.postimg.cc/qMM4s0wy/02-Piper-386401f2-71e4-40ec-bfd7-37aab6ad4bdc-(4).png"
+    ],
+    "id": "386401f2-71e4-40ec-bfd7-37aab6ad4bdc"
+  },
+  {
+    "name": "Clover",
+    "species": "rabbit",
+    "breed": "Holland Lop",
+    "age": {
+      "value": 2.5,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Clover is a sweet and gentle bunny who must be adopted with her bonded best friend, Thistle.",
+      "details": "Clover and her partner Thistle were surrendered when their previous owner developed severe allergies. They are an inseparable pair who spend their days grooming each other and snuggling. Clover is the more outgoing of the two and enjoys exploring her bunny-proofed space and munching on fresh parsley. Adopting this pair means double the love and fun!"
+    },
+    "traits": [
+      "Bonded Pair",
+      "Litter-trained",
+      "Gentle",
+      "Curious",
+      "Loves veggies"
+    ],
+    "vaccinated": true,
+    "chip_inserted": false,
+    "spayedNeutered": true,
+    "specialNeeds": "Must be adopted with her bonded partner, Thistle. Experience with rabbits is preferred.",
+    "image_urls": [
+      "https://i.postimg.cc/kX19wZYB/03-Clover-dcafb731-d3ee-4800-a71e-36bd50a0dfe9-(1).png",
+      "https://i.postimg.cc/HsZH3Kvc/03-Clover-dcafb731-d3ee-4800-a71e-36bd50a0dfe9-(2).png",
+      "https://i.postimg.cc/KvqFQVpM/03-Clover-dcafb731-d3ee-4800-a71e-36bd50a0dfe9-(3).png",
+      "https://i.postimg.cc/5N71pGKv/03-Clover-dcafb731-d3ee-4800-a71e-36bd50a0dfe9-(4).png"
+    ],
+    "id": "dcafb731-d3ee-4800-a71e-36bd50a0dfe9"
+  },
+  {
+    "name": "Mango",
+    "species": "bird",
+    "breed": "Cockatiel",
+    "age": {
+      "value": 5,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Mango is a charming and chatty cockatiel who loves to whistle tunes and be the center of attention.",
+      "details": "Mango's previous family couldn't give him the time he deserves, so they brought him to us to find a more engaged home. He is a bit shy initially, but with patience and millet offerings, he will quickly become your best friend. He loves to sit on a shoulder and will often whistle along to the radio or TV, making him a delightful and interactive companion."
+    },
+    "traits": [
+      "Vocal",
+      "Intelligent",
+      "Hand-tame with patience",
+      "Loves music"
+    ],
+    "vaccinated": false,
+    "chip_inserted": false,
+    "spayedNeutered": false,
+    "specialNeeds": "Requires daily out-of-cage time in a bird-safe room and consistent social interaction to thrive.",
+    "image_urls": [
+      "https://i.postimg.cc/28cmTJ94/04-Mango-592ea42d-7801-40fd-af41-11ab559618e0-(1).png",
+      "https://i.postimg.cc/WbWjSKYn/04-Mango-592ea42d-7801-40fd-af41-11ab559618e0-(2).png",
+      "https://i.postimg.cc/pXGxk7cB/04-Mango-592ea42d-7801-40fd-af41-11ab559618e0-(3).png",
+      "https://i.postimg.cc/28cmTJ92/04-Mango-592ea42d-7801-40fd-af41-11ab559618e0-(4).png"
+    ],
+    "id": "592ea42d-7801-40fd-af41-11ab559618e0"
+  },
+  {
+    "name": "Kona",
+    "species": "dog",
+    "breed": "Shepherd / Labrador Retriever Mix",
+    "age": {
+      "value": 2,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": true,
+    "urgent_reason": "Our shelter is critically overcrowded. Active dogs like Kona need more space and exercise than our facility can provide right now.",
+    "story": {
+      "summary": "Kona is a fun-loving, high-energy girl looking for an active partner to join on all of life's adventures.",
+      "details": "Found as a stray with a boundless zest for life, Kona is all wiggles and happy tail wags. She is incredibly smart and eager to please, making her a fantastic candidate for continued training or dog sports. She would be the perfect running, hiking, or fetching buddy for an individual or family who can keep up with her enthusiasm and provide her with plenty of exercise."
+    },
+    "traits": [
+      "Energetic",
+      "Smart",
+      "Eager to please",
+      "Loves to play fetch",
+      "Good with older kids"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/m2XRVqpn/05-Kona-d68f26da-ed37-493b-b0d6-7a21eac1bc8d-(1).png",
+      "https://i.postimg.cc/hPygMwZ6/05-Kona-d68f26da-ed37-493b-b0d6-7a21eac1bc8d-(2).png",
+      "https://i.postimg.cc/qvNrFLWQ/05-Kona-d68f26da-ed37-493b-b0d6-7a21eac1bc8d-(3).png",
+      "https://i.postimg.cc/y8DKGP2L/05-Kona-d68f26da-ed37-493b-b0d6-7a21eac1bc8d-(4).png"
+    ],
+    "id": "d68f26da-ed37-493b-b0d6-7a21eac1bc8d"
+  },
+  {
+    "name": "Winston",
+    "species": "dog",
+    "breed": "Basset Hound / Corgi Mix",
+    "age": {
+      "value": 9,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Winston is a distinguished senior gentleman looking for a comfy couch and a quiet home to enjoy his golden years.",
+      "details": "Winston came to us after his beloved owner had to move into an assisted living facility. He's a mellow, easy-going soul who loves short, leisurely strolls and long naps in sunny spots. He is perfectly house-trained and knows basic commands, making him an easy companion for someone seeking a low-key friend."
+    },
+    "traits": [
+      "Calm",
+      "Affectionate",
+      "House-trained",
+      "Loves Naps",
+      "Good on Leash"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Requires a daily joint supplement (glucosamine) to support his mobility, which is provided for the first month.",
+    "image_urls": [
+      "https://i.postimg.cc/FHYv6ZwC/06-Winston-4361a915-ae75-41e1-8473-bb9217287125-(1).png",
+      "https://i.postimg.cc/bwZP5T4W/06-Winston-4361a915-ae75-41e1-8473-bb9217287125-(2).png",
+      "https://i.postimg.cc/6p8KP0Dx/06-Winston-4361a915-ae75-41e1-8473-bb9217287125-(3).png",
+      "https://i.postimg.cc/6p8KP0Dw/06-Winston-4361a915-ae75-41e1-8473-bb9217287125-(4).png"
+    ],
+    "id": "4361a915-ae75-41e1-8473-bb9217287125"
+  },
+  {
+    "name": "Juniper",
+    "species": "cat",
+    "breed": "Domestic Medium Hair Tabby",
+    "age": {
+      "value": 8,
+      "unit": "months"
+    },
+    "gender": "Female",
+    "urgent": true,
+    "urgent_reason": "Our shelter is at maximum capacity, and we need to make space for a new intake of orphaned kittens.",
+    "story": {
+      "summary": "Juniper is a playful, curious, and incredibly sweet young cat who loves chasing laser pointers and snuggling up for a good purr session.",
+      "details": "Found as a stray with her siblings, Juniper is the brave and adventurous one of the litter. All her siblings have found homes, and now it's her turn to shine. She gets along well with other friendly cats and would thrive in a home that can provide plenty of playtime and affection."
+    },
+    "traits": [
+      "Playful",
+      "Curious",
+      "Affectionate",
+      "Litter-trained",
+      "Good with other cats"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/QdFDzbRj/07-Juniper-28a2a083-ee4d-441c-9ecb-d3dc9121bf89-(1).png",
+      "https://i.postimg.cc/pLmvSZgX/07-Juniper-28a2a083-ee4d-441c-9ecb-d3dc9121bf89-(2).png",
+      "https://i.postimg.cc/t48bG6jp/07-Juniper-28a2a083-ee4d-441c-9ecb-d3dc9121bf89-(3).png",
+      "https://i.postimg.cc/4xYG05ry/07-Juniper-28a2a083-ee4d-441c-9ecb-d3dc9121bf89-(4).png"
+    ],
+    "id": "28a2a083-ee4d-441c-9ecb-d3dc9121bf89"
+  },
+  {
+    "name": "Thumper",
+    "species": "rabbit",
+    "breed": "New Zealand White",
+    "age": {
+      "value": 2,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Thumper is a gentle, shy boy who blossoms into a charming and sweet companion with a little patience and love.",
+      "details": "Thumper was rescued from a hoarding situation where he didn't receive much individual attention. As a result, he can be a bit timid at first, but once he knows he's safe, his lovely personality emerges. He loves munching on fresh parsley and enjoys having his head gently stroked."
+    },
+    "traits": [
+      "Shy",
+      "Gentle",
+      "Quiet",
+      "Loves Greens",
+      "Good litter habits"
+    ],
+    "vaccinated": true,
+    "chip_inserted": false,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/P5CH74BN/08-Thumper-82f85c51-a7d7-4749-b6fb-6650ef2d6592-(1).png",
+      "https://i.postimg.cc/52DJWzV1/08-Thumper-82f85c51-a7d7-4749-b6fb-6650ef2d6592-(2).png",
+      "https://i.postimg.cc/pL3vMjH9/08-Thumper-82f85c51-a7d7-4749-b6fb-6650ef2d6592-(3).png",
+      "https://i.postimg.cc/dVgFcCY0/08-Thumper-82f85c51-a7d7-4749-b6fb-6650ef2d6592-(4).png"
+    ],
+    "id": "82f85c51-a7d7-4749-b6fb-6650ef2d6592"
+  },
+  {
+    "name": "Lola",
+    "species": "bird",
+    "breed": "Yellow-naped Amazon",
+    "age": {
+      "value": 15,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": true,
+    "urgent_reason": "Experiencing stress in the shelter environment; needs a stable, quiet home as soon as possible.",
+    "story": {
+      "summary": "Lola is a highly intelligent and talkative parrot with a big personality, looking for an experienced bird owner to be her new best friend.",
+      "details": "Lola lost her home when her owner of many years passed away, and she is understandably confused. She has an impressive vocabulary, loves to sing off-key, and enjoys munching on almonds. Lola needs a patient and experienced home that understands the needs of a large parrot and can provide her with the attention and stability she desperately needs."
+    },
+    "traits": [
+      "Talkative",
+      "Intelligent",
+      "Sings",
+      "Loves Head Scratches",
+      "Cage-Trained"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": false,
+    "specialNeeds": "Lola is grieving the loss of her owner and will require significant patience and time to bond with a new person. Prefers a home without small children.",
+    "image_urls": [
+      "https://i.postimg.cc/DwRh3GTm/09-Lola-c051dd20-6245-4745-9208-d90ccf616b32-(1).png",
+      "https://i.postimg.cc/L8GSFPp5/09-Lola-c051dd20-6245-4745-9208-d90ccf616b32-(2).png",
+      "https://i.postimg.cc/Vk2wPt8C/09-Lola-c051dd20-6245-4745-9208-d90ccf616b32-(3).png",
+      "https://i.postimg.cc/jSBTYfbf/09-Lola-c051dd20-6245-4745-9208-d90ccf616b32-(4).png"
+    ],
+    "id": "c051dd20-6245-4745-9208-d90ccf616b32"
+  },
+  {
+    "name": "Roscoe",
+    "species": "dog",
+    "breed": "Boxer / American Pit Bull Terrier Mix",
+    "age": {
+      "value": 1.5,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Roscoe is a goofy, fun-loving goofball whose enthusiasm for life is absolutely contagious!",
+      "details": "Roscoe was found wandering as a stray, and we can't understand why no one came looking for this happy-go-lucky boy. He is a bundle of energy who would make an excellent running or hiking partner. He's very smart and eager to please, but he needs an owner committed to continuing his training to help him be the best dog he can be."
+    },
+    "traits": [
+      "Energetic",
+      "Goofy",
+      "Smart",
+      "Eager to please",
+      "Loves Toys",
+      "People-Oriented"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Has mild seasonal skin allergies managed with a grain-free diet and occasional medicated baths. He would do best as the only pet in the home.",
+    "image_urls": [
+      "https://i.postimg.cc/jSBTYfbN/10-Roscoe-51f1aeff-9e7e-4e0b-a835-1a2ba22f91cc-(1).png",
+      "https://i.postimg.cc/zG4NYhrC/10-Roscoe-51f1aeff-9e7e-4e0b-a835-1a2ba22f91cc-(2).png",
+      "https://i.postimg.cc/Cx90p8g4/10-Roscoe-51f1aeff-9e7e-4e0b-a835-1a2ba22f91cc-(3).png",
+      "https://i.postimg.cc/mgK4W9sw/10-Roscoe-51f1aeff-9e7e-4e0b-a835-1a2ba22f91cc-(4).png"
+    ],
+    "id": "51f1aeff-9e7e-4e0b-a835-1a2ba22f91cc"
+  },
+  {
+    "name": "Gus",
+    "species": "dog",
+    "breed": "Golden Retriever",
+    "age": {
+      "value": 9,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A gentle and loving senior gentleman looking for a quiet home to enjoy his golden years.",
+      "details": "Gus was surrendered when his family had to move internationally and couldn't take him. He's a textbook Golden: calm, loving, and completely devoted to his people. He enjoys short, leisurely walks and long, luxurious naps on a comfy bed. Gus is perfectly house-trained and knows all his basic commands."
+    },
+    "traits": [
+      "Gentle",
+      "Loyal",
+      "Quiet",
+      "House-Trained",
+      "Loves Naps"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Gus has mild arthritis in his hips, which is common for his age and breed. It is well-managed with a daily over-the-counter joint supplement in his food.",
+    "image_urls": [
+      "https://i.postimg.cc/CKDghKhb/11-Gus-af26deca-e430-4038-add0-8b9a9134e6c4-(1).png",
+      "https://i.postimg.cc/rpWkVpVx/11-Gus-af26deca-e430-4038-add0-8b9a9134e6c4-(2).png",
+      "https://i.postimg.cc/N0Tcs0sk/11-Gus-af26deca-e430-4038-add0-8b9a9134e6c4-(3).png",
+      "https://i.postimg.cc/XvFbjvjL/11-Gus-af26deca-e430-4038-add0-8b9a9134e6c4-(4).png"
+    ],
+    "id": "af26deca-e430-4038-add0-8b9a9134e6c4"
+  },
+  {
+    "name": "Zoe",
+    "species": "cat",
+    "breed": "Siamese Mix",
+    "age": {
+      "value": 1.5,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": true,
+    "urgent_reason": "Our shelter is at maximum capacity, and this high-energy girl is becoming very stressed in a small kennel environment.",
+    "story": {
+      "summary": "A smart, sassy, and stunningly beautiful young cat who needs an active home to match her playful spirit.",
+      "details": "Zoe was found as a stray, but her charming and chatty personality suggests she once had a home. She is incredibly intelligent and loves puzzle toys, chasing laser dots, and chattering at birds through the window. She can be affectionate on her own terms and will reward your patience with purrs and head-butts."
+    },
+    "traits": [
+      "Playful",
+      "Vocal",
+      "Intelligent",
+      "Curious",
+      "Affectionate"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/25vDk5kx/12-Zoe-0f5b1359-adae-46e5-a526-3b847ebcfcaf-(1).png",
+      "https://i.postimg.cc/GpYCLpLS/12-Zoe-0f5b1359-adae-46e5-a526-3b847ebcfcaf-(2).png",
+      "https://i.postimg.cc/W4rvN4NK/12-Zoe-0f5b1359-adae-46e5-a526-3b847ebcfcaf-(3).png",
+      "https://i.postimg.cc/7L7kHLHd/12-Zoe-0f5b1359-adae-46e5-a526-3b847ebcfcaf-(4).png"
+    ],
+    "id": "0f5b1359-adae-46e5-a526-3b847ebcfcaf"
+  },
+  {
+    "name": "Oreo",
+    "species": "rabbit",
+    "breed": "Mini Rex",
+    "age": {
+      "value": 3,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A curious and social bunny with velvety soft fur who is looking for a home with his best friend.",
+      "details": "Oreo and his partner Cookie were surrendered when their family's child developed severe allergies. He is the more outgoing of the pair, often investigating new things and asking for head scratches. They are a perfectly litter-trained duo who love munching on fresh greens and doing happy 'binkies' around their play area. These two are inseparable and bring out the best in each other."
+    },
+    "traits": [
+      "Social",
+      "Curious",
+      "Litter-Box Trained",
+      "Good Hay Eater",
+      "Bonded Pair"
+    ],
+    "vaccinated": true,
+    "chip_inserted": false,
+    "spayedNeutered": true,
+    "specialNeeds": "Must be adopted with his bonded partner, Cookie (female Mini Rex, 3 yrs). Requires a proper rabbit diet of unlimited timothy hay and fresh greens.",
+    "image_urls": [
+      "https://i.postimg.cc/9fThmfm6/13-Oreo-e7a02139-16bf-4eae-9fc4-52ffea8073c4-(1).png",
+      "https://i.postimg.cc/fbXNzbWQ/13-Oreo-e7a02139-16bf-4eae-9fc4-52ffea8073c4-(2).png",
+      "https://i.postimg.cc/bvbhyvYj/13-Oreo-e7a02139-16bf-4eae-9fc4-52ffea8073c4-(3).png",
+      "https://i.postimg.cc/25vDk5jD/13-Oreo-e7a02139-16bf-4eae-9fc4-52ffea8073c4-(4).png"
+    ],
+    "id": "e7a02139-16bf-4eae-9fc4-52ffea8073c4"
+  },
+  {
+    "name": "Kiwi",
+    "species": "bird",
+    "breed": "Budgerigar",
+    "age": {
+      "value": 8,
+      "unit": "months"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A cheerful and chatty little budgie who is learning to be a great companion.",
+      "details": "Kiwi was found outside and brought to us by a kind citizen. He's a bright little character who loves to chirp, whistle, and mimic sounds he hears, including the microwave beep! He is learning to 'step up' onto a finger and will happily nibble millet spray from your hand. Kiwi is looking for a home that understands the time and social commitment a small parrot needs."
+    },
+    "traits": [
+      "Vocal",
+      "Cheerful",
+      "Intelligent",
+      "Curious"
+    ],
+    "vaccinated": false,
+    "chip_inserted": false,
+    "spayedNeutered": false,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/PxjkPkNk/14-Kiwi-33c20d37-f667-4dd4-a2ea-d819c81e39e3-(1).png",
+      "https://i.postimg.cc/xC2ScS8w/14-Kiwi-33c20d37-f667-4dd4-a2ea-d819c81e39e3-(2).png",
+      "https://i.postimg.cc/k4mdBdDP/14-Kiwi-33c20d37-f667-4dd4-a2ea-d819c81e39e3-(3).png",
+      "https://i.postimg.cc/0QsqbqrP/14-Kiwi-33c20d37-f667-4dd4-a2ea-d819c81e39e3-(4).png"
+    ],
+    "id": "33c20d37-f667-4dd4-a2ea-d819c81e39e3"
+  },
+  {
+    "name": "Luna",
+    "species": "dog",
+    "breed": "Terrier Mix",
+    "age": {
+      "value": 4,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": true,
+    "urgent_reason": "Current foster is moving out of state in three weeks. A return to the loud shelter environment would be extremely detrimental to her progress.",
+    "story": {
+      "summary": "A shy, sweet soul who is learning to trust and needs a patient, quiet home to continue blossoming.",
+      "details": "Luna was rescued from a neglect situation and is still learning that the world can be a safe place. While initially timid with new people, she has made incredible progress in her foster home and seeks out affection from her trusted humans. She adores other dogs and gains a lot of confidence from them. Once she knows you're one of the good ones, she will be the most loyal companion you could ever ask for."
+    },
+    "traits": [
+      "Shy",
+      "Gentle",
+      "Quiet",
+      "Crate-Trained",
+      "Good with other dogs"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Requires a quiet, low-traffic home with patient adults. A securely fenced yard is mandatory. Would thrive with another calm, confident dog in the home.",
+    "image_urls": [
+      "https://i.postimg.cc/Kz2yRy4c/15-Luna-41da9c58-6767-4b44-9aa9-2503cc8da24e-(1).png",
+      "https://i.postimg.cc/MTS8v8Xp/15-Luna-41da9c58-6767-4b44-9aa9-2503cc8da24e-(2).png",
+      "https://i.postimg.cc/ydHzkzWd/15-Luna-41da9c58-6767-4b44-9aa9-2503cc8da24e-(3).png",
+      "https://i.postimg.cc/50VM6MjX/15-Luna-41da9c58-6767-4b44-9aa9-2503cc8da24e-(4).png"
+    ],
+    "id": "41da9c58-6767-4b44-9aa9-2503cc8da24e"
+  },
+  {
+    "name": "Duke",
+    "species": "dog",
+    "breed": "Labrador Retriever",
+    "age": {
+      "value": 9,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": true,
+    "urgent_reason": "Senior pet grieving the loss of his owner and not adapting well to the stressful shelter environment.",
+    "story": {
+      "summary": "Duke is a gentle, soulful senior who lost his beloved owner and is now looking for a peaceful home to spend his golden years.",
+      "details": "Duke was a devoted companion for nine years before his owner passed away. He is heartbroken and confused by the shelter, often just lying quietly in his kennel. Despite his sadness, he is incredibly sweet and affectionate, enjoying slow walks and gentle ear scratches. Duke is looking for a calm, loving family who can show him that life is still full of love and comfort."
+    },
+    "traits": [
+      "Loyal",
+      "Calm",
+      "House-trained",
+      "Gentle",
+      "Loves short walks",
+      "Affectionate"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Has mild arthritis managed with a daily joint supplement (glucosamine). No stairs preferred.",
+    "image_urls": [
+      "https://i.postimg.cc/fLfQdg0z/16-Duke-2be6c438-697d-492b-8b9b-38bcf790258e-(1).png",
+      "https://i.postimg.cc/B6BfFw1Q/16-Duke-2be6c438-697d-492b-8b9b-38bcf790258e-(2).png",
+      "https://i.postimg.cc/0Q01SHJN/16-Duke-2be6c438-697d-492b-8b9b-38bcf790258e-(3).png",
+      "https://i.postimg.cc/1tr1FYNX/16-Duke-2be6c438-697d-492b-8b9b-38bcf790258e-(4).png"
+    ],
+    "id": "2be6c438-697d-492b-8b9b-38bcf790258e"
+  },
+  {
+    "name": "Ziggy",
+    "species": "cat",
+    "breed": "Domestic Shorthair (Tuxedo)",
+    "age": {
+      "value": 1.5,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Ziggy is a dashing and playful young cat with a boundless curiosity and a love for adventure.",
+      "details": "Found as a stray with his littermates, Ziggy has grown into a confident and charming cat. He's the first to greet you at the door and will happily investigate any new toy, box, or sunbeam. Ziggy gets along well with other cats and would thrive in a home where he can get plenty of playtime and attention. He is the perfect mix of an energetic playmate and a purring lap-warmer."
+    },
+    "traits": [
+      "Playful",
+      "Curious",
+      "Energetic",
+      "Friendly with other cats",
+      "Loves window watching"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/RFLxtbnJ/17-Ziggy-344b5989-e334-4f73-87f8-4ababd249abc-(1).png",
+      "https://i.postimg.cc/bJ9fnF21/17-Ziggy-344b5989-e334-4f73-87f8-4ababd249abc-(2).png",
+      "https://i.postimg.cc/nzGfmwQD/17-Ziggy-344b5989-e334-4f73-87f8-4ababd249abc-(3).png",
+      "https://i.postimg.cc/ydyCRrSF/17-Ziggy-344b5989-e334-4f73-87f8-4ababd249abc-(4).png"
+    ],
+    "id": "344b5989-e334-4f73-87f8-4ababd249abc"
+  },
+  {
+    "name": "Mochi",
+    "species": "rabbit",
+    "breed": "Lionhead Mix",
+    "age": {
+      "value": 2,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": true,
+    "urgent_reason": "Shelter is overcrowded and this bonded pair needs to find a home together to free up space for incoming animals.",
+    "story": {
+      "summary": "Mochi is one half of an adorable, inseparable rabbit duo who are looking for a loving home to hop around in together.",
+      "details": "Mochi and her partner Matcha were surrendered when their family had to move. They are a true bonded pair, constantly grooming each other and snuggling up for naps. Mochi is the more outgoing of the two, often curiously approaching for a gentle pet. They are both litter-box trained and enjoy munching on fresh greens and hay."
+    },
+    "traits": [
+      "Gentle",
+      "Curious",
+      "Litter-box trained",
+      "Loves hay",
+      "Enjoys being petted"
+    ],
+    "vaccinated": true,
+    "chip_inserted": false,
+    "spayedNeutered": true,
+    "specialNeeds": "Must be adopted with her bonded partner, Matcha. Requires a large, bunny-proofed indoor space or enclosure.",
+    "image_urls": [
+      "https://i.postimg.cc/LX3FP0Z3/18-Mochi-8dd8222b-5a07-40dc-b54a-78a6fd5afd5a-(1).png",
+      "https://i.postimg.cc/W3wcZfJS/18-Mochi-8dd8222b-5a07-40dc-b54a-78a6fd5afd5a-(2).png",
+      "https://i.postimg.cc/85mgvnrt/18-Mochi-8dd8222b-5a07-40dc-b54a-78a6fd5afd5a-(3).png",
+      "https://i.postimg.cc/ZRxzNDyf/18-Mochi-8dd8222b-5a07-40dc-b54a-78a6fd5afd5a-(4).png"
+    ],
+    "id": "8dd8222b-5a07-40dc-b54a-78a6fd5afd5a"
+  },
+  {
+    "name": "Picasso",
+    "species": "bird",
+    "breed": "Indian Ringneck Parakeet",
+    "age": {
+      "value": 7,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Picasso is a charismatic and clever bird with a colorful personality and a and a suspiciously natural talent for chaos magic.",
+      "details": "Picasso's previous owner's mind was melted by the eldrich truths that this charming boy revealed to him, so this fellow is in search of a new flock - preferably one with a strong will, steady nerves, and an appreciation for the occasional reality warp. He is an intelligent bird who knows a few phrases (some in English, some in languages not currently known to humankind) and loves to whistle along to the radio—though radios near him do tend to pick up stations that technically don`t exist. Picasso enjoys puzzle toys, especially the ones he hasn't already solved in ways that defy Euclidean geometry, and he will happily accept a piece of apple from your hand if it has not already begun to glow with unearthly light."
+    },
+    "traits": [
+      "Talkative",
+      "Intelligent",
+      "Enjoys puzzles",
+      "Loves fruit",
+      "Can be hand-tamed with patience"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": false,
+    "specialNeeds": "Requires a specialized pellet diet supplemented with fresh fruits and vegetables. Needs daily out-of-cage time and social interaction to stay happy and healthy.",
+    "image_urls": [
+      "https://i.postimg.cc/G2xnDSs7/19-Picasso-9079ad2b-5a06-4b37-bce8-33f6b578096e-(1).png",
+      "https://i.postimg.cc/3Nr5FCg1/19-Picasso-9079ad2b-5a06-4b37-bce8-33f6b578096e-(2).png",
+      "https://i.postimg.cc/HnWD94Q2/19-Picasso-9079ad2b-5a06-4b37-bce8-33f6b578096e-(3).png",
+      "https://i.postimg.cc/5y9dSqwP/19-Picasso-9079ad2b-5a06-4b37-bce8-33f6b578096e-(4).png"
+    ],
+    "id": "9079ad2b-5a06-4b37-bce8-33f6b578096e"
+  },
+  {
+    "name": "Penelope",
+    "species": "dog",
+    "breed": "Greyhound",
+    "age": {
+      "value": 4,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Penelope, or Penny, is a sweet and gentle retired racer who is learning the joys of being a cherished pet.",
+      "details": "After a career on the track, Penny is ready to embrace life as a professional couch potato. She is initially shy and is still learning about the world, so she needs a patient owner who can build her confidence. Once she trusts you, she is an incredibly goofy and affectionate dog who loves soft beds and quiet cuddles. Her graceful presence will bring a sense of calm to any home."
+    },
+    "traits": [
+      "Quiet",
+      "Gentle",
+      "Shy with strangers",
+      "Loves soft beds",
+      "Great on a leash",
+      "Couch potato"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Needs a quiet home with a patient owner, no young children recommended. A securely fenced yard is required as she has no recall.",
+    "image_urls": [
+      "https://i.postimg.cc/sxfd49p6/20-Penelope-5c18254d-29a6-4067-818c-e369d4708034-(1).png",
+      "https://i.postimg.cc/90X5YtGS/20-Penelope-5c18254d-29a6-4067-818c-e369d4708034-(2).png",
+      "https://i.postimg.cc/5y9dSqwZ/20-Penelope-5c18254d-29a6-4067-818c-e369d4708034-(3).png",
+      "https://i.postimg.cc/BbZ9BcT9/20-Penelope-5c18254d-29a6-4067-818c-e369d4708034-(4).png"
+    ],
+    "id": "5c18254d-29a6-4067-818c-e369d4708034"
+  },
+  {
+    "name": "Walter",
+    "species": "dog",
+    "breed": "Pembroke Welsh Corgi",
+    "age": {
+      "value": 9,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": true,
+    "urgent_reason": "Shelter is at full capacity and senior dogs are at higher risk. Walter needs a quiet home to live out his golden years.",
+    "story": {
+      "summary": "Walter is a distinguished senior gentleman with a heart of gold, looking for a quiet lap and a comfy bed to call his own.",
+      "details": "Walter's beloved owner recently passed away, leaving this sweet boy heartbroken and confused. He is a very low-energy companion who enjoys short, leisurely strolls and spending the rest of his day snoozing by your feet. He's perfectly house-trained and gets along well with other calm dogs and respectful children. Walter just needs a peaceful retirement home where he can be cherished."
+    },
+    "traits": [
+      "Gentle",
+      "Quiet",
+      "Affectionate",
+      "House-trained",
+      "Loves Naps"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Walter has mild arthritis in his hips, which is managed effectively with a daily joint supplement (glucosamine). A home with minimal stairs would be ideal for his comfort.",
+    "image_urls": [
+      "https://i.postimg.cc/4y4kQbzD/21-Walter-0ec0ef6e-277b-47d8-a3f6-e5c5c227580e-(1).png",
+      "https://i.postimg.cc/Gt3wxJFn/21-Walter-0ec0ef6e-277b-47d8-a3f6-e5c5c227580e-(2).png",
+      "https://i.postimg.cc/5y9dSqBf/21-Walter-0ec0ef6e-277b-47d8-a3f6-e5c5c227580e-(3).png",
+      "https://i.postimg.cc/XqNSkcfj/21-Walter-0ec0ef6e-277b-47d8-a3f6-e5c5c227580e-(4).png"
+    ],
+    "id": "0ec0ef6e-277b-47d8-a3f6-e5c5c227580e"
+  },
+  {
+    "name": "Nebula",
+    "species": "cat",
+    "breed": "Bombay Mix",
+    "age": {
+      "value": 2,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A sleek and graceful house panther who is initially shy but blossoms into a chatty, playful, and deeply loyal friend.",
+      "details": "Nebula was found as a devoted mother to a litter of kittens in an abandoned shed. All of her babies have found homes, and now it's her turn for a life of comfort and love. She takes a little time to warm up to new people, but once she trusts you, she'll greet you with chirps and head-boops. Nebula loves chasing wand toys and batting at crinkle balls before settling down for a good cuddle."
+    },
+    "traits": [
+      "Initially Shy",
+      "Talkative",
+      "Playful",
+      "Loyal",
+      "Cuddly"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/QC6L49mL/22-Nebula-69b34911-3167-421e-afdb-cf4c9c95a21a-(1).png",
+      "https://i.postimg.cc/zvdmtbjs/22-Nebula-69b34911-3167-421e-afdb-cf4c9c95a21a-(2).png",
+      "https://i.postimg.cc/yxfqQgjK/22-Nebula-69b34911-3167-421e-afdb-cf4c9c95a21a-(3).png",
+      "https://i.postimg.cc/90x38Rbm/22-Nebula-69b34911-3167-421e-afdb-cf4c9c95a21a-(4).png"
+    ],
+    "id": "69b34911-3167-421e-afdb-cf4c9c95a21a"
+  },
+  {
+    "name": "Bartholomew",
+    "species": "rabbit",
+    "breed": "Flemish Giant",
+    "age": {
+      "value": 3,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Bartholomew, or 'Barty' for short, is a gentle giant with a dog-like personality and impeccable litter box manners.",
+      "details": "Barty was surrendered when his family realized they couldn't provide the space a rabbit of his size needs to thrive. He is an incredibly social and curious bunny who enjoys being part of the family action, often following his people from room to room. He loves to stretch out for head pets and will reward you with gentle tooth-purrs. Because of his size, he needs a large, rabbit-proofed area to roam and explore safely."
+    },
+    "traits": [
+      "Gentle",
+      "Litter-Trained",
+      "Curious",
+      "Sociable",
+      "Enjoys being petted"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Requires a large living space and a diet consisting of unlimited Timothy hay, fresh greens, and limited pellets to maintain proper digestive health.",
+    "image_urls": [
+      "https://i.postimg.cc/C5vyPB7L/23-Bartholomew-c3c61b97-c53c-4c0e-bd92-3d8ebaf27fef-(1).png",
+      "https://i.postimg.cc/MHskPM5T/23-Bartholomew-c3c61b97-c53c-4c0e-bd92-3d8ebaf27fef-(2).png",
+      "https://i.postimg.cc/j28Vgwcw/23-Bartholomew-c3c61b97-c53c-4c0e-bd92-3d8ebaf27fef-(3).png",
+      "https://i.postimg.cc/qqmfbhw8/23-Bartholomew-c3c61b97-c53c-4c0e-bd92-3d8ebaf27fef-(4).png"
+    ],
+    "id": "c3c61b97-c53c-4c0e-bd92-3d8ebaf27fef"
+  },
+  {
+    "name": "Jasper",
+    "species": "bird",
+    "breed": "Green-cheeked Conure",
+    "age": {
+      "value": 10,
+      "unit": "months"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A vibrant and clever young conure who loves to learn tricks, snuggle, and be the life of the party.",
+      "details": "Jasper's owner had to move unexpectedly and couldn't take him along. This little guy is full of personality; he's learning to mimic a few sounds and loves to hang upside down from his toys. He is still very young and requires a patient owner committed to continuing his socialization and training. With the right guidance, he'll be an amazing, interactive companion for many years."
+    },
+    "traits": [
+      "Intelligent",
+      "Playful",
+      "Cuddly",
+      "Energetic",
+      "Quick Learner"
+    ],
+    "vaccinated": true,
+    "chip_inserted": false,
+    "spayedNeutered": false,
+    "specialNeeds": "Needs a stimulating environment with plenty of toys and several hours of supervised, out-of-cage interaction daily to remain happy and well-behaved.",
+    "image_urls": [
+      "https://i.postimg.cc/Znfk7BH3/24-Jasper-bc8f488e-8089-41b6-b401-ce45385e9bf3-(1).png",
+      "https://i.postimg.cc/HnSGZczX/24-Jasper-bc8f488e-8089-41b6-b401-ce45385e9bf3-(2).png",
+      "https://i.postimg.cc/1RMZ52QC/24-Jasper-bc8f488e-8089-41b6-b401-ce45385e9bf3-(3).png",
+      "https://i.postimg.cc/QNSrxw3P/24-Jasper-bc8f488e-8089-41b6-b401-ce45385e9bf3-(4).png"
+    ],
+    "id": "bc8f488e-8089-41b6-b401-ce45385e9bf3"
+  },
+  {
+    "name": "Sadie",
+    "species": "dog",
+    "breed": "German Shorthaired Pointer Mix",
+    "age": {
+      "value": 4,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": true,
+    "urgent_reason": "Needs a quiet foster or forever home to recover from scheduled orthopedic surgery. The shelter environment is too stressful for proper healing.",
+    "story": {
+      "summary": "An incredibly sweet and resilient girl who has overcome a rough past and is ready to pour all her love into a family of her own.",
+      "details": "Sadie was found as a stray with a painful limp from an old injury. Despite her past neglect, she is trusting and affectionate with everyone she meets. She is a smart, athletic dog who will thrive once she has healed. The rescue is covering the full cost of her upcoming knee surgery, but she desperately needs a calm home where she can safely recover for 8-12 weeks."
+    },
+    "traits": [
+      "Loving",
+      "Resilient",
+      "Intelligent",
+      "Eager to Please",
+      "Good with other dogs"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Scheduled for TPLO surgery to repair a torn CCL. Requires a dedicated adopter who can manage her post-operative recovery, including strict crate rest, leash-only potty breaks, and administering medication. All medical costs are covered by the rescue.",
+    "image_urls": [
+      "https://i.postimg.cc/QNSrxw3v/25-Sadie-d3beb797-c820-4693-8c8d-ae8b869dfa48-(1).png",
+      "https://i.postimg.cc/kMwdXzm0/25-Sadie-d3beb797-c820-4693-8c8d-ae8b869dfa48-(2).png",
+      "https://i.postimg.cc/nVTtcgxb/25-Sadie-d3beb797-c820-4693-8c8d-ae8b869dfa48-(3).png",
+      "https://i.postimg.cc/pVktX4vH/25-Sadie-d3beb797-c820-4693-8c8d-ae8b869dfa48-(4).png"
+    ],
+    "id": "d3beb797-c820-4693-8c8d-ae8b869dfa48"
+  },
+  {
+    "name": "Baxter",
+    "species": "dog",
+    "breed": "Golden Retriever Mix",
+    "age": {
+      "value": 9,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": true,
+    "urgent_reason": "Senior dog stressed by kennel environment; shelter is at full capacity.",
+    "story": {
+      "summary": "Baxter is a gentle, loving senior looking for a quiet retirement home where he can offer endless cuddles.",
+      "details": "His lifelong owner had to move into an assisted living facility that doesn't allow pets, leaving this sweet old man heartbroken and confused. He is perfectly house-trained, walks beautifully on a leash, and his favorite activity is napping at your feet. The loud shelter environment is overwhelming for him, and we're desperate to find him a calm home to live out his golden years."
+    },
+    "traits": [
+      "Gentle",
+      "Quiet",
+      "Cuddly",
+      "House-trained",
+      "Good with older children"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Mild hip arthritis, managed effectively with daily joint supplements (e.g., glucosamine).",
+    "image_urls": [
+      "https://i.postimg.cc/tRDHCwb4/26-Baxter-46adbfa2-1ef8-4d27-8481-1c599c7aae49-(1).png",
+      "https://i.postimg.cc/HW3CsRmL/26-Baxter-46adbfa2-1ef8-4d27-8481-1c599c7aae49-(2).png",
+      "https://i.postimg.cc/66zN5gK3/26-Baxter-46adbfa2-1ef8-4d27-8481-1c599c7aae49-(3).png",
+      "https://i.postimg.cc/7PXyYd4b/26-Baxter-46adbfa2-1ef8-4d27-8481-1c599c7aae49-(4).png"
+    ],
+    "id": "46adbfa2-1ef8-4d27-8481-1c599c7aae49"
+  },
+  {
+    "name": "Cleo",
+    "species": "cat",
+    "breed": "Domestic Shorthair (Tortoiseshell)",
+    "age": {
+      "value": 10,
+      "unit": "months"
+    },
+    "gender": "Female",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A spirited and playful young 'tortie' with a big personality and a love for chasing wand toys.",
+      "details": "Cleo was found as a tiny kitten with her siblings, and she has grown into a confident and curious young cat. While she has her affectionate moments and a rumbling purr, she is also an independent explorer who loves to climb cat trees and watch the world from a window. She's the last of her litter to be adopted and is more than ready to bring her playful energy to a forever home."
+    },
+    "traits": [
+      "Playful",
+      "Curious",
+      "Independent",
+      "Affectionate on her terms",
+      "Litterbox-trained"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/c4HGKh1x/27-Cleo-27ed3cde-8064-4670-a56d-569e26057874-(1).png",
+      "https://i.postimg.cc/KvzhKfcc/27-Cleo-27ed3cde-8064-4670-a56d-569e26057874-(2).png",
+      "https://i.postimg.cc/yYdCJj68/27-Cleo-27ed3cde-8064-4670-a56d-569e26057874-(3).png",
+      "https://i.postimg.cc/hPjRJs4G/27-Cleo-27ed3cde-8064-4670-a56d-569e26057874-(4).png"
+    ],
+    "id": "27ed3cde-8064-4670-a56d-569e26057874"
+  },
+  {
+    "name": "Binky",
+    "species": "rabbit",
+    "breed": "Dutch Mix",
+    "age": {
+      "value": 3,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A shy but sweet boy who loves munching on cilantro and doing happy binkies once he feels safe.",
+      "details": "Binky was surrendered when his previous owner's child developed severe allergies. He is a gentle soul who takes a little time to warm up to new people, but patience (and leafy greens) will quickly win him over. He is impeccably litterbox-trained and would thrive in a quiet home where he has a safe space to run and explore. Binky's adorable head tilts and gentle nature make him a rewarding companion."
+    },
+    "traits": [
+      "Shy",
+      "Gentle",
+      "Litterbox-trained",
+      "Quiet",
+      "Food-motivated"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Requires a strict diet of unlimited timothy hay and limited pellets to manage a sensitive digestive system. He does well with leafy greens as treats.",
+    "image_urls": [
+      "https://i.postimg.cc/X7J6ZLNF/28-Binky-e1948c4b-ee22-4f32-8173-7dbd874b2abf-(1).png",
+      "https://i.postimg.cc/DyZ3W6fG/28-Binky-e1948c4b-ee22-4f32-8173-7dbd874b2abf-(2).png",
+      "https://i.postimg.cc/X7J6ZLN9/28-Binky-e1948c4b-ee22-4f32-8173-7dbd874b2abf-(3).png",
+      "https://i.postimg.cc/kX4PVsMN/28-Binky-e1948c4b-ee22-4f32-8173-7dbd874b2abf-(4).png"
+    ],
+    "id": "e1948c4b-ee22-4f32-8173-7dbd874b2abf"
+  },
+  {
+    "name": "Jasper",
+    "species": "bird",
+    "breed": "African Grey Parrot",
+    "age": {
+      "value": 12,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": true,
+    "urgent_reason": "Owner passed away; Jasper is grieving and needs an experienced home immediately to prevent further stress-related behaviors.",
+    "story": {
+      "summary": "A highly intelligent and talkative parrot looking for a dedicated and experienced owner to bond with.",
+      "details": "Jasper lost his beloved person of over a decade and is understandably stressed and confused. He has a large vocabulary and loves to mimic sounds, but he is wary of new people and needs a patient caretaker who understands parrot body language. For the right person, Jasper will be an incredibly loyal and engaging companion for many years to come."
+    },
+    "traits": [
+      "Intelligent",
+      "Talkative",
+      "Cautious",
+      "Loyal",
+      "Needs routine"
+    ],
+    "vaccinated": true,
+    "chip_inserted": false,
+    "spayedNeutered": false,
+    "specialNeeds": "Requires an experienced parrot owner. Needs significant mental stimulation and out-of-cage time to thrive and prevent boredom.",
+    "image_urls": [
+      "https://i.postimg.cc/bNJfGgYL/29-Jasper-a6b48951-3f40-4540-95fb-1944c9ece2f8-(1).png",
+      "https://i.postimg.cc/rFm2djy9/29-Jasper-a6b48951-3f40-4540-95fb-1944c9ece2f8-(2).png",
+      "https://i.postimg.cc/VLVQXt5X/29-Jasper-a6b48951-3f40-4540-95fb-1944c9ece2f8-(3).png",
+      "https://i.postimg.cc/qM5V2KgG/29-Jasper-a6b48951-3f40-4540-95fb-1944c9ece2f8-(4).png"
+    ],
+    "id": "a6b48951-3f40-4540-95fb-1944c9ece2f8"
+  },
+  {
+    "name": "Stella",
+    "species": "dog",
+    "breed": "Australian Cattle Dog / Border Collie Mix",
+    "age": {
+      "value": 2,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "An whip-smart and athletic girl who would be the perfect partner for an active person or family.",
+      "details": "Stella was rescued as a stray from a rural area and is overflowing with potential. She is a working-dog mix through and through: she learns new commands in minutes, loves puzzle toys, and would excel at agility or other dog sports. She needs a home that can provide plenty of physical exercise and mental challenges to keep her happy and well-behaved. After a long day of fun, she's happy to curl up for a well-deserved nap."
+    },
+    "traits": [
+      "High-energy",
+      "Extremely smart",
+      "Trainable",
+      "Affectionate",
+      "Loyal"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/RVD5wtqR/30-Stella-7954c1ec-b57f-4f6d-81ac-cdf57d84446c-(1).png",
+      "https://i.postimg.cc/m25f79hj/30-Stella-7954c1ec-b57f-4f6d-81ac-cdf57d84446c-(2).png",
+      "https://i.postimg.cc/YqsKQFj8/30-Stella-7954c1ec-b57f-4f6d-81ac-cdf57d84446c-(3).png",
+      "https://i.postimg.cc/WbHL0Zhc/30-Stella-7954c1ec-b57f-4f6d-81ac-cdf57d84446c-(4).png"
+    ],
+    "id": "7954c1ec-b57f-4f6d-81ac-cdf57d84446c"
+  },
+  {
+    "name": "Barnaby",
+    "species": "dog",
+    "breed": "Beagle Mix",
+    "age": {
+      "value": 9,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A gentle and loving senior beagle looking for a quiet home to enjoy his golden years.",
+      "details": "Barnaby was a cherished companion whose elderly owner had to move into an assisted living facility. He is a profoundly sweet and mellow dog who enjoys short, sniff-filled walks and long naps in sunny spots. He is perfectly house-trained and knows his basic commands, making him an easy and rewarding companion for a calm household."
+    },
+    "traits": [
+      "Gentle",
+      "Loyal",
+      "Quiet",
+      "Cuddle-bug",
+      "Good with other dogs"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Manages mild arthritis with a daily over-the-counter joint supplement, which he takes easily in his food.",
+    "image_urls": [
+      "https://i.postimg.cc/YqsKQFh7/31-Barnaby-5ad1095c-7f72-49f2-8153-761c949b659b-(1).png",
+      "https://i.postimg.cc/xT4DLmc2/31-Barnaby-5ad1095c-7f72-49f2-8153-761c949b659b-(2).png",
+      "https://i.postimg.cc/GmT0KpsS/31-Barnaby-5ad1095c-7f72-49f2-8153-761c949b659b-(3).png",
+      "https://i.postimg.cc/jSnVcjJG/31-Barnaby-5ad1095c-7f72-49f2-8153-761c949b659b-(4).png"
+    ],
+    "id": "5ad1095c-7f72-49f2-8153-761c949b659b"
+  },
+  {
+    "name": "Pip",
+    "species": "cat",
+    "breed": "Domestic Shorthair (Ginger Tabby)",
+    "age": {
+      "value": 10,
+      "unit": "months"
+    },
+    "gender": "Male",
+    "urgent": true,
+    "urgent_reason": "Shelter is at full capacity and we need to make space for new arrivals.",
+    "story": {
+      "summary": "A rambunctious and charismatic ginger kitten who is always ready for playtime.",
+      "details": "Pip is a classic case of feline curiosity who was found charming patrons outside a local coffee shop. He's a social butterfly with a huge personality packed into a small body, and he adores chasing laser pointers and batting at wand toys. He's looking for an active home that can keep up with his playful antics and shower him with the affection he craves."
+    },
+    "traits": [
+      "Energetic",
+      "Playful",
+      "Curious",
+      "Affectionate",
+      "Vocal"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/vZxRhmVF/32-Pip-56d4ebba-6a4d-41ce-9bdb-d5c540a4852c-(1).png",
+      "https://i.postimg.cc/nh982LDf/32-Pip-56d4ebba-6a4d-41ce-9bdb-d5c540a4852c-(2).png",
+      "https://i.postimg.cc/QdKLmMTj/32-Pip-56d4ebba-6a4d-41ce-9bdb-d5c540a4852c-(3).png",
+      "https://i.postimg.cc/fRS4Cb9R/32-Pip-56d4ebba-6a4d-41ce-9bdb-d5c540a4852c-(4).png"
+    ],
+    "id": "56d4ebba-6a4d-41ce-9bdb-d5c540a4852c"
+  },
+  {
+    "name": "Clover & Dale",
+    "species": "rabbit",
+    "breed": "Holland Lop Mix",
+    "age": {
+      "value": 2,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A sweet and inseparable bonded pair of rabbits who must be adopted together.",
+      "details": "Clover (female) and Dale (male) are the best of friends who were surrendered when their previous family developed allergies. Clover is the brave explorer, always checking out new toys and spaces, while Dale is a gentle soul who adores being petted. They are litter-box trained and will bring double the love and entertainment to their new family."
+    },
+    "traits": [
+      "Bonded Pair",
+      "Litter-trained",
+      "Curious",
+      "Gentle",
+      "Sweet-natured"
+    ],
+    "vaccinated": false,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Must be adopted as a pair. Require a constant supply of high-quality timothy hay and a spacious, bunny-proofed area for daily exercise.",
+    "image_urls": [
+      "https://i.postimg.cc/kgRrs5b5/33-Clover-Dale-8ecc4e62-1652-4f79-8a98-915054d508cb-(1).png",
+      "https://i.postimg.cc/Nj2hD0HM/33-Clover-Dale-8ecc4e62-1652-4f79-8a98-915054d508cb-(2).png",
+      "https://i.postimg.cc/pL5NCdFh/33-Clover-Dale-8ecc4e62-1652-4f79-8a98-915054d508cb-(3).png",
+      "https://i.postimg.cc/kgRrs5bb/33-Clover-Dale-8ecc4e62-1652-4f79-8a98-915054d508cb-(4).png"
+    ],
+    "id": "8ecc4e62-1652-4f79-8a98-915054d508cb"
+  },
+  {
+    "name": "Mango",
+    "species": "bird",
+    "breed": "Sun Conure",
+    "age": {
+      "value": 5,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A vibrant and intelligent Sun Conure with a personality as bright as her feathers.",
+      "details": "Mango is a talkative and social bird who loves to be the center of attention, mimicking sounds and chattering away. Her previous owner had to relocate internationally and made the difficult decision to find her a new home that could give her the care she deserves. She thrives on interaction and is looking for an experienced bird owner who understands the needs of a clever parrot."
+    },
+    "traits": [
+      "Intelligent",
+      "Vocal",
+      "Playful",
+      "Social",
+      "Can be loud"
+    ],
+    "vaccinated": false,
+    "chip_inserted": true,
+    "spayedNeutered": false,
+    "specialNeeds": "Requires an experienced bird owner. Needs a large cage, several hours of daily out-of-cage enrichment, and a varied diet of pellets, fresh fruits, and vegetables.",
+    "image_urls": [
+      "https://i.postimg.cc/52QcgtCF/34-Mango-89419d6b-a4a0-4239-a9ba-43cba79d327a-(1).png",
+      "https://i.postimg.cc/zGssc1CX/34-Mango-89419d6b-a4a0-4239-a9ba-43cba79d327a-(2).png",
+      "https://i.postimg.cc/sgkkNRY2/34-Mango-89419d6b-a4a0-4239-a9ba-43cba79d327a-(3).png",
+      "https://i.postimg.cc/nhyyPt4j/34-Mango-89419d6b-a4a0-4239-a9ba-43cba79d327a-(4).png"
+    ],
+    "id": "89419d6b-a4a0-4239-a9ba-43cba79d327a"
+  },
+  {
+    "name": "Willow",
+    "species": "dog",
+    "breed": "Whippet / Shepherd Mix",
+    "age": {
+      "value": 3,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": true,
+    "urgent_reason": "Needs a quiet home environment to recover from recent knee surgery.",
+    "story": {
+      "summary": "A gentle, shy soul who is learning to trust and needs a calm home to recover and blossom.",
+      "details": "Willow was rescued from a neglectful situation and is incredibly timid but has a deep well of love to give to a patient owner. She just underwent surgery to repair a torn ligament and needs a peaceful foster-to-adopt or forever home to heal, both physically and emotionally. Once she feels safe, she forms an unbreakable bond and will be the most loyal companion you could ever ask for."
+    },
+    "traits": [
+      "Shy",
+      "Gentle",
+      "Loyal",
+      "Quiet",
+      "Needs patience"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Recovering from TPLO surgery. Requires strict, limited activity (leash walks only, no running/jumping) for the next 6-8 weeks and follow-up vet visits (costs covered by shelter).",
+    "image_urls": [
+      "https://i.postimg.cc/jSppFrHf/35-Willow-c98a947f-9277-4d67-80f4-820518d7b8b6-(1).png",
+      "https://i.postimg.cc/RZkkDz7w/35-Willow-c98a947f-9277-4d67-80f4-820518d7b8b6-(2).png",
+      "https://i.postimg.cc/T3zz4XVq/35-Willow-c98a947f-9277-4d67-80f4-820518d7b8b6-(3).png",
+      "https://i.postimg.cc/FHMMBQyp/35-Willow-c98a947f-9277-4d67-80f4-820518d7b8b6-(4).png"
+    ],
+    "id": "c98a947f-9277-4d67-80f4-820518d7b8b6"
+  },
+  {
+    "name": "Winston",
+    "species": "dog",
+    "breed": "English Bulldog Mix",
+    "age": {
+      "value": 9,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": true,
+    "urgent_reason": "Shelter is at maximum capacity and Winston is struggling with kennel stress due to his age.",
+    "story": {
+      "summary": "Winston is a gentle old soul and a professional napper looking for a quiet retirement home.",
+      "details": "This distinguished gentleman was surrendered when his elderly owner could no longer care for him. Winston is the epitome of a couch potato; he loves soft beds, slow strolls around the block, and gentle head scratches. He gets along with other calm dogs but would be equally happy as the only pet soaking up all the attention."
+    },
+    "traits": [
+      "Cuddlebug",
+      "Low-energy",
+      "Quiet",
+      "House-trained",
+      "Good with other calm dogs"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Requires daily joint supplements (glucosamine) to manage mild arthritis. Prefers a home with minimal stairs.",
+    "image_urls": [
+      "https://i.postimg.cc/W1BBHPGY/36-Winston-33e33da7-aa38-4a8e-9889-fd7759c33521-(1).png",
+      "https://i.postimg.cc/XYRRz0f2/36-Winston-33e33da7-aa38-4a8e-9889-fd7759c33521-(2).png",
+      "https://i.postimg.cc/y8MMbzmL/36-Winston-33e33da7-aa38-4a8e-9889-fd7759c33521-(3).png",
+      "https://i.postimg.cc/Bv2rWwp7/36-Winston-33e33da7-aa38-4a8e-9889-fd7759c33521-(4).png"
+    ],
+    "id": "33e33da7-aa38-4a8e-9889-fd7759c33521"
+  },
+  {
+    "name": "Jinx",
+    "species": "cat",
+    "breed": "Domestic Medium Hair (Calico)",
+    "age": {
+      "value": 1.5,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A playful and curious explorer with a purr that can shake the room.",
+      "details": "Jinx was found as a friendly stray, fending for herself but clearly missing human companionship. She is a firecracker of a cat who loves chasing laser dots, climbing cat trees, and investigating every open box. After a good play session, she'll curl up nearby for a nap, but is always ready for the next adventure."
+    },
+    "traits": [
+      "Playful",
+      "Curious",
+      "Affectionate on her terms",
+      "Litter-trained",
+      "Energetic"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/8CL28nw8/37-Jinx-40a9227d-4978-415d-bb8c-98cc43645241-(1).png",
+      "https://i.postimg.cc/R0wkrbdY/37-Jinx-40a9227d-4978-415d-bb8c-98cc43645241-(2).png",
+      "https://i.postimg.cc/tgFK0mkf/37-Jinx-40a9227d-4978-415d-bb8c-98cc43645241-(3).png",
+      "https://i.postimg.cc/SKcB0tVp/37-Jinx-40a9227d-4978-415d-bb8c-98cc43645241-(4).png"
+    ],
+    "id": "40a9227d-4978-415d-bb8c-98cc43645241"
+  },
+  {
+    "name": "Thumper & Blossom",
+    "species": "rabbit",
+    "breed": "New Zealand White Mix",
+    "age": {
+      "value": 3,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "An inseparable, sweet-natured bonded pair looking for a peaceful home together.",
+      "details": "Thumper and Blossom were rescued from a neglect situation and have blossomed in foster care. Thumper is the braver of the two, often investigating new things first, while Blossom prefers to hang back until she's sure it's safe. They spend their days grooming each other, sharing salads, and cuddling up for naps. Their quiet love for each other is truly heartwarming to witness."
+    },
+    "traits": [
+      "Bonded Pair",
+      "Gentle",
+      "Litter-box trained",
+      "Loves leafy greens",
+      "Shy but sweet"
+    ],
+    "vaccinated": true,
+    "chip_inserted": false,
+    "spayedNeutered": true,
+    "specialNeeds": "Must be adopted together. Requires a large, secure indoor living space as they are not suited for outdoor living. Experience with rabbits is preferred.",
+    "image_urls": [
+      "https://i.postimg.cc/nLqy8wTH/38-Thumper-Blossom-0bbf55e8-7d76-445e-9de6-834d17b8e350-(1).png",
+      "https://i.postimg.cc/26mPCF9s/38-Thumper-Blossom-0bbf55e8-7d76-445e-9de6-834d17b8e350-(2).png",
+      "https://i.postimg.cc/FRm2hgnt/38-Thumper-Blossom-0bbf55e8-7d76-445e-9de6-834d17b8e350-(3).png",
+      "https://i.postimg.cc/cHZVdM5y/38-Thumper-Blossom-0bbf55e8-7d76-445e-9de6-834d17b8e350-(4).png"
+    ],
+    "id": "0bbf55e8-7d76-445e-9de6-834d17b8e350"
+  },
+  {
+    "name": "Captain Flint",
+    "species": "bird",
+    "breed": "Cockatiel (Lutino)",
+    "age": {
+      "value": 5,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A charming and chatty feathered friend who loves to whistle and be the center of attention.",
+      "details": "Captain Flint is a character! He was surrendered when his family had to move unexpectedly and couldn't take him along. He knows several tunes, can say 'pretty bird,' and makes a very convincing 'wolf whistle.' He loves to ride on shoulders and share snacks with his favorite people, making him a wonderful companion for someone who is home often."
+    },
+    "traits": [
+      "Vocal",
+      "Social",
+      "Intelligent",
+      "Loves millet",
+      "Tame"
+    ],
+    "vaccinated": true,
+    "chip_inserted": false,
+    "spayedNeutered": false,
+    "specialNeeds": "Requires several hours of daily out-of-cage interaction and socialization to stay happy and healthy. Diet consists of high-quality pellets supplemented with fresh vegetables.",
+    "image_urls": [
+      "https://i.postimg.cc/NMYWQ7PQ/39-Captain-Flint-65b5b8df-65fd-4d9a-becb-8afa356afbb2-(1).png",
+      "https://i.postimg.cc/RF9jvQbS/39-Captain-Flint-65b5b8df-65fd-4d9a-becb-8afa356afbb2-(2).png",
+      "https://i.postimg.cc/XJ3TncD7/39-Captain-Flint-65b5b8df-65fd-4d9a-becb-8afa356afbb2-(3).png",
+      "https://i.postimg.cc/Ssqwm7tK/39-Captain-Flint-65b5b8df-65fd-4d9a-becb-8afa356afbb2-(4).png"
+    ],
+    "id": "65b5b8df-65fd-4d9a-becb-8afa356afbb2"
+  },
+  {
+    "name": "Roxie",
+    "species": "dog",
+    "breed": "Boxer / American Pit Bull Terrier Mix",
+    "age": {
+      "value": 2,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": true,
+    "urgent_reason": "Roxie has been in the shelter for over 200 days and is being repeatedly overlooked, putting her at risk for depression.",
+    "story": {
+      "summary": "A goofy, high-energy athlete who is looking for an active partner for life's adventures.",
+      "details": "Roxie is 100% pure joy and wiggles. She's been with us since she was a young pup and has been waiting patiently for her forever family. She is incredibly smart, learns new commands quickly, and would thrive in activities like agility or running. The shelter environment is starting to dim her bright light, and she desperately needs a home where she can stretch her legs and her heart."
+    },
+    "traits": [
+      "High-energy",
+      "Intelligent",
+      "Eager to please",
+      "Loves to play fetch",
+      "Affectionate"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Best as the only pet in the home. Requires a physically fenced yard and an active owner committed to ongoing training and exercise.",
+    "image_urls": [
+      "https://i.postimg.cc/QtsRjkn9/40-Roxie-d386f5f3-aa10-4aa2-bddd-c12f343b1ce2-(1).png",
+      "https://i.postimg.cc/MTxhzbrc/40-Roxie-d386f5f3-aa10-4aa2-bddd-c12f343b1ce2-(2).png",
+      "https://i.postimg.cc/gJdfGqBV/40-Roxie-d386f5f3-aa10-4aa2-bddd-c12f343b1ce2-(3).png",
+      "https://i.postimg.cc/Px40JpBN/40-Roxie-d386f5f3-aa10-4aa2-bddd-c12f343b1ce2-(4).png"
+    ],
+    "id": "d386f5f3-aa10-4aa2-bddd-c12f343b1ce2"
+  },
+  {
+    "name": "Gus",
+    "species": "dog",
+    "breed": "Cairn Terrier Mix",
+    "age": {
+      "value": 10,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Gus is a distinguished older gentleman looking for a quiet home to enjoy his golden years, offering quiet companionship and endless cuddles.",
+      "details": "Gus came to us when his beloved owner had to move into an assisted living facility. He's a mellow and well-behaved companion who loves short, leisurely walks and long naps in a sunbeam. He's perfectly house-trained and knows basic commands, making him an easy addition to any calm household."
+    },
+    "traits": [
+      "Calm",
+      "Affectionate",
+      "House-trained",
+      "Loves Naps",
+      "Good on leash"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Requires a daily joint supplement (glucosamine) for mild arthritis. Prefers a home with few stairs.",
+    "image_urls": [
+      "https://i.postimg.cc/KzNCjkdk/41-Gus-2f0e0166-5b16-49a4-a8c8-39454fe74986-(1).png",
+      "https://i.postimg.cc/nzkNrj67/41-Gus-2f0e0166-5b16-49a4-a8c8-39454fe74986-(2).png",
+      "https://i.postimg.cc/V6R2vr3C/41-Gus-2f0e0166-5b16-49a4-a8c8-39454fe74986-(3).png",
+      "https://i.postimg.cc/3RBzN4PZ/41-Gus-2f0e0166-5b16-49a4-a8c8-39454fe74986-(4).png"
+    ],
+    "id": "2f0e0166-5b16-49a4-a8c8-39454fe74986"
+  },
+  {
+    "name": "Luna",
+    "species": "cat",
+    "breed": "Domestic Longhair",
+    "age": {
+      "value": 2,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A shy but incredibly sweet former mama cat, Luna is learning to trust and is ready for a patient home where she can blossom.",
+      "details": "Luna was found struggling to care for her litter of kittens under a porch. She was a fantastic mother, and now that all her babies have found homes, it's her turn for a happily ever after. She is initially timid with new people and loud noises, but once she feels safe, she reveals a loving personality with a rumbling purr. Luna would do best in a quiet home, possibly with another calm cat to show her the ropes."
+    },
+    "traits": [
+      "Shy",
+      "Gentle",
+      "Quiet",
+      "Loves Chin Scratches",
+      "Cat-friendly"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/26wgybPT/42-Luna-6dba1bb6-a93e-419c-9cc8-5b06de85b1bc-(1).png",
+      "https://i.postimg.cc/j5XB2wGM/42-Luna-6dba1bb6-a93e-419c-9cc8-5b06de85b1bc-(2).png",
+      "https://i.postimg.cc/wvVnMySf/42-Luna-6dba1bb6-a93e-419c-9cc8-5b06de85b1bc-(3).png",
+      "https://i.postimg.cc/zBj4vb9c/42-Luna-6dba1bb6-a93e-419c-9cc8-5b06de85b1bc-(4).png"
+    ],
+    "id": "6dba1bb6-a93e-419c-9cc8-5b06de85b1bc"
+  },
+  {
+    "name": "Oreo & Cookie",
+    "species": "rabbit",
+    "breed": "Mini Rex Mix (Bonded Pair)",
+    "age": {
+      "value": 3,
+      "unit": "years"
+    },
+    "gender": "Male & Female",
+    "urgent": true,
+    "urgent_reason": "Shelter is at maximum capacity and we urgently need to make space for incoming animals.",
+    "story": {
+      "summary": "Oreo and Cookie are an inseparable, sweet-natured duo with plush velvet fur who love to groom each other and explore together. They must be adopted as a pair.",
+      "details": "This adorable pair was surrendered when their previous owner developed severe allergies. They are perfectly litter-box trained and have always lived indoors as cherished pets. Oreo is the more adventurous one, while Cookie prefers to follow his lead and get head scratches. They provide each other with constant comfort and companionship."
+    },
+    "traits": [
+      "Bonded Pair",
+      "Litter-trained",
+      "Curious",
+      "Gentle",
+      "Loves Leafy Greens"
+    ],
+    "vaccinated": true,
+    "chip_inserted": false,
+    "spayedNeutered": true,
+    "specialNeeds": "Requires a constant supply of Timothy hay to maintain dental and digestive health, as is standard for all rabbits.",
+    "image_urls": [
+      "https://i.postimg.cc/76VjhGpc/43-Oreo-Cookie-c5dda62e-f2e9-48dc-90bb-30901d076d85-(1).png",
+      "https://i.postimg.cc/Kj8wMc2W/43-Oreo-Cookie-c5dda62e-f2e9-48dc-90bb-30901d076d85-(2).png",
+      "https://i.postimg.cc/yx8tZ6H5/43-Oreo-Cookie-c5dda62e-f2e9-48dc-90bb-30901d076d85-(3).png",
+      "https://i.postimg.cc/prL4FVH4/43-Oreo-Cookie-c5dda62e-f2e9-48dc-90bb-30901d076d85-(4).png"
+    ],
+    "id": "c5dda62e-f2e9-48dc-90bb-30901d076d85"
+  },
+  {
+    "name": "Kiwi",
+    "species": "bird",
+    "breed": "Budgerigar (Budgie)",
+    "age": {
+      "value": 10,
+      "unit": "months"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Kiwi is a cheerful and chatty little Budgie who loves to whistle tunes and ride around on his favorite person's shoulder.",
+      "details": "Kiwi's owner had to relocate for work and couldn't take him along. He is a hand-tamed and very social bird who thrives on interaction and being out of his cage. He enjoys mimicking sounds and is starting to say a few words like 'pretty bird'. He would love a home where he can be a central part of the family's daily activities."
+    },
+    "traits": [
+      "Social",
+      "Chatty",
+      "Hand-tamed",
+      "Playful",
+      "Loves Millet Spray"
+    ],
+    "vaccinated": false,
+    "chip_inserted": false,
+    "spayedNeutered": false,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/kGgzbMCr/44-Kiwi-c9e9ee2a-1a38-4840-8b31-b90eab87ea0f-(1).png",
+      "https://i.postimg.cc/SRx3MQ4h/44-Kiwi-c9e9ee2a-1a38-4840-8b31-b90eab87ea0f-(2).png",
+      "https://i.postimg.cc/gj2QZcpp/44-Kiwi-c9e9ee2a-1a38-4840-8b31-b90eab87ea0f-(3).png",
+      "https://i.postimg.cc/J0zvk78M/44-Kiwi-c9e9ee2a-1a38-4840-8b31-b90eab87ea0f-(4).png"
+    ],
+    "id": "c9e9ee2a-1a38-4840-8b31-b90eab87ea0f"
+  },
+  {
+    "name": "Sasha",
+    "species": "dog",
+    "breed": "Siberian Husky / Shepherd Mix",
+    "age": {
+      "value": 1.5,
+      "unit": "years"
+    },
+    "gender": "Female",
+    "urgent": true,
+    "urgent_reason": "Current foster family is moving out of state in two weeks and cannot take her.",
+    "story": {
+      "summary": "Sasha is a stunningly beautiful and intelligent girl with boundless energy, looking for an active partner for all of life's adventures.",
+      "details": "Sasha was found as a stray, underweight but full of spirit. In her foster home, she has blossomed into a goofy, loving dog who adores people and wants to be part of the action. She is whip-smart and has already mastered 'sit' and 'shake'. Sasha needs a home with a secure, high-fenced yard and an owner committed to providing plenty of physical exercise and mental stimulation."
+    },
+    "traits": [
+      "High-energy",
+      "Intelligent",
+      "Loves to Run",
+      "Playful",
+      "People-oriented",
+      "Needs a Fenced Yard"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/8cz96kGp/45-Sasha-2ce09d48-49cf-4dda-8ea7-964b26b1ce9a-(1).png",
+      "https://i.postimg.cc/8cz96kGP/45-Sasha-2ce09d48-49cf-4dda-8ea7-964b26b1ce9a-(2).png",
+      "https://i.postimg.cc/XqYmCNWX/45-Sasha-2ce09d48-49cf-4dda-8ea7-964b26b1ce9a-(3).png",
+      "https://i.postimg.cc/KjpVrXcb/45-Sasha-2ce09d48-49cf-4dda-8ea7-964b26b1ce9a-(4).png"
+    ],
+    "id": "2ce09d48-49cf-4dda-8ea7-964b26b1ce9a"
+  },
+  {
+    "name": "Arthur",
+    "species": "dog",
+    "breed": "Miniature Poodle Mix",
+    "age": {
+      "value": 10,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "A distinguished senior gentleman looking for a quiet retirement home to share his endless supply of cuddles.",
+      "details": "Arthur's beloved owner had to move into an assisted living facility and couldn't take him along. He's a gentle soul who enjoys short, leisurely walks and long, luxurious naps on a soft bed. Arthur is perfectly house-trained and knows his basic commands, making him an easy and rewarding companion for someone seeking a low-key friend."
+    },
+    "traits": [
+      "Gentle",
+      "Cuddly",
+      "Quiet",
+      "House-trained",
+      "Loves naps"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Requires a daily joint supplement (glucosamine) mixed in with his food to manage mild arthritis.",
+    "image_urls": [
+      "https://i.postimg.cc/qqDYXfB0/46-Arthur-f7029af4-b5b0-4239-8053-465ca77b80d3-(1).png",
+      "https://i.postimg.cc/FzCqgtFh/46-Arthur-f7029af4-b5b0-4239-8053-465ca77b80d3-(2).png",
+      "https://i.postimg.cc/prc7YNV2/46-Arthur-f7029af4-b5b0-4239-8053-465ca77b80d3-(3).png",
+      "https://i.postimg.cc/VvZTByss/46-Arthur-f7029af4-b5b0-4239-8053-465ca77b80d3-(4).png"
+    ],
+    "id": "f7029af4-b5b0-4239-8053-465ca77b80d3"
+  },
+  {
+    "name": "Zola",
+    "species": "cat",
+    "breed": "Domestic Shorthair (Tabby)",
+    "age": {
+      "value": 11,
+      "unit": "months"
+    },
+    "gender": "Female",
+    "urgent": true,
+    "urgent_reason": "Shelter is at maximum capacity and we desperately need to make space for incoming animals.",
+    "story": {
+      "summary": "Zola is a playful and curious young cat with a big personality and an even bigger heart.",
+      "details": "Zola was found as a stray but has quickly blossomed into a confident and affectionate cat in our care. She loves chasing laser pointers, batting at feather wands, and will purr up a storm once she's tired herself out. Zola gets along well with other cats after a slow introduction and would thrive in a home that can match her playful energy."
+    },
+    "traits": [
+      "Playful",
+      "Curious",
+      "Affectionate",
+      "Energetic",
+      "Vocal"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "",
+    "image_urls": [
+      "https://i.postimg.cc/brVMHXYN/47-Zola-b23fd18a-8539-43c0-9b42-d4cc19248bd6-(1).png",
+      "https://i.postimg.cc/6qbSLs63/47-Zola-b23fd18a-8539-43c0-9b42-d4cc19248bd6-(2).png",
+      "https://i.postimg.cc/nrS5Y8VC/47-Zola-b23fd18a-8539-43c0-9b42-d4cc19248bd6-(3).png",
+      "https://i.postimg.cc/4y2MbC49/47-Zola-b23fd18a-8539-43c0-9b42-d4cc19248bd6-(4).png"
+    ],
+    "id": "b23fd18a-8539-43c0-9b42-d4cc19248bd6"
+  },
+  {
+    "name": "Finn & Willow",
+    "species": "rabbit",
+    "breed": "Lionhead Mix (Bonded Pair)",
+    "age": {
+      "value": 3,
+      "unit": "years"
+    },
+    "gender": "Male & Female",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Finn and Willow are an inseparable, fluffy duo who do everything together, from munching on hay to cuddling for naps.",
+      "details": "This charming pair was surrendered when their family's child developed allergies. Finn is the more outgoing one, always ready to investigate new toys or people, while Willow is a bit shy but warms up quickly with gentle pets. They are both litter-trained and enjoy having a safe, bunny-proofed area to explore and do their happy binkies."
+    },
+    "traits": [
+      "Bonded Pair",
+      "Litter-trained",
+      "Playful",
+      "Gentle",
+      "Curious"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Must be adopted together. Requires a diet high in timothy hay and fresh greens daily.",
+    "image_urls": [
+      "https://i.postimg.cc/2y9JFpjW/48-Finn-Willow-929361cc-d0de-4c73-a90e-f68edef63893-(1).png",
+      "https://i.postimg.cc/Y0DVfc2Q/48-Finn-Willow-929361cc-d0de-4c73-a90e-f68edef63893-(2).png",
+      "https://i.postimg.cc/ZnsgFkYP/48-Finn-Willow-929361cc-d0de-4c73-a90e-f68edef63893-(3).png",
+      "https://i.postimg.cc/Rhp8QrCL/48-Finn-Willow-929361cc-d0de-4c73-a90e-f68edef63893-(4).png"
+    ],
+    "id": "929361cc-d0de-4c73-a90e-f68edef63893"
+  },
+  {
+    "name": "Picasso",
+    "species": "bird",
+    "breed": "Sulphur-crested Cockatoo",
+    "age": {
+      "value": 15,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": false,
+    "urgent_reason": "",
+    "story": {
+      "summary": "Picasso is a charismatic and clever bird with a colorful personality and a suspiciously natural talent for chaos magic.",
+      "details": "Picasso's previous owner's mind was melted by the eldrich truths that this charming boy revealed to him, so this fellow is in search of a new flock - preferably one with a strong will, steady nerves, and an appreciation for the occasional reality warp. He is an intelligent bird who knows a few phrases (some in English, some in languages not currently known to humankind) and loves to whistle along to the radio - though radios near him do tend to pick up stations that technically don`t exist. Picasso enjoys puzzle toys, especially the ones he hasn't already solved in ways that defy Euclidean geometry, and he will happily accept a piece of apple from your hand if it has not already begun to glow with unearthly light. Picasso is looking for an experienced bird owner who can give him the daily interaction he craves - and who won`t mind if he occasionally stares into corners as though greeting unseen visitors."
+    },
+    "traits": [
+      "Unnervingly intelligent",
+      "Multilingual… somehow",
+      "Eldritch dancer",
+      "Reality-bending enrichment",
+      "Social with entities"
+    ],
+    "vaccinated": true,
+    "chip_inserted": false,
+    "spayedNeutered": false,
+    "specialNeeds": "Picasso needs an experienced large-parrot guardian who can provide consistent structure, enrichment, and companionship. Because of a past history of feather-plucking — and the occasional tendency to become overstimulated by the unknowable — he thrives in a stimulating, well-managed environment that keeps boredom at bay and reality more or less intact.",
+    "image_urls": [
+      "https://i.postimg.cc/7PKpyz3W/49-Picasso-38fa6e1e-93ad-4559-8b97-70ffd3701046-(1).png",
+      "https://i.postimg.cc/3Nf6CMrB/49-Picasso-38fa6e1e-93ad-4559-8b97-70ffd3701046-(2).png",
+      "https://i.postimg.cc/XNsT05ft/49-Picasso-38fa6e1e-93ad-4559-8b97-70ffd3701046-(3).png",
+      "https://i.postimg.cc/FFT2QSb5/49-Picasso-38fa6e1e-93ad-4559-8b97-70ffd3701046-(4).png"
+    ],
+    "id": "38fa6e1e-93ad-4559-8b97-70ffd3701046"
+  },
+  {
+    "name": "Duke",
+    "species": "dog",
+    "breed": "Labrador Retriever / Plott Hound Mix",
+    "age": {
+      "value": 4,
+      "unit": "years"
+    },
+    "gender": "Male",
+    "urgent": true,
+    "urgent_reason": "Duke has been with us for over 200 days and is suffering from kennel stress. He urgently needs a home environment to decompress and thrive.",
+    "story": {
+      "summary": "Duke is a handsome, loyal, and incredibly smart boy who has been waiting far too long for his person to find him.",
+      "details": "Duke gets overlooked because he is shy in the loud shelter environment, but his true personality shines once he's comfortable. He's a goofy, playful dog who loves fetch and is a rockstar at training. He would be best as the only pet in a home with a patient owner who can help him build his confidence and show him the world isn't so scary."
+    },
+    "traits": [
+      "Loyal",
+      "Intelligent",
+      "Loves fetch",
+      "Needs confidence building",
+      "Eager to please",
+      "Best as only pet"
+    ],
+    "vaccinated": true,
+    "chip_inserted": true,
+    "spayedNeutered": true,
+    "specialNeeds": "Would thrive in a calm household as the only pet with a patient owner committed to positive reinforcement training.",
+    "image_urls": [
+      "https://i.postimg.cc/66MDNZVX/50-Duke-2110c987-19f0-48a4-b888-30b032b1a3c4-(1).png",
+      "https://i.postimg.cc/sfTtRWPy/50-Duke-2110c987-19f0-48a4-b888-30b032b1a3c4-(2).png",
+      "https://i.postimg.cc/bYmKjn0q/50-Duke-2110c987-19f0-48a4-b888-30b032b1a3c4-(3).png",
+      "https://i.postimg.cc/xj6WSmG1/50-Duke-2110c987-19f0-48a4-b888-30b032b1a3c4-(4).png"
+    ],
+    "id": "2110c987-19f0-48a4-b888-30b032b1a3c4"
+  }
+]
