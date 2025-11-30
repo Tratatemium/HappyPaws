@@ -1,63 +1,22 @@
-// Hamburger menu button click event
+// Select menu button and sidebar elements
 const menuButton = document.querySelector('.menu-button');
+const sidebar = document.querySelector('.sidebar');
+const closeButton = document.querySelector('.close-sidebar');
 
-menuButton.addEventListener('click', function() {
-    // Menu open/close operations can be added here
-    console.log('Menu button clicked');
-    
-    // Example: To open a sidebar menu
-    // document.querySelector('.sidebar').classList.toggle('open');
+// Open sidebar when clicking burger menu
+menuButton.addEventListener('click', () => {
+    sidebar.classList.add('open');
 });
 
-// Logo click event (optional - already has href="/")
-const logoLink = document.querySelector('.logo-link');
-
-logoLink.addEventListener('click', function(e) {
-    // If you want to perform a custom action
-    console.log('Logo clicked, navigating to home page');
+// Close sidebar when clicking close button
+closeButton.addEventListener('click', () => {
+    sidebar.classList.remove('open');
 });
 
-// Element seçimleri
-const hamburgerBtn = document.getElementById('hamburgerBtn');
-const sidebar = document.getElementById('sidebar');
-const overlay = document.getElementById('overlay');
-const closeBtn = document.getElementById('closeBtn');
-
-// Menüyü açma fonksiyonu
-function openMenu() {
-    sidebar.classList.add('active');
-    overlay.classList.add('active');
-    hamburgerBtn.classList.add('active');
-}
-
-// Menüyü kapatma fonksiyonu
-function closeMenu() {
-    sidebar.classList.remove('active');
-    overlay.classList.remove('active');
-    hamburgerBtn.classList.remove('active');
-}
-
-// Hamburger butonuna tıklanınca
-hamburgerBtn.addEventListener('click', function() {
-    if (sidebar.classList.contains('active')) {
-        closeMenu();
-    } else {
-        openMenu();
+// Close sidebar when clicking outside of it
+document.addEventListener('click', (event) => {
+    // Check if click is outside sidebar and burger button
+    if (!sidebar.contains(event.target) && !menuButton.contains(event.target)) {
+        sidebar.classList.remove('open');
     }
-});
-
-// Kapatma butonuna tıklanınca
-closeBtn.addEventListener('click', closeMenu);
-
-// Overlay'e tıklanınca
-overlay.addEventListener('click', closeMenu);
-
-// Menü öğelerine tıklanınca (isteğe bağlı - menüyü kapatır)
-const menuItems = document.querySelectorAll('.menu-item');
-menuItems.forEach(item => {
-    item.addEventListener('click', function(e) {
-        e.preventDefault();
-        console.log('Tıklanan menü:', this.textContent.trim());
-        closeMenu();
-    });
 });
