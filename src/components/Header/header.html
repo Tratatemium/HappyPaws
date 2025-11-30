@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Header</title>
+  <link rel="stylesheet" href="../../styles/reset.css">
+  <link rel="stylesheet" href="../../styles/layout.css">
+  <link rel="stylesheet" href="../../styles/variables.css">
+  <link rel="stylesheet" href="./favorites.css">
+  <link rel="stylesheet" href="./header.css">
+  <link rel="stylesheet" href="../../components/footer/footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <button class="menu-button" aria-label="Menu">
+            <span class="menu-icon"></span>
+        </button>
+        <a href="/" class="logo-link">
+            <img src="../../assets/logo/happy-paws-logo.png" alt="happy-paws-logo" class="logo">
+            <h1 class="title">Happy Paws</h1>
+        </a>
+        <div class="spacer"></div>
+        <nav class="sidebar">
+    <div class="sidebar-header">
+        <img src="../../assets/logo/happy-paws-logo.png" alt="Happy Paws" class="sidebar-logo">
+        <button class="close-sidebar">&times;</button>
+    </div>
+
+    <ul class="sidebar-menu">
+        <li>
+            <a href="/home">
+            <img src="../../assets/icons/home.svg" class="icon" alt="home-button">
+            Home
+            </a>
+        </li>
+        <li>
+            <a href="/favorites">
+                <img src="../../assets/icons/heart.svg" alt="">
+                Favorites
+            </a>
+        </li>
+        <li><a href="/profile">My Profile</a></li>
+        <li><a href="/Adopt">Adopt</a></li>
+        <li><a href="/about">About Us</a></li>
+    </ul>
+</nav>
+
+        
+    </header>
+    
+  <footer></footer>
+  <script type="module" src="/src/components/footer/footer-loader.js"></script>
+  <script src="./header.js"></script>
+</body>
+</html>

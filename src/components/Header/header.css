@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color:#f9f9f9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hamburger Menu Button */
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+/* Hamburger Icon - Three Lines */
+.menu-icon {
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 2px;
+    background-color: #5b8ab8;
+    border-radius: 2px;
+}
+
+.menu-icon::before,
+.menu-icon::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 25px;
+    height: 2px;
+    background-color: #5b8ab8;
+    border-radius: 2px;
+}
+
+.menu-icon::before {
+    top: -8px;
+}
+
+.menu-icon::after {
+    top: 8px;
+}
+
+/* Hover effect for hamburger */
+.menu-button:hover .menu-icon,
+.menu-button:hover .menu-icon::before,
+.menu-button:hover .menu-icon::after {
+    background-color: #4a7ba0;
+}
+
+/* Logo Link - Center */
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    flex: 1;
+    justify-content: center;
+}
+
+/* Logo Image - Smaller Size */
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+/* Title */
+.title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #5b8ab8;
+    margin: 0;
+}
+
+/* Right Spacer (for balance) */
+.spacer {
+    width: 40px;
+    height: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .logo {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .title {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .title {
+        font-size: 1.1rem;
+    }
+    
+    .header {
+        padding: 0.75rem;
+    }
+}
