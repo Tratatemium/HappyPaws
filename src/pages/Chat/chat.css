@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100wh;
+  height: 100vh;
 }
 
 .chat-header {
