@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+}
+
+.chat-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100wh;
+}
+
 .chat-header {
   height: 5rem;
   width: 100%;
@@ -22,7 +33,19 @@
   display: flex;
   column-gap: 2rem;
   align-items: center;
+  justify-content: center;
   padding-left: 1em;
+}
+
+.chat-header .user p {
+  margin: auto;
+}
+
+.chat-header .buttons-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-right: 1em;
 }
 
 .chat-header .user img {
@@ -39,7 +62,7 @@
 .chat-box {
   display: flex;
   justify-content: center;
-  height: 40rem;
+  height: 100%;
 }
 
 .chat-box p {
