@@ -1,18 +1,3 @@
-/* Empty CSS for chat page */
-
-/* :root {
-    --background-color-1: #E0EBF7;
-    --background-color-2: #AFCAEA;
-    --accent-color-1: #7CAAE0;
-    --accent-color-2: #72A4DE;
-    --accent-color-3: #365983;
-    --font-color-2: #16274D;
-    --font-color-faded: #868BA3;
-} */
-
-
-/* @media (min-width: 375px) and (max-width:667px){ */
-
 .chat-header {
   height: 5rem;
   width: 100%;
@@ -89,5 +74,3 @@
   border-radius: 50px;
   width: 16rem;
 }
-
-/* } */
