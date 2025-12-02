@@ -1,12 +1,19 @@
 body {
   margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-bottom: calc(2rem + clamp(1.5rem, 3vw + 0.75rem, 1.875rem));   /* Space for the footer */
+  box-sizing: border-box;
 }
 
 .chat-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  margin: 0;
+  flex: 1;
 }
 
 .chat-header {
