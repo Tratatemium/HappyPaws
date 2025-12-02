@@ -11,47 +11,45 @@
   <link rel="stylesheet" href="../../components/footer/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-<div class="chat-wrapper">
-  <div class="chat-header">
-    <div>
+
+  <div class="chat-wrapper">
+    <div class="chat-header">
+
+      <div class="buttons-wrapper">
         <i id="call-icon" class="fa-solid fa-phone"></i>
-  <i id="menu-option" class="fa-solid fa-ellipsis-vertical"></i>
+        <i id="menu-option" class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
 
-</div>
+      <div class="user">
+        <i id="back-icon" class="fa-solid fa-chevron-right"></i>
+        <div class="user-info">  
+          <img src="https://cdn.pixabay.com/photo/2016/09/24/03/20/man-1690965_1280.jpg" width="40rem" alt="user-picture"/>
+          <p>Sam</p>
+        </div>    
+       </div>
 
-
-
-<div class="user">
-  <i id="back-icon" class="fa-solid fa-chevron-right"></i>
-<div class="user-info">
+    </div>
   
-  <img src="https://cdn.pixabay.com/photo/2016/09/24/03/20/man-1690965_1280.jpg" width="40rem" alt="user-picture"/>
-  <p>Sam</p>
-</div>
+    <div class="chat-box">
+      <p>Yesterday, 9:00 AM</p>
+    </div>
+
+
+    <div class="chat-footer">
+      <i id="send-btn" class="fa-solid fa-paper-plane"></i>
+      <input id="msg-input" type="text" placeholder="Type a message..."/>
+
+      <i id="upload-icon" class="fa-solid fa-paper-plane"></i>
+    </div>
 
     
-</div>
 
   </div>
 
-
-  
-<div class="chat-box">
-  <p>Yesterday, 9:00 AM</p>
-   </div>
-
-
-<div class="chat-footer">
-
-  <i id="send-btn" class="fa-solid fa-paper-plane"></i>
-<input id="msg-input" type="text" placeholder="Type a message..."/>
-
-  <i id="upload-icon" class="fa-solid fa-paper-plane"></i>
-</div>
-
-</div>
-
+  <footer></footer>
+  <script type="module" src="/src/components/footer/footer-loader.js"></script>
 
   <script type="module" src="./chat.js"></script>
 </body>
