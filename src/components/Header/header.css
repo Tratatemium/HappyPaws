@@ -98,6 +98,11 @@
   color: #365983;
 }
 
+.header-li-img {
+  width: 1em;
+  height: auto;
+}
+
 /* Icon style */
 .icon {
   width: 26px;

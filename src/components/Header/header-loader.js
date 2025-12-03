@@ -4,8 +4,8 @@ fetch('/src/components/Header/header.html')
     document.body.insertAdjacentHTML('afterbegin', html);
 
     const script = document.createElement('script');
-    script.src = '/src/components/Header/header.js';
     script.type = 'module';
+    script.src = '/src/components/Header/header.js';    
     document.body.appendChild(script);
 
     const link = document.createElement('link');
