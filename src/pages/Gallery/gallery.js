@@ -1,22 +1,25 @@
 // Category button active state
 const chips = document.querySelectorAll(".chip");
 
-chips.forEach(chip => {
+chips.forEach((chip) => {
   chip.addEventListener("click", () => {
-    chips.forEach(c => c.classList.remove("chip--active"));
+    chips.forEach((c) => c.classList.remove("chip--active"));
     chip.classList.add("chip--active");
   });
 });
 
-// Favorite toggle
-const favButtons = document.querySelectorAll(".fav-btn");
+// Laura: toggle paw like icon on click,
+//Need to add the event listener in here.
+const favButtons = document.querySelectorAll(".paw-badge");
 
-favButtons.forEach(btn => {
+favButtons.forEach((btn) => {
   btn.addEventListener("click", () => {
-    btn.classList.toggle("active");
     const img = btn.querySelector("img");
-    img.src = btn.classList.contains("active")
-      ? "../../assets/icons/paw-filled.svg"
-      : "../../assets/icons/paw-outline.svg";
+
+    const isLiked = btn.classList.toggle("is-liked");
+
+    img.src = isLiked
+      ? "../../assets/icons/paw-liked-red-icon.png"
+      : "../../assets/icons/paw-like-icon.png";
   });
 });
