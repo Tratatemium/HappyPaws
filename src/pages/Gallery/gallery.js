@@ -8,9 +8,8 @@ chips.forEach((chip) => {
   });
 });
 
-// Laura: toggle paw like icon on click,
-//Need to add the event listener in here.
-const favButtons = document.querySelectorAll(".paw-badge");
+// Laura: toggle paw like icon on click for both urgent paw badges and fav buttons
+const favButtons = document.querySelectorAll(".paw-badge, .fav-btn");
 
 favButtons.forEach((btn) => {
   btn.addEventListener("click", () => {
