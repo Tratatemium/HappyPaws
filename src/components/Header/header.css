@@ -156,12 +156,14 @@
 /* ------------------ RESPONSIVE ------------------ */
 @media (max-width: 390px) {
   .off-screen-menu {
+    left: -70vw;
     width: 70vw;
   }
 }
 
 @media (min-width: 768px) {
   .off-screen-menu {
+    left: -25vw;
     width: 25vw;
   }
 }
