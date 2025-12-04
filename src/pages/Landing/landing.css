@@ -41,7 +41,7 @@ body {
     flex-direction: column;
     align-items: center;       /* centraliza horizontalmente */
     justify-content: center;   /* centraliza verticalmente */
-    background-color: #ffffff;
+    background-color: var(--bg);
     gap: 0.5rem;
     color: #365983;
     padding: 1rem;             /* dá respiro pro texto */
@@ -117,7 +117,7 @@ body {
   color: #fff;
   padding: 0.5rem 1.5rem;
   border-radius: 30px;
-  border: 1px solid #ffffff
+  border: 1px solid #ffffff;
   text-decoration: none;
   font-weight: 500;
   font-size: clamp(0.9rem, 2vw, 1.2rem);
