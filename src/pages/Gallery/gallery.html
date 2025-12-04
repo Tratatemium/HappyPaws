@@ -3,32 +3,23 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Happy Paws</title>
+  <title>Gallery — Happy Paws</title>
 
-  <link rel="stylesheet" href="../../styles/reset.css">
-  <link rel="stylesheet" href="../../styles/layout.css">
-  <link rel="stylesheet" href="../../styles/variables.css">
-  <link rel="stylesheet" href="./gallery.css">
-  <link rel="stylesheet" href="../../components/footer/footer.css">
-
+  <link rel="stylesheet" href="/src/styles/reset.css">
+  <link rel="stylesheet" href="/src/styles/layout.css">
+  <link rel="stylesheet" href="/src/styles/variables.css">
+  <link rel="stylesheet" href="/src/pages/Gallery/gallery.css">
+  <link rel="stylesheet" href="/src/components/Header/header.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-  <main class="dashboard">
+  <!-- HEADER COMPONENT -->
+  <script type="module" src="/src/components/Header/header-loader.js"></script>
 
-    <!-- HEADER -->
-    <header class="header">
-      <button class="menu-btn">
-        <img src="../../assets/icons/menu.svg" alt="">
-      </button>
-
-      <div class="logo-wrapper">
-        <img src="../../assets/logo/happy-paws-logo.png" alt="">
-        <span>Happy Paws</span>
-      </div>
-    </header>
+  <!-- GALLERY MAIN CONTENT -->
+  <main class="gallery">
 
     <!-- CATEGORY FILTERS -->
     <section class="category-filters">
@@ -43,16 +34,16 @@
       </div>
     </section>
 
+
     <!-- URGENT SECTION -->
     <section class="urgent-section">
       <h2>Urgent Adoptions</h2>
 
       <div class="card-grid">
-
-        <!-- URGENT 1 -->
+        <!-- Örnek kartlar -->
         <article class="pet-card urgent">
           <div class="pet-image">
-            <img src="../../assets/card-photos/urgent-adoptions/urgent-adoption.jpeg" alt="Max">
+            <img src="/src/assets/card-photos/urgent-adoptions/urgent-adoption.jpeg" alt="Max">
             <span class="urgent-badge">Urgent</span>
             <div class="paw-badge"><img src="../../assets/icons/paw-like-icon.png"></div>
             <div class="image-gradient"></div>
@@ -68,7 +59,7 @@
           <div class="pet-image">
             <img src="../../assets/card-photos/urgent-adoptions/urgent-adoption1.jpeg" alt="Bella">
             <span class="urgent-badge">Urgent</span>
-            <div class="paw-badge"><img src="../../assets/icons/paw-like-icon.png"></div>
+            <div class="paw-badge"><img src="../../assets/icons/paw-outline.svg"></div>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Ash</h3>
@@ -82,7 +73,7 @@
           <div class="pet-image">
             <img src="../../assets/card-photos/urgent-adoptions/urgent-adoption2.jpeg" alt="Charlie">
             <span class="urgent-badge">Urgent</span>
-            <div class="paw-badge"><img src="../../assets/icons/paw-like-icon.png"></div>
+            <div class="paw-badge"><img src="../../assets/icons/paw-outline.svg"></div>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Charlie</h3>
@@ -96,7 +87,7 @@
           <div class="pet-image">
             <img src="../../assets/card-photos/urgent-adoptions/urgent-adopt4.jpeg" alt="Luna">
             <span class="urgent-badge">Urgent</span>
-            <div class="paw-badge"><img src="../../assets/icons/paw-like-icon.png"></div>
+            <div class="paw-badge"><img src="../../assets/icons/paw-outline.svg"></div>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Luna</h3>
@@ -110,7 +101,7 @@
           <div class="pet-image">
             <img src="../../assets/card-photos/urgent-adoptions/urgent-adoption1.jpeg" alt="Bella">
             <span class="urgent-badge">Urgent</span>
-            <div class="paw-badge"><img src="../../assets/icons/paw-like-icon.png"></div>
+            <div class="paw-badge"><img src="../../assets/icons/paw-outline.svg"></div>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Ash</h3>
@@ -124,7 +115,7 @@
           <div class="pet-image">
             <img src="../../assets/card-photos/urgent-adoptions/urgent-adoption2.jpeg" alt="Charlie">
             <span class="urgent-badge">Urgent</span>
-            <div class="paw-badge"><img src="../../assets/icons/paw-like-icon.png"></div>
+            <div class="paw-badge"><img src="../../assets/icons/paw-outline.svg"></div>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Charlie</h3>
@@ -138,7 +129,7 @@
           <div class="pet-image">
             <img src="../../assets/card-photos/urgent-adoptions/urgent-adoption1.jpeg" alt="Bella">
             <span class="urgent-badge">Urgent</span>
-            <div class="paw-badge"><img src="../../assets/icons/paw-like-icon.png"></div>
+            <div class="paw-badge"><img src="../../assets/icons/paw-outline.svg"></div>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Ash</h3>
@@ -152,7 +143,7 @@
           <div class="pet-image">
             <img src="../../assets/card-photos/urgent-adoptions/urgent-adoption2.jpeg" alt="Charlie">
             <span class="urgent-badge">Urgent</span>
-            <div class="paw-badge"><img src="../../assets/icons/paw-like-icon.png"></div>
+            <div class="paw-badge"><img src="../../assets/icons/paw-outline.svg"></div>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Charlie</h3>
@@ -166,7 +157,7 @@
           <div class="pet-image">
             <img src="../../assets/card-photos/urgent-adoptions/urgent-adopt4.jpeg" alt="Luna">
             <span class="urgent-badge">Urgent</span>
-            <div class="paw-badge"><img src="../../assets/icons/paw-like-icon.png"></div>
+            <div class="paw-badge"><img src="../../assets/icons/paw-outline.svg"></div>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Luna</h3>
@@ -180,7 +171,7 @@
           <div class="pet-image">
             <img src="../../assets/card-photos/urgent-adoptions/urgent-adopt4.jpeg" alt="Luna">
             <span class="urgent-badge">Urgent</span>
-            <div class="paw-badge"><img src="../../assets/icons/paw-like-icon.png"></div>
+            <div class="paw-badge"><img src="../../assets/icons/paw-outline.svg"></div>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Luna</h3>
@@ -192,17 +183,16 @@
       </div>
     </section>
 
+
     <!-- AVAILABLE SECTION -->
     <section class="available-section">
       <h2>Available for Adoption</h2>
 
       <div class="card-grid">
-
-        <!-- AVAILABLE 1 -->
         <article class="pet-card">
           <div class="pet-image">
             <img src="../../assets/card-photos/available-adopts/ash.jpeg" alt="Ash">
-            <button class="fav-btn"><img src="../../assets/icons/paw-like-icon.png"></button>
+            <button class="fav-btn"><img src="../../assets/icons/paw-outline.svg"></button>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Ash</h3>
@@ -215,7 +205,7 @@
         <article class="pet-card">
           <div class="pet-image">
             <img src="../../assets/card-photos/available-adopts/Beagy.jpeg" alt="Beagy">
-            <button class="fav-btn"><img src="../../assets/icons/paw-like-icon.png"></button>
+            <button class="fav-btn"><img src="../../assets/icons/paw-outline.svg"></button>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Beagy</h3>
@@ -228,7 +218,7 @@
         <article class="pet-card">
           <div class="pet-image">
             <img src="../../assets/card-photos/available-adopts/Billy.jpeg" alt="Billy">
-            <button class="fav-btn"><img src="../../assets/icons/paw-like-icon.png"></button>
+            <button class="fav-btn"><img src="../../assets/icons/paw-outline.svg"></button>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Billy</h3>
@@ -241,7 +231,7 @@
         <article class="pet-card">
           <div class="pet-image">
             <img src="../../assets/card-photos/available-adopts/blondie.jpeg" alt="Blondie">
-            <button class="fav-btn"><img src="../../assets/icons/paw-like-icon.png"></button>
+            <button class="fav-btn"><img src="../../assets/icons/paw-outline.svg"></button>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Blondie</h3>
@@ -254,7 +244,7 @@
         <article class="pet-card">
           <div class="pet-image">
             <img src="../../assets/card-photos/available-adopts/Bourbon.jpeg" alt="Bourbon">
-            <button class="fav-btn"><img src="../../assets/icons/paw-like-icon.png"></button>
+            <button class="fav-btn"><img src="../../assets/icons/paw-outline.svg"></button>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Bourbon</h3>
@@ -267,7 +257,7 @@
         <article class="pet-card">
           <div class="pet-image">
             <img src="../../assets/card-photos/available-adopts/buddy.jpeg" alt="Buddy">
-            <button class="fav-btn"><img src="../../assets/icons/paw-like-icon.png"></button>
+            <button class="fav-btn"><img src="../../assets/icons/paw-outline.svg"></button>
             <div class="image-gradient"></div>
             <div class="info info--overlay">
               <h3>Buddy</h3>
@@ -281,11 +271,11 @@
 
   </main>
 
-  <footer>
-    <script type="module" src="/src/components/footer/footer-loader.js"></script>
-  </footer>
+  <!-- FOOTER COMPONENT -->
+  <script type="module" src="/src/components/Footer/footer-loader.js"></script>
 
-  <script type="module" src="/src/pages/gallery/gallery.js"></script>
+  <!-- PAGE JS -->
+  <script type="module" src="/src/pages/Gallery/gallery.js"></script>
 
 </body>
 

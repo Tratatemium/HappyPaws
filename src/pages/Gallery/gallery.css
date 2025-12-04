@@ -1,134 +1,124 @@
-/* Page */
-.dashboard {
-  background: #f4f7fb;
-  padding-bottom: 90px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI";
-}
-
-/* Header */
-.header {
+/* Genel */
+.gallery {
+  width: 100%;
+  padding-top: 110px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #f8f9fb;
   display: flex;
-  align-items: center;
-  padding: 12px 16px;
-  background: #fff;
-  border-bottom: 1px solid #dfe6ee;
-  position: sticky;
-  top: 0;
-  z-index: 20;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.menu-btn img {
-  width: 22px;
-  height: 22px;
+/* Başlıklar */
+.gallery h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  margin-bottom: 0.8rem;
 }
 
-.logo-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-left: 10px;
-}
+/* ---------- CATEGORY FILTERS ---------- */
 
-.logo-wrapper img {
-  width: 34px;
-  height: 34px;
-}
-
-.logo-wrapper span {
-  font-size: 20px;
-  font-weight: 600;
-  color: #244b7a;
-}
-
-/* Category Filters */
 .category-filters {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 14px 16px;
-  overflow: hidden;
-}
-
-.chip {
-  padding: 6px 16px;
-  background: #e3eef9;
-  border: 1px solid #d3e0f0;
-  border-radius: 999px;
-  font-size: 13px;
-  color: #365983;
-  flex-shrink: 0;
-}
-
-.chip--active {
-  background: #7caae0;
-  color: white;
-  border-color: #7caae0;
+  gap: 0.5rem;
 }
 
 .chip-scroll {
-  display: flex;
-  gap: 10px;
   overflow-x: auto;
-  flex: 1;
   white-space: nowrap;
-  scrollbar-width: none;
-  scroll-behavior: smooth;
 }
 
+.chip {
+  padding: 0.5rem 1.2rem;
+  font-size: 0.9rem;
+  border-radius: 50px;
+  background: #e5eef9;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: #3f7ac0;
+  transition: 0.2s;
+}
+
+.chip:hover,
+.chip--active {
+  background: #3f7ac0;
+  color: #fff;
+}
+
+/* Scroll bar gizle */
 .chip-scroll::-webkit-scrollbar {
   display: none;
 }
 
-.chip-scroll button {
-  width: 80px;
-  flex-shrink: 0;
+/* ---------- SECTIONS ---------- */
+
+.urgent-section,
+.available-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
-/* Section Titles */
-section h2 {
-  padding: 0 16px 12px;
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: 700;
-  color: #243657;
-}
+/* ---------- PET CARD GRID ---------- */
 
-/* Grid */
 .card-grid {
-  padding: 0 16px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 18px;
-}
-
-@media (min-width: 768px) {
-  .card-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  gap: 1rem;
 }
 
 /* Pet Card */
 .pet-card {
-  background: white;
-  border-radius: 20px;
+  background: #fff;
+  border-radius: 16px;
   overflow: hidden;
+  cursor: pointer;
   position: relative;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
 }
 
-/* Image Block */
+.pet-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Image container */
 .pet-image {
-  position: relative;
   width: 100%;
-  height: 180px;
-  overflow: hidden;
+  height: 100%;
+  position: relative;
 }
 
 .pet-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
+}
+
+/* Gradient */
+.image-gradient {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+}
+
+/* Info overlay */
+.info {
+  position: absolute;
+  bottom: 10px;
+  left: 12px;
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.info h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
 }
 
 /* Urgent Badge */
@@ -136,12 +126,12 @@ section h2 {
   position: absolute;
   top: 10px;
   left: 10px;
-  background: #ff4b4b;
-  padding: 6px 14px;
-  color: white;
-  border-radius: 999px;
-  font-size: 12px;
-  z-index: 6;
+  background: #d9534f;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 12px;
 }
 
 /* Paw Badge & Favorite Button */
