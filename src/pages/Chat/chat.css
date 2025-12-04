@@ -103,7 +103,7 @@ body {
 
 .chat-footer i {
   font-size: larger;
-  color: var(--accent-color-2);
+  color: var(--accent-color-2git);
 }
 
 .chat-footer #msg-input {
