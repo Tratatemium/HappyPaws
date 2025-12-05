@@ -7,17 +7,7 @@ body {
     padding: 0;
 }
 
-.app-header {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 16px;
-    width: 100%;
-    max-width: 100%;
-    background-color: var(--accent-color-3);
-    justify-content: space-between;
 
-}
 
 .hero-text span {
     opacity: 0.6;
@@ -35,8 +25,6 @@ body {
     width: 10vw;
     max-width: 40px;
     height: auto;
-
-
 }
 
 .hero-section {
@@ -48,6 +36,48 @@ body {
     justify-content: center;
 
 }
+.list1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* centraliza horizontalmente */
+    justify-content: center;   /* centraliza verticalmente */
+    background-color: #ffffff;
+    gap: 0.5rem;
+    color: #365983;
+    padding: 1rem;             /* dá respiro pro texto */
+    text-align: center;        /* centraliza o texto */
+}
+
+.list1 span {
+    font-size: clamp(0.9rem, 2.5vw, 1rem);  
+    /* menor no mobile, médio no tablet, maior no desktop */
+    line-height: 1.4;
+    max-width: 600px;          /* evita que o texto fique largo demais */
+}
+
+.chip-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.chip {
+  padding: 0.5rem 1.2rem;
+  font-size: 0.9rem;
+  border-radius: 50px;
+  background: #e5eef9;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: #3f7ac0;
+  transition: 0.2s;
+}
+
+.chip:hover,
+.chip--active {
+  background: #3f7ac0;
+  color: #fff;
+}
+
 
 .hero-image {
     max-width: 100%;
@@ -59,4 +89,41 @@ body {
     font-family: var(--font-main-bold, Arial);
     font-size: 1.5rem;
     margin: 0;
+}
+.category-filters {
+ display: flex;
+  align-items: center;       /* centraliza verticalmente */
+  justify-content: center;   /* 📌 centraliza horizontalmente */
+  gap: 0.5rem;
+}
+.hero-section {
+  position: relative;           /* necessário para o botão absoluto */
+  display: flex;
+  flex-direction: column;
+  align-items: center;          /* centraliza horizontalmente */
+       /* centraliza verticalmente */
+  background-color: var(--accent-color-3);
+               /* ocupa tela inteira, se quiser centralizar na página */
+}
+
+.rounded-button {
+  position: absolute;
+  top: 100%;                     /* centraliza verticalmente */
+  left: 50%;                    /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* ajusta o centro do botão */
+  
+  z-index: 2;
+  background-color: #3f7ac0;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  border: 1px solid #ffffff
+  text-decoration: none;
+  font-weight: 500;
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.rounded-button:hover {
+  background-color: #2f5a90;
 }
