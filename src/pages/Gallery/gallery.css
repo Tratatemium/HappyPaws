@@ -1,16 +1,17 @@
-/* Genel */
+
 .gallery {
   width: 100%;
-  padding-top: 110px;
+  padding-top: 0.5rem; 
   padding-left: 1rem;
   padding-right: 1rem;
   background: #f8f9fb;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-top: 0;
 }
 
-/* Başlıklar */
+
 .gallery h2 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -23,36 +24,92 @@
 .category-filters {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 8px;
+  padding: 0 16px;
+  margin: 20px 0;
+  overflow: hidden;
+  justify-content: flex-start;
 }
 
+/* All button stays fixed left */
+.fixed-all {
+  flex: 0 0 auto;
+}
+
+/* Scrollable additional categories */
 .chip-scroll {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   overflow-x: auto;
-  white-space: nowrap;
+  scrollbar-width: none;
 }
 
-.chip {
-  padding: 0.5rem 1.2rem;
-  font-size: 0.9rem;
-  border-radius: 50px;
-  background: #e5eef9;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  color: #3f7ac0;
-  transition: 0.2s;
-}
-
-.chip:hover,
-.chip--active {
-  background: #3f7ac0;
-  color: #fff;
-}
-
-/* Scroll bar gizle */
 .chip-scroll::-webkit-scrollbar {
   display: none;
 }
+
+/* Chip Button Design */
+
+.chip {
+  display: inline-flex; 
+  align-items: center; 
+  flex-direction: row;
+  gap: 8px; 
+  flex-shrink: 0;
+  padding: 8px 16px;
+  background-color: #e9f0fa;
+  color: #375a8c;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+/* Icon inside chip */
+.chip img {
+  width: 18px; /* icon size */
+  height: 18px;
+  display: inline-block;
+  object-fit: contain;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.25s ease, color 0.25s ease;
+  flex-direction: row;
+  display: flex;
+  filter: brightness(0) saturate(100%) invert(34%) sepia(26%) saturate(1195%) hue-rotate(187deg) brightness(92%) contrast(89%);
+}
+.chip svg path {
+  fill: #375a8c;
+}
+
+.chip--active svg path {
+  fill: #ffffff;
+}
+
+/* Active status */
+.chip--active {
+  background-color: #5076b8;
+  color: #ffffff;
+}
+
+/* Mobile optimization */
+@media (max-width: 480px) {
+  .category-filters {
+    padding: 0 12px;
+    gap: 6px;
+  }
+
+  .chip {
+    padding: 6px 14px;
+    font-size: 14px;
+  }
+}
+
 
 /* ---------- SECTIONS ---------- */
 
