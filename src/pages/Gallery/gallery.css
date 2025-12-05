@@ -26,7 +26,7 @@
   align-items: center;
   gap: 8px;
   padding: 0 16px;
-  margin: 20px 0;
+  margin: 8px 0;
   overflow: hidden;
   justify-content: flex-start;
 }
@@ -70,7 +70,7 @@
 
 /* Icon inside chip */
 .chip img {
-  width: 18px; /* icon size */
+  width: 18px;
   height: 18px;
   display: inline-block;
   object-fit: contain;
@@ -115,9 +115,31 @@
 
 .urgent-section,
 .available-section {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.urgent-section h2,
+.available-section h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 16px 8px;
+  color: #375a8c;
+}
+.section-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 16px 8px;
+  color: #375a8c;
+}
+
+.gallery .available-section h2 {
+  color: #375a8c !important;
 }
 
 /* ---------- PET CARD GRID ---------- */
