@@ -111,6 +111,7 @@
   transition: 0.2s;
 }
 
+
 .off-screen-menu li a:hover .icon {
   filter: invert(26%) sepia(20%) saturate(1376%) hue-rotate(180deg) brightness(93%) contrast(84%);
 }
