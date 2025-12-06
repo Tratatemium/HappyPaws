@@ -1,17 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pet-card-detail Page</title>
-  <link rel="stylesheet" href="../../styles/reset.css">
-  <link rel="stylesheet" href="../../styles/layout.css">
-  <link rel="stylesheet" href="../../styles/variables.css">
-  <link rel="stylesheet" href="./pet-card-detail.css">
-</head>
-<body>
-  <!-- HEADER COMPONENT -->
-  <script type="module" src="/src/components/Header/header-loader.js"></script>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pet-card-detail Page</title>
+    <link rel="stylesheet" href="../../styles/reset.css" />
+    <link rel="stylesheet" href="../../styles/layouts.css" />
+    <link rel="stylesheet" href="../../styles/layout.css" />
+    <link rel="stylesheet" href="../../styles/variables.css" />
+    <link rel="stylesheet" href="./pet-card-detail.css" />
+    <link rel="stylesheet" href="../../components/footer/footer.css" />
+  </head>
+  <body data-theme="light">
+    <main>
+      <div class="resp">
+        <aside class="sidebar">
+        <script
+          type="module"
+          src="/src/components/sidebar/sidebar-loader.js"
+        ></script>
+        <span class="theme-button">
+          <script
+            type="module"
+            src="/src/components/accessibility-practices/lightdark.js"
+          ></script>
+        </span>
+      </aside>
+      <script
+        type="module"
+        src="/src/components/Header/header-loader.js"
+      ></script>
+      
+
+      <!----------------------------------------------carousal slider------------- -->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" />
+          <div class="text">bla bla bla</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" />
+          <div class="text">wof woff</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" />
+          <div class="text">blabla bla</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides((slideIndex += n));
+        }
+
+        function currentSlide(n) {
+          showSlides((slideIndex = n));
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          if (n > slides.length) {
+            slideIndex = 1;
+          }
+          if (n < 1) {
+            slideIndex = slides.length;
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slides[slideIndex - 1].style.display = "block";
+        }
+      </script>
+      <!----------------------------------------------end of carousal slider------------- -->
+
+
+      <div class="content-wrapper">
+        <section class="section">
+          <div class="row">
+            <div class="card bgimg1">
+              <h1>Pet Name</h1>
+              <button class="menu">Adopt Me</button>
+            </div>
+            <div class="card bgimg2">
+              <h2>Small description</h2>
+              <p>A quick brown kitten jumps over the lazy Paws.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="row">
+            <div class="card">
+              <h2>description</h2>
+              <p>I have no idea but some destails go here.</p>
+            </div>
+            <div class="card">
+              <h2>title 1</h2>
+              <p>A quick brown kitten jumps over the lazy Paws.</p>
+            </div>
+            <div class="card">
+              <h2>title 1</h2>
+              <p>A quick brown kitten jumps over the lazy Paws.</p>
+            </div>
+            <div class="card">
+              <h2>title 1</h2>
+              <p>A quick brown kitten jumps over the lazy Paws.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section hero">
+          <h1 id="contact">Contact, maybe</h1>
+          <div class="row">
+            <div class="card bgimg4">
+              <ul class="menu padding marginx">
+                <li><a href="mailto:hi@suruosh.com">pets@happypaws.com</a></li>
+              </ul>
+            </div>
+            <div class="card bgimg3">
+              <ul class="menu padding marginx">
+                <li><a href="mailto:hi@suruosh.se">adopt@happypaws.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <button onclick="openChatModal()">Open Chat</button>
+      </div>
+      </div>
+    </main>
+
+    <div class="footero">
+      <footer>
+        <script
+          type="module"
+          src="/src/components/footer/footer-loader.js"
+        ></script>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -4,7 +4,7 @@
   padding-top: 0.5rem; 
   padding-left: 1rem;
   padding-right: 1rem;
-  background: #f8f9fb;
+  background: var(--bg);
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -118,7 +118,7 @@
   padding-top: 16px;
   padding-bottom: 24px;
   width: 100%;
-  background: #ffffff;
+  background: var(--bg);
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   border-radius: 12px;
   margin-bottom: 24px;
