@@ -8,6 +8,7 @@ import { GoogleGenAI } from "@google/genai";
 const chatBox = document.querySelector('.chat-box');
 const msgInput = document.getElementById('msg-input');
 const sendBtn = document.getElementById('send-btn');
+const backIcon = document.getElementById('back-icon');
 const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 
 
@@ -39,6 +40,16 @@ config:{
 
 });
 
+
+//function for back icon to redirect the user back  to any location there were. I'm using the inbuilt javascript method window.history.back();
+
+function goBackIcon(){
+  window.history.back();
+
+}
+if(backIcon){
+  backIcon.addEventListener('click', goBackIcon)
+};
 
 
 
