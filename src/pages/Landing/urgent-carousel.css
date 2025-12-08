@@ -1,5 +1,27 @@
 .urgent-carousel-container {
     display: flex;
     flex-direction: row;
-    
+    gap: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    margin-bottom: clamp(2.5rem, 3vw + 0.75rem, 1.875rem);
+    height: min-content;
+}
+
+
+/* Pet Card Styling for Carousel */
+.urgent-carousel-container .pet-card {
+    flex: 0 0 10rem; /* Fixed width, no shrink/grow */
+    min-width: 10rem;
+    height: 10rem;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    /* position: relative; */
 }
