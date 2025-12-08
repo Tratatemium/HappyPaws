@@ -45,23 +45,42 @@
       <br> <span>We are an animal shelter dedicated to rescuing, caring for, and rehoming pets in need. Our mission is to
         save lives.</span>
     </div>
-  <!-- CATEGORY FILTERS -->
-  <section class="category-filters">
-    <button class="chip chip--active fixed-all">All</button>
-    <button class="chip">Dogs</button>
-    <button class="chip">Cats</button>
-    <button class="chip">Rabbits</button>
-    <button class="chip">Birds</button>
-    <button class="chip">Reptiles</button>
 
-  </section>
-
-  <!-- Urgent Adoptions Carousel Section -->
-  <section class="urgent-carousel-section">
     <h2 class="urgent-carousel-title">Urgent Adoptions</h2>
-    <div class="urgent-carousel-container"></div>
-    <script type="module" src="./urgent-carousel.js"></script>
-  </section>
+
+    <!-- CATEGORY FILTERS -->
+    <section class="category-filters">
+      <button class="chip chip--active fixed-all">All</button>
+
+      <div class="chip-scroll" id="chipScroll">
+        <button class="chip">
+          <img src="../../assets/icons/dog.svg"  alt="Dogs">
+          Dogs
+        </button>
+        <button class="chip">
+          <img src="../../assets/icons/cat.svg" alt="Cats">
+          Cats
+        </button>
+        <button class="chip">
+          <img src="../../assets/icons/rabbit.svg" alt="Rabbits">
+          Rabbits
+        </button>
+        <button class="chip">
+          <img src="../../assets/icons/bird.svg" alt="Birds">
+          Birds
+        </button>
+        <button class="chip">
+          <img src="../../assets/icons/snake.svg" alt="Reptiles">
+          Reptiles
+        </button>
+      </div>
+    </section>
+
+    <!-- Urgent Adoptions Carousel Section -->
+    <section class="urgent-carousel-section">
+      <div class="urgent-carousel-container"></div>
+      <script type="module" src="./urgent-carousel.js"></script>
+    </section>
   </div>
 
   <div class="footero">
@@ -72,6 +91,8 @@
       ></script>
     </footer>
   </div>
+
+  <script type="module" src="./landing.js"></script>
 </body>
 
 </html>
