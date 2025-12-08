@@ -24,6 +24,61 @@ function renderCarousel() {
   });
 
   attachLikeEvents();
+  setupScrollButtons();
+}
+
+// Setup scroll button functionality
+function setupScrollButtons() {
+  const scrollLeftBtn = document.getElementById('scrollLeft');
+  const scrollRightBtn = document.getElementById('scrollRight');
+  
+  if (!scrollLeftBtn || !scrollRightBtn || !urgentContainer) return;
+
+  const scrollAmount = 300; // Pixels to scroll
+
+  // Left scroll button
+  scrollLeftBtn.addEventListener('click', () => {
+    urgentContainer.scrollBy({
+      left: -scrollAmount,
+      behavior: 'smooth'
+    });
+  });
+
+  // Right scroll button
+  scrollRightBtn.addEventListener('click', () => {
+    urgentContainer.scrollBy({
+      left: scrollAmount,
+      behavior: 'smooth'
+    });
+  });
+
+  // Update button visibility based on scroll position
+  function updateButtonVisibility() {
+    const { scrollLeft, scrollWidth, clientWidth } = urgentContainer;
+    
+    // Hide left button if at the start
+    if (scrollLeft <= 0) {
+      scrollLeftBtn.classList.add('hidden');
+    } else {
+      scrollLeftBtn.classList.remove('hidden');
+    }
+    
+    // Hide right button if at the end
+    if (scrollLeft >= scrollWidth - clientWidth - 10) {
+      scrollRightBtn.classList.add('hidden');
+    } else {
+      scrollRightBtn.classList.remove('hidden');
+    }
+  }
+
+  // Initial button visibility check
+  updateButtonVisibility();
+
+  // Update button visibility on scroll
+  urgentContainer.addEventListener('scroll', updateButtonVisibility);
+
+  // Update button visibility on window resize
+  window.addEventListener('resize', updateButtonVisibility);
 }
 
 renderCarousel();

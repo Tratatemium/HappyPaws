@@ -179,7 +179,7 @@
 
 /* Carousel section styling */
 .urgent-carousel-section {
-    margin: 0;
+    margin: 2rem 0;
     position: relative;
 }
 
@@ -196,6 +196,65 @@
 .urgent-carousel-title::before {
     content: '🚨';
     font-size: 1.2rem;
+}
+
+/* Carousel wrapper with scroll buttons */
+.carousel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Scroll buttons */
+.scroll-btn {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid rgba(63, 122, 192, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 5;
+    color: #365983;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-btn:hover {
+    background: rgba(63, 122, 192, 0.1);
+    border-color: rgba(63, 122, 192, 0.4);
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.scroll-btn:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+.scroll-btn svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-btn-left {
+    left: 10px;
+}
+
+.scroll-btn-right {
+    right: 10px;
+}
+
+/* Hide buttons when not scrollable */
+.scroll-btn.hidden {
+    opacity: 0;
+    pointer-events: none;
 }
 
 /* Loading state */
@@ -236,6 +295,19 @@
         font-size: 1.3rem;
         margin-left: 0.5rem;
     }
+    
+    .scroll-btn {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .scroll-btn-left {
+        left: 8px;
+    }
+    
+    .scroll-btn-right {
+        right: 8px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -243,5 +315,18 @@
         flex: 0 0 9rem;
         min-width: 9rem;
         height: 9rem;
+    }
+    
+    .scroll-btn {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .scroll-btn-left {
+        left: 5px;
+    }
+    
+    .scroll-btn-right {
+        right: 5px;
     }
 }
