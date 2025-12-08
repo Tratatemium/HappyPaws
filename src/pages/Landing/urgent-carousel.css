@@ -177,17 +177,17 @@
     filter: brightness(0.3);
 }
 
-/* Carousel section styling */
-.urgent-carousel-section {
-    margin: 2rem 0;
-    position: relative;
+/* Combined urgent adoptions section */
+.urgent-adoptions-section {
+    margin: 3rem 0;
+    padding: 0 1rem;
 }
 
 .urgent-carousel-title {
     font-size: 1.5rem;
     font-weight: 700;
     color: #365983;
-    margin: 0 0 1rem 1rem;
+    margin: 0 0 1.5rem 0;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -196,6 +196,22 @@
 .urgent-carousel-title::before {
     content: '🚨';
     font-size: 1.2rem;
+}
+
+/* Category filters styling within the section */
+.urgent-adoptions-section .category-filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* Carousel section styling */
+.urgent-carousel-section {
+    margin: 2rem 0;
+    position: relative;
 }
 
 /* Carousel wrapper with scroll buttons */
@@ -272,6 +288,11 @@
 
 /* Responsive design */
 @media (max-width: 768px) {
+    .urgent-adoptions-section {
+        margin: 2rem 0;
+        padding: 0 0.5rem;
+    }
+    
     .urgent-carousel-container {
         gap: 1rem;
         padding: 1rem 0.5rem;
@@ -293,7 +314,11 @@
     
     .urgent-carousel-title {
         font-size: 1.3rem;
-        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .urgent-adoptions-section .category-filters {
+        gap: 0.5rem;
     }
     
     .scroll-btn {
