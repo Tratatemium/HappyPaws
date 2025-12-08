@@ -6,19 +6,26 @@
 
 .header {
   width: 100%;
-  background: #f8f9fb;
+  background: var(--glass);
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  position: relative;
+  position: sticky;
   z-index: 10;
+  padding-left: 250px;
 }
-
+@media (max-width: 768px) {
+  .header {
+    padding-left: 0;
+  }
+}
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem 1.5rem;
-  position: relative;
+  position: sticky;
+  
 }
+
 
 .logo {
   display: flex;
@@ -61,9 +68,10 @@
   position: fixed;
   top: 0;
   left: -260px;
+  margin-left: 250px;
   width: 250px;
   height: 100vh;
-  background: #f8f9fb;
+  background: var(--bg);
   padding: 100px 30px;
   display: flex;
   flex-direction: column;
@@ -71,6 +79,11 @@
   font-size: 1.1rem;
   transition: left 0.3s ease;
   z-index: 999;
+}
+@media (max-width: 768px) {
+  .off-screen-menu {
+    margin-left: 0;
+  }
 }
 
 .off-screen-menu.open {

@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="/src/styles/reset.css">
   <link rel="stylesheet" href="/src/styles/layout.css">
+  <link rel="stylesheet" href="/src/styles/layouts.css">
   <link rel="stylesheet" href="/src/styles/variables.css">
   <link rel="stylesheet" href="/src/pages/Gallery/gallery.css">
   <link rel="stylesheet" href="/src/components/Header/header.css">
@@ -21,7 +22,19 @@
 
   <!-- GALLERY MAIN CONTENT -->
   <main class="gallery">
-
+    <div class="resp">
+      <aside class="sidebar">
+        <script
+          type="module"
+          src="/src/components/sidebar/sidebar-loader.js"
+        ></script>
+        <span class="theme-button">
+          <script
+            type="module"
+            src="/src/components/accessibility-practices/lightdark.js"
+          ></script>
+        </span>
+      </aside>
     <!-- CATEGORY FILTERS -->
     <section class="category-filters">
       <button class="chip chip--active fixed-all">All</button>
@@ -62,11 +75,17 @@
       <h2>Available for Adoption</h2>
       <div class="card-grid" id="availablePetsContainer"></div>
     </section>
+    </div>
   </main>
 
-  <!-- FOOTER COMPONENT -->
-  <footer></footer>
-  <script type="module" src="/src/components/Footer/footer-loader.js"></script>
+    <div class="footero">
+      <footer>
+        <script
+          type="module"
+          src="/src/components/footer/footer-loader.js"
+        ></script>
+      </footer>
+    </div>
 
   <!-- PAGE JS -->
   <script type="module" src="/src/pages/Gallery/gallery.js"></script>

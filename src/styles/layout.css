@@ -1,1 +1,78 @@
-/* This is for responsive design */
+/**************************************** color variables ************************** */
+:root {
+  --bg: #f5f7fa;
+  --titles: #365983;
+  --ink: #0b0f14;
+  --sidebar: #ffffff;
+  --muted: #6b6b6b;
+  --glass: rgba(255, 255, 255, 0.55);
+  --line: rgba(0, 0, 0, 0.08);
+  --radius: 12px;
+  --maxw: 1100px;
+}
+body[data-theme="dark"] {
+  --bg: #0d121a;
+  --titles: #7CAAE0;
+  --sidebar: #000;
+  --ink: #f5f7fb;
+  --muted: #a6b1c2;
+  --glass: rgba(20, 24, 33, 0.7);
+  --line: rgba(255, 255, 255, 0.15);
+}
+
+/**************************************** here is the base ************************** */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+}
+body[data-theme="dark"] .toggle .dot { left: 23px; }
+
+/* ***************************** Responsive Layout///////////////// */
+@media (max-width: 768px) {
+  main { flex-direction: column; }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid var(--line);
+  }
+}
+
+
+/******************************** light/dark toggle ******************* */
+.toggle {
+  width: 46px; height: 28px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--titles);
+  position: relative;
+  cursor: pointer;
+}
+.toggle .dot {
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  background: var(--bg);
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: left 0.2s;
+  
+}
+
+
+/********************* to creates space from left for sidebar ************************/
+.resp {
+  padding-left: 250px;
+}
+@media (max-width: 768px) {
+  .resp {
+    padding-left: 0;
+  }
+}
