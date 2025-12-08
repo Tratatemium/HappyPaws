@@ -14,7 +14,9 @@
 </head>
 
 <body>
+
   <div class="resp">
+
     <aside class="sidebar">
       <script
         type="module"
@@ -28,46 +30,80 @@
       </span>
     </aside>
 
-  <!-- HEADER COMPONENT -->
-  <script type="module" src="/src/components/Header/header-loader.js"></script>
+    <!-- HEADER COMPONENT -->
+    <script type="module" src="/src/components/Header/header-loader.js"></script>
 
-  <div class="hero-section">
-    <div class="hero-text">
-      <br> <span>Where you find your new best friend</span>
+    <div class="hero-section">
+      <div class="hero-text">
+        <br> <span>Where you find your new best friend</span>
+      </div>
+      <img src="/src/assets/icons/womanandpets.png" alt="Imagem principal" class="hero-image">
+      <a href="src/pages/Gallery/gallery.html" class="rounded-button">I want to adopt</a>
     </div>
-    <img src="/src/assets/icons/womanandpets.png" alt="Imagem principal" class="hero-image">
-    <a href="src/pages/Gallery/gallery.html" class="rounded-button">I want to adopt</a>
-  </div>
-  </div>
 
-  <div class="list1">
-    <br> <span>We are an animal shelter dedicated to rescuing, caring for, and rehoming pets in need. Our mission is to
-      save lives.</span>
-  </div>
-
-  </div>
-  <!-- CATEGORY FILTERS -->
-  <section class="category-filters">
-    <button class="chip chip--active fixed-all">All</button>
-    <button class="chip">Dogs</button>
-    <button class="chip">Cats</button>
-    <button class="chip">Rabbits</button>
-    <button class="chip">Birds</button>
-    <button class="chip">Reptiles</button>
-
-  </section>
-  <div class="list2">
-    <br/><br/><br/><br/><br/>
-
-  </div>
-    <div class="footero">
-      <footer>
-        <script
-          type="module"
-          src="/src/components/footer/footer-loader.js"
-        ></script>
-      </footer>
+    <div class="list1">
+      <br> <span>We are an animal shelter dedicated to rescuing, caring for, and rehoming pets in need. Our mission is to
+        save lives.</span>
     </div>
+
+    <!-- Combined Urgent Adoptions Section -->
+    <section class="urgent-adoptions-section">
+      <div class="urgent-adoptions-header">
+        <h2 class="urgent-carousel-title">Urgent Adoptions</h2>
+        
+        <!-- CATEGORY FILTERS -->
+        <div class="category-filters">
+          <button class="chip chip--active fixed-all">All</button>
+
+          <div class="chip-scroll" id="chipScroll">
+            <button class="chip">
+              <img src="../../assets/icons/dog.svg"  alt="Dogs">
+              Dogs
+            </button>
+            <button class="chip">
+              <img src="../../assets/icons/cat.svg" alt="Cats">
+              Cats
+            </button>
+            <button class="chip">
+              <img src="../../assets/icons/rabbit.svg" alt="Rabbits">
+              Rabbits
+            </button>
+            <button class="chip">
+              <img src="../../assets/icons/bird.svg" alt="Birds">
+              Birds
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel -->
+      <div class="carousel-wrapper">
+        <button class="scroll-btn scroll-btn-left" id="scrollLeft">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="urgent-carousel-container"></div>
+        <button class="scroll-btn scroll-btn-right" id="scrollRight">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      <script type="module" src="./urgent-carousel.js"></script>
+    </section>
+  </div>
+
+  <div class="footero">
+    <footer>
+      <script
+        type="module"
+        src="/src/components/footer/footer-loader.js"
+      ></script>
+    </footer>
+  </div>
+
+  <script type="module" src="./landing.js"></script>
 </body>
 
 </html>

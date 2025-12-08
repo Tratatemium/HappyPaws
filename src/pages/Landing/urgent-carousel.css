@@ -1,0 +1,357 @@
+.urgent-carousel-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    padding: 1.5rem 1rem;
+    margin: 1rem 0;
+    margin-bottom: clamp(3.5rem, 4vw + 1rem, 2.5rem);
+    height: min-content;
+    position: relative;
+    /* Custom scrollbar styling */
+    scrollbar-width: thin;
+    scrollbar-color: rgba(63, 122, 192, 0.3) transparent;
+}
+
+/* Webkit scrollbar styling */
+.urgent-carousel-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.urgent-carousel-container::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.urgent-carousel-container::-webkit-scrollbar-thumb {
+    background: rgba(63, 122, 192, 0.4);
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.urgent-carousel-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(63, 122, 192, 0.6);
+}
+
+/* Fade effect on edges */
+.urgent-carousel-container::before,
+.urgent-carousel-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.urgent-carousel-container::before {
+    left: 0;
+    background: linear-gradient(to right, var(--bg, #fff), transparent);
+}
+
+.urgent-carousel-container::after {
+    right: 0;
+    background: linear-gradient(to left, var(--bg, #fff), transparent);
+}
+
+/* Pet Card Styling for Carousel */
+.urgent-carousel-container .pet-card {
+    flex: 0 0 12rem; /* Fixed width, no shrink/grow */
+    min-width: 12rem;
+    height: 12rem;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: pointer;
+    position: relative;
+    border: 2px solid transparent;
+}
+
+
+.urgent-carousel-container .pet-card:hover {
+    transform: none;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    border-color: rgba(63, 122, 192, 0.2);
+}
+
+/* Enhanced pet image styling */
+.urgent-carousel-container .pet-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.urgent-carousel-container .pet-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.urgent-carousel-container .pet-card:hover .pet-image img {
+    transform: scale(1.05);
+}
+
+/* Enhanced gradient overlay */
+.urgent-carousel-container .image-gradient {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%);
+    z-index: 2;
+}
+
+/* Enhanced info overlay */
+.urgent-carousel-container .info {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+    right: 16px;
+    color: #fff;
+    z-index: 3;
+}
+
+.urgent-carousel-container .info h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.urgent-carousel-container .info p {
+    font-size: 0.85rem;
+    opacity: 0.9;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Enhanced urgent badge */
+.urgent-carousel-container .urgent-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: linear-gradient(135deg, #ff4757, #ff3838);
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 15px;
+    z-index: 4;
+    box-shadow: 0 2px 8px rgba(255, 71, 87, 0.3);
+}
+
+/* Enhanced paw badge */
+.urgent-carousel-container .paw-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 8px;
+    border-radius: 50%;
+    z-index: 4;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.urgent-carousel-container .paw-badge:hover {
+    background: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.urgent-carousel-container .paw-badge img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0.6);
+    transition: filter 0.3s ease;
+}
+
+.urgent-carousel-container .paw-badge:hover img {
+    filter: brightness(0.3);
+}
+
+/* Combined urgent adoptions section */
+.urgent-adoptions-section {
+    margin: 3rem 0;
+    padding: 0 1rem;
+}
+
+.urgent-carousel-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #365983;
+    margin: 0 0 1.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.urgent-carousel-title::before {
+    content: '🚨';
+    font-size: 1.2rem;
+}
+
+/* Category filters styling within the section */
+.urgent-adoptions-section .category-filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* Carousel section styling */
+.urgent-carousel-section {
+    margin: 2rem 0;
+    position: relative;
+}
+
+/* Carousel wrapper with scroll buttons */
+.carousel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Scroll buttons */
+.scroll-btn {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid rgba(63, 122, 192, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 5;
+    color: #365983;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-btn:hover {
+    background: rgba(63, 122, 192, 0.1);
+    border-color: rgba(63, 122, 192, 0.4);
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.scroll-btn:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+.scroll-btn svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-btn-left {
+    left: 10px;
+}
+
+.scroll-btn-right {
+    right: 10px;
+}
+
+/* Hide buttons when not scrollable */
+.scroll-btn.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Loading state */
+.urgent-carousel-container.loading {
+    justify-content: center;
+    align-items: center;
+    min-height: 12rem;
+}
+
+.urgent-carousel-container.loading::after {
+    content: 'Loading urgent pets...';
+    color: #365983;
+    font-weight: 500;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .urgent-adoptions-section {
+        margin: 2rem 0;
+        padding: 0 0.5rem;
+    }
+    
+    .urgent-carousel-container {
+        gap: 1rem;
+        padding: 1rem 0.5rem;
+    }
+    
+    .urgent-carousel-container .pet-card {
+        flex: 0 0 10rem;
+        min-width: 10rem;
+        height: 10rem;
+    }
+    
+    .urgent-carousel-container .info h3 {
+        font-size: 1rem;
+    }
+    
+    .urgent-carousel-container .info p {
+        font-size: 0.8rem;
+    }
+    
+    .urgent-carousel-title {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .urgent-adoptions-section .category-filters {
+        gap: 0.5rem;
+    }
+    
+    .scroll-btn {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .scroll-btn-left {
+        left: 8px;
+    }
+    
+    .scroll-btn-right {
+        right: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .urgent-carousel-container .pet-card {
+        flex: 0 0 9rem;
+        min-width: 9rem;
+        height: 9rem;
+    }
+    
+    .scroll-btn {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .scroll-btn-left {
+        left: 5px;
+    }
+    
+    .scroll-btn-right {
+        right: 5px;
+    }
+}
