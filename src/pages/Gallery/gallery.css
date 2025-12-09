@@ -173,6 +173,10 @@
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
 }
 
+.pet-card.hidden {
+  display: none;
+}
+
 .pet-card:hover {
   transform: translateY(-4px);
 }
