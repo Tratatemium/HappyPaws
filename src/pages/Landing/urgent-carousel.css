@@ -6,8 +6,6 @@
     overflow-y: hidden;
     scroll-behavior: smooth;
     padding: 1.5rem 1rem;
-    margin: 1rem 0;
-    margin-bottom: clamp(3.5rem, 4vw + 1rem, 2.5rem);
     height: min-content;
     position: relative;
     /* Custom scrollbar styling */
@@ -33,30 +31,6 @@
 
 .urgent-carousel-container::-webkit-scrollbar-thumb:hover {
     background: rgba(63, 122, 192, 0.6);
-}
-
-/* Fade effect on edges */
-.urgent-carousel-container::before,
-.urgent-carousel-container::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 20px;
-    height: 100%;
-    z-index: 2;
-    pointer-events: none;
-}
-
-.urgent-carousel-container::before {
-    position: fixed;
-    left: 0;
-    background: linear-gradient(to right, var(--bg, #fff), transparent);
-}
-
-.urgent-carousel-container::after {
-    position: fixed;
-    right: 0;
-    background: linear-gradient(to left, var(--bg, #fff), transparent);
 }
 
 /* Pet Card Styling for Carousel */
@@ -221,6 +195,31 @@
     position: relative;
     display: flex;
     align-items: center;
+    height: fit-content;
+    margin: 1rem 0;
+    margin-bottom: clamp(3.5rem, 4vw + 1rem, 2.5rem);
+}
+
+/* Fade effect on edges */
+.carousel-wrapper::before,
+.carousel-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.carousel-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, var(--bg, #fff), transparent);
+}
+
+.carousel-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left, var(--bg, #fff), transparent);
 }
 
 /* Scroll buttons */
