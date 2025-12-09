@@ -83,12 +83,25 @@
   display: flex;
   filter: brightness(0) saturate(100%) invert(34%) sepia(26%) saturate(1195%) hue-rotate(187deg) brightness(92%) contrast(89%);
 }
-.chip svg path {
+.chip svg {
   fill: #375a8c;
 }
 
-.chip--active svg path {
+.chip--active svg {
   fill: #ffffff;
+}
+
+/* For img tags - use filter to change color */
+.chip img {
+  filter: brightness(0) saturate(100%) invert(34%) sepia(26%) saturate(1195%) hue-rotate(187deg) brightness(92%) contrast(89%);
+}
+
+.chip:hover img {
+  filter: brightness(0) saturate(100%) invert(100%);
+}
+
+.chip--active img {
+  filter: brightness(0) saturate(100%) invert(100%);
 }
 
 /* Active status */
