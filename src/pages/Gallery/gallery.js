@@ -10,6 +10,12 @@ const availableContainer = document.getElementById('availablePetsContainer');
 function createPetCard(pet) {
   const isUrgent = pet.urgent === true;
 
+  // random gender
+  const randomGender = Math.random() < 0.5 ? "male" : "female";
+
+  // gender icon
+  const genderIcon = randomGender === "male" ? "♂" : "♀";
+
   return `
     <article class="pet-card ${isUrgent ? 'urgent' : ''}">
       <div class="pet-image">
@@ -21,12 +27,13 @@ function createPetCard(pet) {
         <div class="image-gradient"></div>
         <div class="info info--overlay">
           <h3>${pet.name}</h3>
-          <p>${pet.breed} · ${pet.age}</p>
+          <p>${pet.breed} · ${pet.age.value} ${pet.age.unit} · ${genderIcon}</p>
         </div>
       </div>
     </article>
   `;
 }
+
 
 // Render pets by urgency
 function renderPets() {
@@ -41,6 +48,7 @@ function renderPets() {
 
   attachLikeEvents();
 }
+
 
 // Laura: toggle paw like icon on click for both urgent paw badges and fav buttons
 function attachLikeEvents() {
