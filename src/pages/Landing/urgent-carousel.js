@@ -71,8 +71,10 @@ function setupScrollButtons() {
     }
   }
 
-  // Initial button visibility check
-  updateButtonVisibility();
+  // Initial button visibility check - delay to ensure content is rendered
+  setTimeout(() => {
+    updateButtonVisibility();
+  }, 100);
 
   // Update button visibility on scroll
   urgentContainer.addEventListener('scroll', updateButtonVisibility);
