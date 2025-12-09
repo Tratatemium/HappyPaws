@@ -63,17 +63,6 @@
     overflow: hidden;
 }
 
-.urgent-carousel-container .pet-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.4s ease;
-}
-
-.urgent-carousel-container .pet-card:hover .pet-image img {
-    transform: scale(1.05);
-}
-
 /* Enhanced gradient overlay */
 .urgent-carousel-container .image-gradient {
     position: absolute;
@@ -137,9 +126,7 @@
 }
 
 .urgent-carousel-container .paw-badge:hover {
-    background: rgba(255, 255, 255, 1);
-    transform: scale(1.1);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
 }
 
 .urgent-carousel-container .paw-badge img {
