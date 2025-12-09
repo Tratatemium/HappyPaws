@@ -236,31 +236,30 @@
 .paw-badge,
 .fav-btn {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 0px;
+  right: 0px;
   background: white;
   padding: 6px;
   border-radius: 999px;
   z-index: 6;
   border: none;
-  transition: all 0.3s ease;
-  transform-origin: center;
+  transition: transform 0.3s ease;
+  transform: translate(-25%, 25%);
 }
 
 .paw-badge:hover {
-  transform: scale(1.03);
+  transform: translate(-25%, 25%) scale(1.05);
 }
 
 .paw-badge img,
 .fav-btn img {
   width: 20px;
   filter: brightness(0.5);
-  transition: all 0.3s ease;
-  transform-origin: center;
+  transition: all 0.1s ease;
 }
 
 .paw-badge:hover img {
-  filter: brightness(0.3);
+  filter: brightness(0.35);
 }
 
 /* Gradient Overlay */
