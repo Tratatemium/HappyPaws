@@ -111,34 +111,6 @@
     box-shadow: 0 2px 8px rgba(255, 71, 87, 0.3);
 }
 
-/* Enhanced paw badge */
-.urgent-carousel-container .paw-badge {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    background: rgba(255, 255, 255, 0.95);
-    padding: 8px;
-    border-radius: 50%;
-    z-index: 4;
-    backdrop-filter: blur(10px);
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.urgent-carousel-container .paw-badge:hover {
-    transform: scale(1.03);
-}
-
-.urgent-carousel-container .paw-badge img {
-    width: 18px;
-    height: 18px;
-    filter: brightness(0.6);
-    transition: filter 0.3s ease;
-}
-
-.urgent-carousel-container .paw-badge:hover img {
-    filter: brightness(0.3);
-}
 
 /* Combined urgent adoptions section */
 .urgent-adoptions-section {
