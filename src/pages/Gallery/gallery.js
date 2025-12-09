@@ -11,7 +11,7 @@ function createPetCard(pet) {
   const isUrgent = pet.urgent === true;
 
   return `
-    <article class="pet-card ${isUrgent ? 'urgent' : ''}">
+    <article class="pet-card ${isUrgent ? 'urgent' : ''} ${pet.species}">
       <div class="pet-image">
         <img src="${pet.image_urls[0]}" alt="${pet.name}">
         ${isUrgent ? `<span class="urgent-badge">Urgent</span>` : ''}
