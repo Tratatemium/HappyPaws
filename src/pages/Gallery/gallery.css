@@ -178,14 +178,15 @@
 }
 
 .pet-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.4s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  transform-origin: center;
 }
 
 .pet-card:hover .pet-image img {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Image container */
@@ -193,12 +194,6 @@
   width: 100%;
   height: 100%;
   position: relative;
-}
-
-.pet-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 /* Gradient */
@@ -249,6 +244,7 @@
   z-index: 6;
   border: none;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .paw-badge:hover {
@@ -260,6 +256,7 @@
   width: 20px;
   filter: brightness(0.5);
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .paw-badge:hover img {
