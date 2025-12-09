@@ -7,14 +7,16 @@ export const filterByPetSpecies = (species) => {
     const petCards = Array.from(document.querySelectorAll('.pet-card'));
 
     petCards.forEach(petCard => {
-        if (species === 'all' || petCards.classList.contains(species)) {
-            petCards.classList.remove('hidden');
+        if (species === 'all' || petCard.classList.contains(species)) {
+            petCard.classList.remove('hidden');
         } else {
-            petCards.classList.add('hidden');
+            petCard.classList.add('hidden');
         }
     });
 }   
 
-export const onPetTypeButtonClick = (event) => {
-    button = event.target;
+export const onPetSpeciesButtonClick = (chip) => {
+    const allSpecies = ['dog', 'cat', 'rabbit', 'bird'];
+    const species = allSpecies.find(species => chip.classList.contains(species)) || 'all';
+    filterByPetSpecies(species);
 }

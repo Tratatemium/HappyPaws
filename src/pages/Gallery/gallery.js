@@ -1,6 +1,6 @@
 // Load pets data
 import pets from '../../assets/pet-data.json';
-
+import { onPetSpeciesButtonClick } from '../../filter-pets.js'
 
 // Select containers
 const urgentContainer = document.getElementById('urgentPetsContainer');
@@ -66,6 +66,7 @@ chips.forEach((chip) => {
   chip.addEventListener("click", () => {
     chips.forEach((c) => c.classList.remove("chip--active"));
     chip.classList.add("chip--active");
+    onPetSpeciesButtonClick(chip);
   });
 });
 
