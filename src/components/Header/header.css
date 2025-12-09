@@ -7,7 +7,7 @@
 .header {
   width: 100%;
   background: #365983;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3); /* branca com 30% de opacidade */border-bottom: 1px solid rgba(255, 255, 255, 0.15); /* 15% de opacidade, linha bem leve */
   position: sticky;
   z-index: 10;
   padding-left: 250px;
@@ -184,5 +184,27 @@
   .off-screen-menu {
     left: -25vw;
     width: 25vw;
+  }
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 700px; /* maior no desktop, mas não exagerado */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* centraliza */
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .hero-image {
+    max-width: 500px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-image {
+    max-width: 90%; /* ocupa quase toda a largura */
   }
 }
