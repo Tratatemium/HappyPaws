@@ -27,7 +27,7 @@ function createPetCard(pet) {
         <div class="image-gradient"></div>
         <div class="info info--overlay">
           <h3>${pet.name}</h3>
-          <p>${pet.breed} · ${pet.age.value} ${pet.age.unit} · ${genderIcon}</p>
+          <p>${pet.age.value} ${pet.age.unit} · ${genderIcon}</p>
         </div>
       </div>
     </article>
