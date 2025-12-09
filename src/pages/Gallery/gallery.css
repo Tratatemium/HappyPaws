@@ -23,12 +23,12 @@
 
 .category-filters {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 8px;
-  padding: 0 16px;
-  margin: 8px 0;
-  overflow: hidden;
-  justify-content: flex-start;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
 }
 
 /* All button stays fixed left */
