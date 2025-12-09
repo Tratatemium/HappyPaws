@@ -1,6 +1,6 @@
 // Load pets data
 import pets from '../../assets/pet-data.json';
-
+import { onPetSpeciesButtonClick } from '../../filter-pets.js'
 
 // Select containers
 const urgentContainer = document.getElementById('urgentPetsContainer');
@@ -11,7 +11,7 @@ function createPetCard(pet) {
   const isUrgent = pet.urgent === true;
 
   return `
-    <article class="pet-card ${isUrgent ? 'urgent' : ''}">
+    <article class="pet-card ${isUrgent ? 'urgent' : ''} ${pet.species}">
       <div class="pet-image">
         <img src="${pet.image_urls[0]}" alt="${pet.name}">
         ${isUrgent ? `<span class="urgent-badge">Urgent</span>` : ''}
@@ -66,6 +66,7 @@ chips.forEach((chip) => {
   chip.addEventListener("click", () => {
     chips.forEach((c) => c.classList.remove("chip--active"));
     chip.classList.add("chip--active");
+    onPetSpeciesButtonClick(chip);
   });
 });
 

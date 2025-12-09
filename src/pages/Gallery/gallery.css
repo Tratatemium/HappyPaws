@@ -23,12 +23,12 @@
 
 .category-filters {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 8px;
-  padding: 0 16px;
-  margin: 8px 0;
-  overflow: hidden;
-  justify-content: flex-start;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
 }
 
 /* All button stays fixed left */
@@ -83,12 +83,25 @@
   display: flex;
   filter: brightness(0) saturate(100%) invert(34%) sepia(26%) saturate(1195%) hue-rotate(187deg) brightness(92%) contrast(89%);
 }
-.chip svg path {
+.chip svg {
   fill: #375a8c;
 }
 
-.chip--active svg path {
+.chip--active svg {
   fill: #ffffff;
+}
+
+/* For img tags - use filter to change color */
+.chip img {
+  filter: brightness(0) saturate(100%) invert(34%) sepia(26%) saturate(1195%) hue-rotate(187deg) brightness(92%) contrast(89%);
+}
+
+.chip:hover img {
+  filter: brightness(0) saturate(100%) invert(100%);
+}
+
+.chip--active img {
+  filter: brightness(0) saturate(100%) invert(100%);
 }
 
 /* Active status */
@@ -158,6 +171,10 @@
   cursor: pointer;
   position: relative;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.pet-card.hidden {
+  display: none;
 }
 
 .pet-card:hover {
