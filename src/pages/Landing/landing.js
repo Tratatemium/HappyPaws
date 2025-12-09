@@ -2,7 +2,6 @@ import { onPetSpeciesButtonClick } from '../../filter-pets.js'
 
 // Category button active state
 const chips = document.querySelectorAll(".chip");
-console.log(chips)
 
 chips.forEach((chip) => {
   chip.addEventListener("click", () => {
