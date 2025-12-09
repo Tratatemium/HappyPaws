@@ -10,11 +10,8 @@ const availableContainer = document.getElementById('availablePetsContainer');
 function createPetCard(pet) {
   const isUrgent = pet.urgent === true;
 
-  // random gender
-  const randomGender = Math.random() < 0.5 ? "male" : "female";
-
   // gender icon
-  const genderIcon = randomGender === "male" ? "♂" : "♀";
+  const genderIcon = pet.gender === "Male" ? "♂" : "♀";
 
   return `
     <article class="pet-card ${isUrgent ? 'urgent' : ''} ${pet.species}">

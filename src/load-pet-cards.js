@@ -1,6 +1,9 @@
 export function createPetCard(pet) {
   const isUrgent = pet.urgent === true;
 
+  // gender icon
+  const genderIcon = pet.gender === "Male" ? "♂" : "♀";
+
   return `
     <article class="pet-card ${isUrgent ? 'urgent' : ''} ${pet.species}">
       <div class="pet-image">
