@@ -6,11 +6,12 @@
 
 .header {
   width: 100%;
-  background: var(--glass);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  background: #365983;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3); /* branca com 30% de opacidade */border-bottom: 1px solid rgba(255, 255, 255, 0.15); /* 15% de opacidade, linha bem leve */
   position: sticky;
   z-index: 10;
   padding-left: 250px;
+  font-family: 'M PLUS Rounded 1c', helvetica, sans-serif;
 }
 @media (max-width: 768px) {
   .header {
@@ -22,7 +23,7 @@
   justify-content: center;
   align-items: center;
   padding: 1rem 1.5rem;
-  position: sticky;
+  position: relative;
   
 }
 
@@ -30,8 +31,12 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  white-space:nowrap;
+  gap: 11px;
   text-decoration: none;
+  min-width: max-content;
+  
+  
 }
 
 .logo img {
@@ -40,8 +45,8 @@
 }
 
 .logo h1 {
-  color: #4786c5;
-  font-family: Arial, sans-serif;
+  color: #ffffff;
+    font-family: 'M PLUS Rounded 1c', helvetica, sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
 }
@@ -58,7 +63,7 @@
 .burger-menu span {
   width: 28px;
   height: 4px;
-  background-color: #7caae0;
+  background-color: #ffffff;
   border-radius: 3px;
   transition: 0.3s;
 }
@@ -179,5 +184,27 @@
   .off-screen-menu {
     left: -25vw;
     width: 25vw;
+  }
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 700px; /* maior no desktop, mas não exagerado */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* centraliza */
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .hero-image {
+    max-width: 500px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-image {
+    max-width: 90%; /* ocupa quase toda a largura */
   }
 }

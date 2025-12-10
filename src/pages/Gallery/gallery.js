@@ -1,5 +1,6 @@
 // Load pets data
 import pets from "../../assets/pet-data.json";
+import { onPetSpeciesButtonClick } from "../../filter-pets.js";
 
 // Select containers
 const urgentContainer = document.getElementById("urgentPetsContainer");
@@ -41,12 +42,9 @@ function isFavorite(petId) {
 // Create card element
 function createPetCard(pet) {
   const isUrgent = pet.urgent === true;
-  const liked = isFavorite(pet.id);
 
   return `
-    <article class="pet-card ${isUrgent ? "urgent" : ""}" data-pet-id="${
-    pet.id
-  }">
+    <article class="pet-card ${isUrgent ? "urgent" : ""}">
       <div class="pet-image">
         <img src="${pet.image_urls[0]}" alt="${pet.name}">
         ${isUrgent ? `<span class="urgent-badge">Urgent</span>` : ""}
@@ -60,7 +58,7 @@ function createPetCard(pet) {
         <div class="image-gradient"></div>
         <div class="info info--overlay">
           <h3>${pet.name}</h3>
-          <p>${pet.breed} · ${pet.age.value} ${pet.age.unit}</p>
+          <p>${pet.breed} · ${pet.age}</p>
         </div>
       </div>
     </article>
@@ -111,6 +109,7 @@ chips.forEach((chip) => {
   chip.addEventListener("click", () => {
     chips.forEach((c) => c.classList.remove("chip--active"));
     chip.classList.add("chip--active");
+    onPetSpeciesButtonClick(chip);
   });
 });
 
