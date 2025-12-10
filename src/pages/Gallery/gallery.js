@@ -43,8 +43,13 @@ function isFavorite(petId) {
 function createPetCard(pet) {
   const isUrgent = pet.urgent === true;
 
+  // gender icon
+  const genderIcon = pet.gender === "Male" ? "♂" : "♀";
+
   return `
-    <article class="pet-card ${isUrgent ? "urgent" : ""}">
+       <article class="pet-card ${isUrgent ? "urgent" : ""}" data-pet-id="${
+    pet.id
+  }">
       <div class="pet-image">
         <img src="${pet.image_urls[0]}" alt="${pet.name}">
         ${isUrgent ? `<span class="urgent-badge">Urgent</span>` : ""}
@@ -58,7 +63,7 @@ function createPetCard(pet) {
         <div class="image-gradient"></div>
         <div class="info info--overlay">
           <h3>${pet.name}</h3>
-          <p>${pet.breed} · ${pet.age}</p>
+          <p>${genderIcon} · ${pet.age.value} ${pet.age.unit}</p>
         </div>
       </div>
     </article>
