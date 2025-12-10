@@ -331,6 +331,7 @@ margin-left: 5rem;
 #toggle.active #icon{
   transform: rotate(180deg);
 }
+
 .adoption-terms button{
   padding:0.5rem;
   background-color: var(--background-color-2);
@@ -363,3 +364,4 @@ display: none;
 
 
 }
+

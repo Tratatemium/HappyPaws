@@ -12,7 +12,6 @@ import pets from '../../assets/pet-data.json';
 import { createPetCard, attachLikeEvents } from '../../load-pet-cards.js';
 
 export const urgentContainer = document.querySelector('.urgent-carousel-container');
-console.log(urgentContainer);
 
 // Render pets by urgency
 function renderCarousel() {
@@ -71,8 +70,10 @@ function setupScrollButtons() {
     }
   }
 
-  // Initial button visibility check
-  updateButtonVisibility();
+  // Initial button visibility check - delay to ensure content is rendered
+  setTimeout(() => {
+    updateButtonVisibility();
+  }, 100);
 
   // Update button visibility on scroll
   urgentContainer.addEventListener('scroll', updateButtonVisibility);

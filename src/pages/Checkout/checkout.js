@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
         const list = document.createElement('div');
         list.classList.add('generated-terms')
-
+        list.classList.add('hidden');
         const listContainer = document.querySelector('.term-list')
         list.innerHTML=`     <div class='ul-list'>
         <p> By adopting a pet from HappyPaws, you agree to:</p>
@@ -41,11 +41,14 @@ document.addEventListener('DOMContentLoaded', ()=>{
           termsToggle.classList.toggle('active');
             
             const currentTerms = listContainer.querySelector('.generated-terms');
-            
+          
             if(currentTerms){
             currentTerms.classList.toggle('hidden');
+       
             }else{
               listContainer.innerHTML = list;
+                 termsToggle.classList.toggle('active');
+                 
             }
         })
          
