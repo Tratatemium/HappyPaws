@@ -1,7 +1,7 @@
 // --- Favorites helpers ---
 const FAVORITES_STORAGE_KEY = "favoritePetIds";
 
-function getFavoriteIds() {
+export function getFavoriteIds() {
   try {
     const stored = localStorage.getItem(FAVORITES_STORAGE_KEY);
     return stored ? JSON.parse(stored) : [];
@@ -14,7 +14,7 @@ function saveFavoriteIds(ids) {
   localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(ids));
 }
 
-function toggleFavorite(petId) {
+export function toggleFavorite(petId) {
   const ids = getFavoriteIds();
   const index = ids.indexOf(petId);
 
