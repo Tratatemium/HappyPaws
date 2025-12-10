@@ -40,9 +40,7 @@ export function createPetCard(pet) {
   const genderIcon = pet.gender === "Male" ? "♂" : "♀";
 
   return `
-       <article class="pet-card ${isUrgent ? "urgent" : ""}" data-pet-id="${
-    pet.id
-  }">
+    <article class="pet-card ${isUrgent ? "urgent" : ""} ${pet.species}" data-pet-id="${pet.id}">
       <div class="pet-image">
         <img src="${pet.image_urls[0]}" alt="${pet.name}">
         ${isUrgent ? `<span class="urgent-badge">Urgent</span>` : ""}
