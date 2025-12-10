@@ -1,6 +1,9 @@
 export function createPetCard(pet) {
   const isUrgent = pet.urgent === true;
 
+  // gender icon
+  const genderIcon = pet.gender === "Male" ? "♂" : "♀";
+
   return `
     <article class="pet-card ${isUrgent ? 'urgent' : ''} ${pet.species}">
       <div class="pet-image">
@@ -12,7 +15,7 @@ export function createPetCard(pet) {
         <div class="image-gradient"></div>
         <div class="info info--overlay">
           <h3>${pet.name}</h3>
-          <p>${pet.breed} · ${pet.age}</p>
+          <p>${genderIcon} · ${pet.age.value} ${pet.age.unit}</p>
         </div>
       </div>
     </article>

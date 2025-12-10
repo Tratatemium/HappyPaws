@@ -1436,7 +1436,7 @@
       "value": 3,
       "unit": "years"
     },
-    "gender": "Male & Female",
+    "gender": "Female",
     "urgent": true,
     "urgent_reason": "Shelter is at maximum capacity and we urgently need to make space for incoming animals.",
     "story": {
@@ -1607,7 +1607,7 @@
       "value": 3,
       "unit": "years"
     },
-    "gender": "Male & Female",
+    "gender": "Female",
     "urgent": false,
     "urgent_reason": "",
     "story": {
