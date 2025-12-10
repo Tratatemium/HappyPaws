@@ -43,6 +43,8 @@ function isFavorite(petId) {
 function createPetCard(pet) {
   const isUrgent = pet.urgent === true;
 
+  const liked = isFavorite(pet.id);
+
   // gender icon
   const genderIcon = pet.gender === "Male" ? "♂" : "♀";
 
