@@ -1,0 +1,1 @@
+const n=document.createElement("link");n.rel="stylesheet";n.href="header.css";document.head.appendChild(n);fetch("header.html").then(e=>e.text()).then(e=>{document.body.insertAdjacentHTML("afterbegin",e);const t=document.createElement("script");t.type="module",t.src="/src/components/Header/header.js",document.body.appendChild(t)}).catch(e=>console.error("Header yüklenemedi:",e));

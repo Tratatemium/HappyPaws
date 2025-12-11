@@ -16,7 +16,7 @@ const t=`
   <span>Chat</span>
 </a>
 <span class="theme-button">
-          <script type="module" src="/src/components/accessibility-practices/lightdark.js"><\/script>
+          <script type="module" src="../accessibility-practices/lightdark.js"><\/script>
       </span>
 `;document.querySelector(".sidebar").innerHTML=t;const e=`
         <ul class="lilinks">
