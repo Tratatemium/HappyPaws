@@ -1,5 +1,7 @@
 // --- Favorites helpers ---
 const FAVORITES_STORAGE_KEY = "favoritePetIds";
+import pawRedIcon from '/icons/paw-liked-red-icon.png';
+import pawIcon from '/icons/paw-like-icon.png';
 
 export function getFavoriteIds() {
   try {
@@ -47,8 +49,8 @@ export function createPetCard(pet) {
         <div class="paw-badge ${liked ? "is-liked" : ""}">
           <img src="${
             liked
-              ? "../../assets/icons/paw-liked-red-icon.png"
-              : "../../assets/icons/paw-like-icon.png"
+              ? `${pawRedIcon}`
+              : `${pawIcon}`
           }">
         </div>
         <div class="image-gradient"></div>
@@ -74,8 +76,8 @@ export function attachLikeEvents() {
       const isLiked = btn.classList.toggle("is-liked");
 
       img.src = isLiked
-        ? "../../assets/icons/paw-liked-red-icon.png"
-        : "../../assets/icons/paw-like-icon.png";
+        ? `${pawRedIcon}`
+        : `${pawIcon}`;
 
       if (petId) {
         toggleFavorite(petId);
