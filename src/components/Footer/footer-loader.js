@@ -1,4 +1,4 @@
-fetch('/src/components/footer/footer.html')
+fetch('footer.html')
     .then(response => response.text())
     .then(html => {
         document.querySelector("footer").innerHTML = html;

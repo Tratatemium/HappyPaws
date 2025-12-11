@@ -1,9 +1,9 @@
 const link = document.createElement('link');
 link.rel = 'stylesheet';
-link.href = '/src/components/Header/header.css';
+link.href = 'header.css';
 document.head.appendChild(link);
 
-fetch('/src/components/Header/header.html')
+fetch('header.html')
   .then(res => res.text())
   .then(html => {
     document.body.insertAdjacentHTML('afterbegin', html);
