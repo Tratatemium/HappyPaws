@@ -15,7 +15,6 @@
 
 
 export default function initHeader() {
-  console.log("Header JS loaded");
 
   const burger = document.querySelector('.burger-menu');
   const menu = document.querySelector('.off-screen-menu');

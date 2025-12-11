@@ -1,12 +1,15 @@
-let link = document.createElement('link');
-link.rel = 'stylesheet';
-link.href = '../Gallery/gallery.css';
-document.head.appendChild(link);
+// let link = document.createElement('link');
+// link.rel = 'stylesheet';
+// link.href = '../Gallery/gallery.css';
+// document.head.appendChild(link);
 
-link = document.createElement('link');
-link.rel = 'stylesheet';
-link.href = 'urgent-carousel.css';
-document.head.appendChild(link);
+// link = document.createElement('link');
+// link.rel = 'stylesheet';
+// link.href = 'urgent-carousel.css';
+// document.head.appendChild(link);
+
+import './urgent-carousel.css';
+import '../Gallery/gallery.css';
 
 import pets from '../../assets/pet-data.json';
 import { createPetCard, attachLikeEvents } from '../../load-pet-cards.js';
