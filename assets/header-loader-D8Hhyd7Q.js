@@ -45,4 +45,4 @@ const a=`<header class="header">\r
     </li>\r
     </ul>\r
 </div>\r
-</header>`;function r(){console.log("Header JS loaded");const e=document.querySelector(".burger-menu"),n=document.querySelector(".off-screen-menu"),s=document.querySelector(".close-menu");n.classList.remove("open"),e.addEventListener("click",()=>{n.classList.add("open")}),s.addEventListener("click",()=>{n.classList.remove("open")})}document.body.insertAdjacentHTML("afterbegin",a);typeof r=="function"?r():console.warn("header.js did not export a default function.");
+</header>`;function r(){const s=document.querySelector(".burger-menu"),n=document.querySelector(".off-screen-menu"),e=document.querySelector(".close-menu");n.classList.remove("open"),s.addEventListener("click",()=>{n.classList.add("open")}),e.addEventListener("click",()=>{n.classList.remove("open")})}document.body.insertAdjacentHTML("afterbegin",a);typeof r=="function"?r():console.warn("header.js did not export a default function.");

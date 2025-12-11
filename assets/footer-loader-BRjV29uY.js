@@ -1,1 +1,0 @@
-const t=document.createElement("link");t.rel="stylesheet";t.href="../../components/Footer/footer.css";document.head.appendChild(t);fetch("../../components/Footer/footer.html").then(e=>e.text()).then(e=>{document.querySelector("footer").innerHTML=e});
