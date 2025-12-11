@@ -49,8 +49,8 @@ export function createPetCard(pet) {
         <div class="paw-badge ${liked ? "is-liked" : ""}">
           <img src="${
             liked
-              ? `${pawIcon}`
-              : `${pawRedIcon}`
+              ? `${pawRedIcon}`
+              : `${pawIcon}`
           }">
         </div>
         <div class="image-gradient"></div>
