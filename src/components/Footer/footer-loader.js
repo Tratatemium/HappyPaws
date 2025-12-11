@@ -1,9 +1,9 @@
 const link = document.createElement('link');
 link.rel = 'stylesheet';
-link.href = 'footer.css';
+link.href = '../../components/Footer/footer.css';
 document.head.appendChild(link);
 
-fetch('footer.html')
+fetch('../../components/Footer/footer.html')
     .then(response => response.text())
     .then(html => {
         document.querySelector("footer").innerHTML = html;
