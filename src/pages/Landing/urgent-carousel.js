@@ -1,11 +1,11 @@
 let link = document.createElement('link');
 link.rel = 'stylesheet';
-link.href = '/src/pages/Gallery/gallery.css';
+link.href = '../Gallery/gallery.css';
 document.head.appendChild(link);
 
 link = document.createElement('link');
 link.rel = 'stylesheet';
-link.href = '/src/pages/Landing/urgent-carousel.css';
+link.href = 'urgent-carousel.css';
 document.head.appendChild(link);
 
 import pets from '../../assets/pet-data.json';
