@@ -81,9 +81,12 @@ export function attachLikeEvents() {
 
       const isLiked = btn.classList.toggle("is-liked");
 
-      img.src = isLiked
-        ? `${pawRedIcon}`
-        : `${pawIcon}`;
+      if (isLiked) {
+        btn.classList.add("animate");
+        setTimeout(() => {
+          btn.classList.remove("animate");
+        }, 600);
+      }     
 
       if (petId) {
         toggleFavorite(petId);
