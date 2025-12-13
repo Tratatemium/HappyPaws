@@ -189,7 +189,7 @@
 } 
 
 /* Only on desctop hover, not on mobile tap */
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
   .pet-card:hover .pet-image img {
     transform: scale(1.05);
   }
