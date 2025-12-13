@@ -15,8 +15,11 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
   gap: 1rem;
-  background: #fff;
+  background: var(--bg);
   border-radius: 16px;
   overflow: hidden;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
 }
