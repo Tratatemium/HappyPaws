@@ -1,4 +1,14 @@
-/* Empty CSS for favorites page */
+#favoritesEmptyMessage {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem;
+  color: var(--font-color-2);
+}
+
+#favorites-header {
+  margin: 2rem;
+  font-family: var(--font-main-bold);
+  color: var(--accent-color-3);
+}
 
 .favorites__list {
   margin: 1rem;
