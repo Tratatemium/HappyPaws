@@ -10,3 +10,6 @@ if (typeof initHeader === 'function') {
 } else {
   console.warn("header.js did not export a default function.");
 }
+
+// ************************************ load theme toggle after header is loaded ----
+import('../accessibility-practices/lightdark.js');

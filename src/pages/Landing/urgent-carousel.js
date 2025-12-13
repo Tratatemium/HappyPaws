@@ -2,7 +2,7 @@ import './urgent-carousel.css';
 import '../Gallery/gallery.css';
 
 import pets from '../../assets/pet-data.json';
-import { createPetCard, attachLikeEvents } from '../../load-pet-cards.js';
+import { createPetCard, attachLikeEvents, attachCardClickEvents } from '../../load-pet-cards.js';
 
 export const urgentContainer = document.querySelector('.urgent-carousel-container');
 
@@ -16,6 +16,7 @@ function renderCarousel() {
   });
 
   attachLikeEvents();
+  attachCardClickEvents();
   setupScrollButtons();
 }
 

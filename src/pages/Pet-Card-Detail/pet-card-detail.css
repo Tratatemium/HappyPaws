@@ -1,1 +1,485 @@
-/* Empty CSS for pet-card-detail page */
+/* =================== PET DETAIL PAGE =================== */
+
+.pet-detail-page {
+  width: 100%;
+  background: var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+/* Main flex container for gallery + details */
+.pet-detail-container {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* =================== GALLERY SECTION =================== */
+
+.pet-gallery-section {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pet-gallery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.gallery-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--glass);
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  max-width: 100%;
+}
+
+.pet-gallery-main {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-thumbnails {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet-gallery-thumb {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius);
+  border: 2px solid transparent;
+  cursor: pointer;
+  object-fit: cover;
+  transition: all 0.3s ease;
+  opacity: 0.6;
+}
+
+.pet-gallery-thumb:hover {
+  opacity: 1;
+}
+
+.pet-gallery-thumb.active {
+  border-color: var(--titles);
+  opacity: 1;
+}
+
+/* =================== DETAILS SECTION =================== */
+
+.pet-details-section {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Header Section */
+.pet-detail-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pet-header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--glass);
+  border: 2px solid var(--line);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  color: var(--titles);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.back-btn:hover {
+  border-color: var(--titles);
+  background: var(--titles);
+  color: white;
+}
+
+.back-btn svg {
+  width: 20px;
+  height: 20px;
+  stroke: currentColor;
+}
+
+.pet-meta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pet-species {
+  display: inline-block;
+  background: var(--glass);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  color: var(--titles);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.urgent-badge {
+  display: inline-block;
+  background: #ff6b6b;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.pet-detail-header h1 {
+  font-size: 2.5rem;
+  color: var(--titles);
+  margin: 0;
+  font-weight: 700;
+}
+
+.pet-short-info {
+  font-size: 1.125rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.pet-header-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.fav-btn,
+.adopt-btn-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--glass);
+  border: 2px solid var(--line);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  color: var(--titles);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.fav-btn:hover,
+.adopt-btn-header:hover {
+  border-color: var(--titles);
+  background: var(--titles);
+  color: white;
+}
+
+.fav-btn svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+.fav-btn.is-liked {
+  background: #ff6b6b;
+  border-color: #ff6b6b;
+  color: white;
+}
+
+.fav-btn.is-liked svg {
+  fill: white;
+  stroke: white;
+}
+
+.fav-btn.animate {
+  animation: heartBeat 0.6s ease;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Story Section */
+.pet-detail-story {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.story-content h2,
+.traits-content h2,
+.health-content h2,
+.urgent-content h2 {
+  font-size: 1.5rem;
+  color: var(--titles);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.story-summary {
+  font-size: 1.125rem;
+  color: var(--ink);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.story-details {
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+/* Traits Section */
+.pet-detail-traits {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.traits-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.trait-tag {
+  display: inline-block;
+  background: var(--glass);
+  color: var(--titles);
+  padding: 0.75rem 1.25rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 1px solid var(--line);
+}
+
+/* Health & Care Section */
+.pet-detail-health {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.health-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.health-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.health-list .check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: #4caf50;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.health-list .info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: #2196f3;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+/* Urgent Section */
+.pet-detail-urgent {
+  padding: 1.5rem;
+  background: rgba(255, 107, 107, 0.1);
+  border-left: 4px solid #ff6b6b;
+  border-radius: var(--radius);
+  margin-bottom: 3rem;
+}
+
+.urgent-content h2 {
+  color: #ff6b6b;
+  margin-bottom: 0.75rem;
+}
+
+.urgent-content p {
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+/* =================== RESPONSIVE DESIGN =================== */
+
+/* Tablet - stack gallery and details with better proportions */
+@media (max-width: 768px) {
+  .pet-detail-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .pet-gallery-section,
+  .pet-details-section {
+    min-width: 100%;
+  }
+
+  .pet-detail-header h1 {
+    font-size: 2rem;
+  }
+
+  .gallery-main {
+    aspect-ratio: 1 / 1;
+  }
+
+  .gallery-thumbnails {
+    justify-content: flex-start;
+  }
+
+  .pet-gallery-thumb {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* Mobile - optimize spacing and font sizes */
+@media (max-width: 480px) {
+  .pet-detail-page {
+    padding: 0.5rem;
+  }
+
+  .pet-detail-container {
+    gap: 1rem;
+  }
+
+  .pet-detail-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .pet-short-info {
+    font-size: 1rem;
+  }
+
+  .story-content h2,
+  .traits-content h2,
+  .health-content h2,
+  .urgent-content h2 {
+    font-size: 1.25rem;
+  }
+
+  .pet-details-section {
+    gap: 1.5rem;
+  }
+
+  .trait-tag {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  .fav-btn,
+  .adopt-btn-header {
+    padding: 0.65rem 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .back-btn {
+    padding: 0.65rem 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .pet-header-actions {
+    gap: 0.75rem;
+  }
+
+  .gallery-thumbnails {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.5rem;
+  }
+
+  .pet-gallery-thumb {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 360px) {
+  .pet-detail-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .pet-meta {
+    gap: 0.25rem;
+  }
+
+  .pet-species,
+  .urgent-badge {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.75rem;
+  }
+
+  .fav-btn,
+  .adopt-btn-header {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  .back-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  .pet-header-actions {
+    gap: 0.5rem;
+  }
+}
