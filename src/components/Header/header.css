@@ -13,6 +13,7 @@
   padding-left: 250px;
   font-family: 'M PLUS Rounded 1c', helvetica, sans-serif;
 }
+
 @media (max-width: 768px) {
   .header {
     padding-left: 0;

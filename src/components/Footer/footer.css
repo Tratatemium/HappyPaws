@@ -28,6 +28,7 @@ footer {
 
 footer svg {
     fill: var(--background-color-1);
+    color: var(--background-color-1);
     width: auto;
     height: clamp(1.5rem, 3vw + 0.75rem, 1.875rem);
 }
