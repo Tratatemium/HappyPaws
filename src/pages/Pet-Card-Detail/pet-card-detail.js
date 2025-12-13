@@ -40,6 +40,12 @@ function renderPetDetails(pet) {
   const headerSection = document.querySelector(".pet-detail-header");
   headerSection.innerHTML = `
     <div class="pet-header-content">
+      <button class="back-btn" onclick="window.history.back()" title="Go back">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back
+      </button>
       <div class="pet-meta">
         <span class="pet-species">${pet.species}</span>
         ${pet.urgent ? '<span class="urgent-badge">Urgent</span>' : ""}
