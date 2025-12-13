@@ -171,6 +171,9 @@
   cursor: pointer;
   position: relative;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .pet-card.hidden {
