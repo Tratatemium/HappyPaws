@@ -1,7 +1,7 @@
 // Load pets data
 import pets from "../../assets/pet-data.json";
 import { onPetSpeciesButtonClick } from "../../filter-pets.js";
-import { createPetCard, attachLikeEvents } from "../../load-pet-cards.js";
+import { createPetCard, attachLikeEvents, attachCardClickEvents } from "../../load-pet-cards.js";
 
 // Select containers
 const urgentContainer = document.getElementById("urgentPetsContainer");
@@ -19,6 +19,7 @@ function renderPets() {
   });
 
   attachLikeEvents();
+  attachCardClickEvents();
 }
 
 // Category button active state

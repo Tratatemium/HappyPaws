@@ -1,5 +1,5 @@
 import pets from "../../assets/pet-data.json";
-import { createPetCard, getFavoriteIds, toggleFavorite } from "../../load-pet-cards.js";
+import { createPetCard, getFavoriteIds, toggleFavorite, attachCardClickEvents } from "../../load-pet-cards.js";
 
 function attachFavoriteEvents() {
   const favButtons = document.querySelectorAll(
@@ -7,7 +7,8 @@ function attachFavoriteEvents() {
   );
 
   favButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation(); // Prevent triggering card click
       const card = btn.closest(".pet-card");
       const petId = card?.dataset.petId;
 
@@ -39,6 +40,7 @@ function renderFavorites() {
   favoritesContainer.innerHTML = favoritePets.map(createPetCard).join("");
 
   attachFavoriteEvents();
+  attachCardClickEvents();
 }
 
 document.addEventListener("DOMContentLoaded", renderFavorites);

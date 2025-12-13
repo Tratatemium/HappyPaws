@@ -74,7 +74,8 @@ export function attachLikeEvents() {
   const favButtons = document.querySelectorAll(".paw-badge, .fav-btn");
 
   favButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation(); // Prevent triggering card click
       const img = btn.querySelector("img");
       const card = btn.closest(".pet-card");
       const petId = card?.dataset.petId;
@@ -92,5 +93,22 @@ export function attachLikeEvents() {
         toggleFavorite(petId);
       }
     });
+  });
+}
+
+// -------------------------------- takes to pet detail page on --> click
+export function attachCardClickEvents() {
+  const cards = document.querySelectorAll(".pet-card");
+
+  cards.forEach((card) => {
+    card.addEventListener("click", () => {
+      const petId = card.dataset.petId;
+      if (petId) {
+        window.location.href = `../Pet-Card-Detail/pet-card-detail.html?petId=${petId}`;
+      }
+    });
+
+    // Add pointer style
+    card.style.cursor = "pointer";
   });
 }
