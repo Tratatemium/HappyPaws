@@ -1,13 +1,16 @@
-const burger = document.querySelector('.burger-menu');
-const menu = document.querySelector('.off-screen-menu');
-const closeBtn = document.querySelector('.close-menu');
+export default function initHeader() {
 
-menu.classList.remove('open'); // Kapalı başlasın
+  const burger = document.querySelector('.burger-menu');
+  const menu = document.querySelector('.off-screen-menu');
+  const closeBtn = document.querySelector('.close-menu');
 
-burger.addEventListener('click', () => {
-  menu.classList.add('open');
-});
+  menu.classList.remove('open'); // Kapalı başlasın
 
-closeBtn.addEventListener('click', () => {
-  menu.classList.remove('open');
-});
+  burger.addEventListener('click', () => {
+    menu.classList.add('open');
+  });
+
+  closeBtn.addEventListener('click', () => {
+    menu.classList.remove('open');
+  });
+}

@@ -171,6 +171,9 @@
   cursor: pointer;
   position: relative;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .pet-card.hidden {
@@ -183,10 +186,13 @@
   object-fit: cover;
   transition: transform 0.4s ease;
   transform-origin: center;
-}
+} 
 
-.pet-card:hover .pet-image img {
-  transform: scale(1.05);
+/* Only on desctop hover, not on mobile tap */
+@media (hover: hover) and (pointer: fine) {
+  .pet-card:hover .pet-image img {
+    transform: scale(1.05);
+  }
 }
 
 /* Image container */
@@ -233,34 +239,47 @@
 }
 
 /* Paw Badge & Favorite Button */
-.paw-badge,
-.fav-btn {
+.paw-badge {
   position: absolute;
-  top: 0px;
+  bottom: 0px;
   right: 0px;
-  background: white;
+  background: transparent;
   padding: 6px;
   border-radius: 999px;
-  z-index: 6;
+  z-index: 10;
   border: none;
   transition: transform 0.3s ease;
-  transform: translate(-25%, 25%);
+  transform: translate(-25%, -25%);
 }
 
-.paw-badge:hover {
-  transform: translate(-25%, 25%) scale(1.05);
-}
-
-.paw-badge img,
-.fav-btn img {
+.paw-badge svg {
   width: 20px;
-  filter: brightness(0.5);
+  height: auto;
+  color: #ffffff;
+  fill: transparent;
   transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-.paw-badge:hover img {
-  filter: brightness(0.35);
-  transform: scale(1.05);
+.paw-badge.is-liked svg {
+  color: #ff1911ff;
+  fill: #ff1911ff;
+}
+
+/* Paw badge click animation */
+@keyframes pawLike {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.paw-badge.animate svg {
+  animation: pawLike 0.6s ease-in-out;
 }
 
 /* Gradient Overlay */

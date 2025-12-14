@@ -7,28 +7,38 @@
   <title>favorites Page</title>
   <link rel="stylesheet" href="../../styles/reset.css">
   <link rel="stylesheet" href="../../styles/layout.css">
+  <link rel="stylesheet" href="../../styles/layouts.css">
   <link rel="stylesheet" href="../../styles/variables.css">
   <link rel="stylesheet" href="../Gallery/gallery.css">
   <link rel="stylesheet" href="./favorites.css">
-  <link rel="stylesheet" href="../../components/footer/footer.css">
 </head>
 
 <body>
   <!-- HEADER COMPONENT -->
-  <script type="module" src="/src/components/Header/header-loader.js"></script>
+  <script type="module" src="../../components/Header/header-loader.js"></script>
 
   <main>
+    <div class="resp">
+      <aside class="sidebar">
+        <script type="module" src="../../components/sidebar/sidebar-loader.js"></script>
+      </aside>
     <section class="favorites">
 
+      <h1 id="favorites-header">FAVORITES</h1>
+
       <div id="favoritesContainer" class="favorites__list"></div>
-      <p id="favoritesEmptyMessage" class="favorites__empty">
-        You don’t have any favorite pets yet.
-      </p>
+      <div id="favoritesEmptyMessage" class="favorites__empty">
+        <p>You don`t have any favorite pets yet.</p>
+        <p>Tap the paw icon on any pet to save it here.</p>
+      </div>
     </section>
+    </div>
   </main>
 
-  <footer></footer>
-  <script type="module" src="/src/components/footer/footer-loader.js"></script>
+    <div class="footero">
+    <footer></footer>
+    <script type="module" src="../../components/Footer/footer-loader.js"></script>
+  </div>
   <script type="module" src="./favourite.js"></script>
 </body>
 
