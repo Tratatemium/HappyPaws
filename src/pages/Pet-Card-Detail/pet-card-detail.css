@@ -8,6 +8,7 @@
   padding: 1rem;
 }
 
+
 /* Main flex container for gallery + details */
 .pet-detail-container {
   display: flex;
@@ -86,6 +87,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-bottom: clamp(3.5rem, 4vw + 1rem, 2.5rem);
 }
 
 /* Header Section */
@@ -342,9 +344,14 @@
 .pet-detail-urgent {
   padding: 1.5rem;
   background: rgba(255, 107, 107, 0.1);
+  border: 1px solid #ff6b6b;
   border-left: 4px solid #ff6b6b;
   border-radius: var(--radius);
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
+}
+
+.pet-detail-urgent.hidden {
+  display: none;
 }
 
 .urgent-content h2 {
