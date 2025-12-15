@@ -101,14 +101,16 @@ function renderPetDetails(pet) {
   `;
 
   // Urgent reason
-  if (pet.urgent && pet.urgent_reason) {
-    const urgentSection = document.querySelector(".pet-detail-urgent");
+  const urgentSection = document.querySelector(".pet-detail-urgent");
+  if (pet.urgent && pet.urgent_reason) {    
     urgentSection.innerHTML = `
       <div class="urgent-content">
         <h2>Why Urgent?</h2>
         <p>${pet.urgent_reason}</p>
       </div>
     `;
+  } else {
+    urgentSection.classList.add("hidden");
   }
 }
 
