@@ -8,7 +8,6 @@
   padding: 1rem;
 }
 
-
 /* Main flex container for gallery + details */
 .pet-detail-container {
   display: flex;
@@ -212,11 +211,6 @@
   background: #ff6b6b;
   border-color: #ff6b6b;
   color: white;
-}
-
-.fav-btn.is-liked svg {
-  fill: white;
-  stroke: white;
 }
 
 .fav-btn.animate {
