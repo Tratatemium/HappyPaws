@@ -1,54 +1,54 @@
-const y="modulepreload",H=function(e){return"/HappyPaws/"+e},u={},k=function(t,r,d){let c=Promise.resolve();if(r&&r.length>0){let g=function(n){return Promise.all(n.map(i=>Promise.resolve(i).then(l=>({status:"fulfilled",value:l}),l=>({status:"rejected",reason:l}))))};document.getElementsByTagName("link");const o=document.querySelector("meta[property=csp-nonce]"),s=o?.nonce||o?.getAttribute("nonce");c=g(r.map(n=>{if(n=H(n),n in u)return;u[n]=!0;const i=n.endsWith(".css"),l=i?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${n}"]${l}`))return;const a=document.createElement("link");if(a.rel=i?"stylesheet":y,i||(a.as="script"),a.crossOrigin="",a.href=n,s&&a.setAttribute("nonce",s),document.head.appendChild(a),i)return new Promise((f,w)=>{a.addEventListener("load",f),a.addEventListener("error",()=>w(new Error(`Unable to preload CSS for ${n}`)))})}))}function v(o){const s=new Event("vite:preloadError",{cancelable:!0});if(s.payload=o,window.dispatchEvent(s),!s.defaultPrevented)throw o}return c.then(o=>{for(const s of o||[])s.status==="rejected"&&v(s.reason);return t().catch(v)})},Z=`<header class="header">\r
-<nav class="navbar">\r
-    <a href="../../../index.html" class="logo">\r
-        <img src="/HappyPaws/icons/paw-like-icon.png" alt="HappyPaws Logo">\r
-        <h1>Happy Paws</h1>\r
-    </a>\r
-    <div class="header-right">\r
-      <span class="theme-button"></span>\r
-      <div class="burger-menu">\r
-        <span></span>\r
-        <span></span>\r
-        <span></span>\r
-      </div>\r
+const y="modulepreload",H=function(e){return"/HappyPaws/"+e},h={},k=function(t,r,d){let c=Promise.resolve();if(r&&r.length>0){let g=function(s){return Promise.all(s.map(i=>Promise.resolve(i).then(l=>({status:"fulfilled",value:l}),l=>({status:"rejected",reason:l}))))};document.getElementsByTagName("link");const o=document.querySelector("meta[property=csp-nonce]"),n=o?.nonce||o?.getAttribute("nonce");c=g(r.map(s=>{if(s=H(s),s in h)return;h[s]=!0;const i=s.endsWith(".css"),l=i?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${s}"]${l}`))return;const a=document.createElement("link");if(a.rel=i?"stylesheet":y,i||(a.as="script"),a.crossOrigin="",a.href=s,n&&a.setAttribute("nonce",n),document.head.appendChild(a),i)return new Promise((f,w)=>{a.addEventListener("load",f),a.addEventListener("error",()=>w(new Error(`Unable to preload CSS for ${s}`)))})}))}function v(o){const n=new Event("vite:preloadError",{cancelable:!0});if(n.payload=o,window.dispatchEvent(n),!n.defaultPrevented)throw o}return c.then(o=>{for(const n of o||[])n.status==="rejected"&&v(n.reason);return t().catch(v)})},C=`<header class="header">\r
+    <nav class="navbar">\r
+        <a href="../../../index.html" class="logo">\r
+            <img src="/HappyPaws/icons/paw-like-icon.png" alt="HappyPaws Logo">\r
+            <h1>Happy Paws</h1>\r
+        </a>\r
+        <div class="header-right">\r
+            <span class="theme-button"></span>\r
+            <div class="burger-menu">\r
+                <span></span>\r
+                <span></span>\r
+                <span></span>\r
+            </div>\r
+        </div>\r
+    </nav>\r
+    <div class="off-screen-menu">\r
+        <button class="close-menu"></button>\r
+        <ul>\r
+            <li>\r
+                <a href="../../pages/Gallery/gallery.html">\r
+                    <img src="/HappyPaws/icons/home.svg" alt="Home" class="icon">\r
+                    Home\r
+                </a>\r
+            </li>\r
+            <li>\r
+                <a href="">\r
+                    <img src="/HappyPaws/icons/gallery.svg" alt="Gallery" class="icon">\r
+                    Gallery\r
+                </a>\r
+            </li>\r
+            <li>\r
+                <a href="../../pages/Favorites/favorites.html">\r
+                    <img src="/HappyPaws/icons/heart.svg" alt="Favorites" class="icon">\r
+                    Favorites\r
+                </a>\r
+            </li>\r
+            <li>\r
+                <a href="">\r
+                    <img src="/HappyPaws/icons/dog.svg" alt="Adopt" class="icon">\r
+                    Adopt\r
+                </a>\r
+            </li>\r
+            <li>\r
+                <a href="../../pages/Chat/chat.html">\r
+                    <img src="/HappyPaws/icons/chat.svg" alt="Chat" class="icon">\r
+                    Chat\r
+                </a>\r
+            </li>\r
+        </ul>\r
     </div>\r
-</nav>\r
-<div class="off-screen-menu">\r
-    <button class="close-menu"></button>\r
-    <ul>\r
-    <li>\r
-        <a href="../../pages/Gallery/gallery.html">\r
-        <img src="/HappyPaws/icons/home.svg" alt="Home" class="icon">\r
-        Home\r
-        </a>\r
-    </li>\r
-    <li>\r
-        <a href="">\r
-        <img src="/HappyPaws/icons/gallery.svg" alt="Gallery" class="icon">\r
-        Gallery\r
-        </a>\r
-    </li>\r
-    <li>\r
-        <a href="#">\r
-        <img src="/HappyPaws/icons/heart.svg" alt="Favorites" class="icon">\r
-        Favorites\r
-        </a>\r
-    </li>\r
-    <li>\r
-        <a href="#">\r
-        <img src="/HappyPaws/icons/dog.svg" alt="Adopt" class="icon">\r
-        Adopt\r
-        </a>\r
-    </li>\r
-    <li>\r
-        <a href="#">\r
-        <img src="/HappyPaws/icons/chat.svg" alt="Chat" class="icon">\r
-        Chat\r
-        </a>\r
-    </li>\r
-    </ul>\r
-</div>\r
-</header>`;function m(){const e=document.querySelector(".burger-menu"),t=document.querySelector(".off-screen-menu"),r=document.querySelector(".close-menu");t.classList.remove("open"),e.addEventListener("click",()=>{t.classList.add("open")}),r.addEventListener("click",()=>{t.classList.remove("open")})}document.body.insertAdjacentHTML("afterbegin",Z);typeof m=="function"?m():console.warn("header.js did not export a default function.");k(()=>import("./lightdark-BG4u5sHh.js"),[]);const C=`
+</header>`;function m(){const e=document.querySelector(".burger-menu"),t=document.querySelector(".off-screen-menu"),r=document.querySelector(".close-menu");t.classList.remove("open"),e.addEventListener("click",()=>{t.classList.add("open")}),r.addEventListener("click",()=>{t.classList.remove("open")})}document.body.insertAdjacentHTML("afterbegin",C);typeof m=="function"?m():console.warn("header.js did not export a default function.");k(()=>import("./lightdark-BG4u5sHh.js"),[]);const Z=`
 <a href="../Landing/landing.html" class="footer-button home-button">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
   <span>Home</span>
@@ -68,7 +68,7 @@ const y="modulepreload",H=function(e){return"/HappyPaws/"+e},u={},k=function(t,r
 <span class="theme-button">
           <script type="module" src="../accessibility-practices/lightdark.js"><\/script>
       </span>
-`;document.querySelector(".sidebar").innerHTML=C;const h="favoritePetIds";function p(){try{const e=localStorage.getItem(h);return e?JSON.parse(e):[]}catch{return[]}}function b(e){localStorage.setItem(h,JSON.stringify(e))}function q(e){const t=p(),r=t.indexOf(e);r===-1?t.push(e):t.splice(r,1),b(t)}function L(e){return p().includes(e)}function S(e){const t=e.urgent===!0,r=L(e.id),d=e.gender==="Male"?"♂":"♀";return`
+`;document.querySelector(".sidebar").innerHTML=Z;const u="favoritePetIds";function p(){try{const e=localStorage.getItem(u);return e?JSON.parse(e):[]}catch{return[]}}function b(e){localStorage.setItem(u,JSON.stringify(e))}function q(e){const t=p(),r=t.indexOf(e);r===-1?t.push(e):t.splice(r,1),b(t)}function L(e){return p().includes(e)}function S(e){const t=e.urgent===!0,r=L(e.id),d=e.gender==="Male"?"♂":"♀";return`
     <article class="pet-card ${t?"urgent":""} ${e.species}" data-pet-id="${e.id}">
       <div class="pet-image">
         <img src="${e.image_urls[0]}" alt="${e.name}">
