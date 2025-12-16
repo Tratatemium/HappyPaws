@@ -7,11 +7,12 @@
 .header {
   width: 100%;
   background: #365983;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3); /* branca com 30% de opacidade */border-bottom: 1px solid rgba(255, 255, 255, 0.15); /* 15% de opacidade, linha bem leve */
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3); /* branca com 30% de opacidade */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15); /* 15% de opacidade, linha bem leve */
   position: sticky;
   z-index: 10;
   padding-left: 250px;
-  font-family: 'M PLUS Rounded 1c', helvetica, sans-serif;
+  font-family: "M PLUS Rounded 1c", helvetica, sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -30,7 +31,7 @@
 .logo {
   display: flex;
   align-items: center;
-  white-space:nowrap;
+  white-space: nowrap;
   gap: 11px;
   text-decoration: none;
   min-width: max-content;
@@ -43,7 +44,7 @@
 
 .logo h1 {
   color: #ffffff;
-    font-family: 'M PLUS Rounded 1c', helvetica, sans-serif;
+  font-family: "M PLUS Rounded 1c", helvetica, sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
 }
@@ -102,6 +103,7 @@
 
 .off-screen-menu.open {
   left: 0;
+  width: 50vw;
 }
 
 /* Menu items */
@@ -134,13 +136,14 @@
 .icon {
   width: 26px;
   height: 26px;
-  filter: invert(73%) sepia(13%) saturate(1114%) hue-rotate(177deg) brightness(93%) contrast(92%);
+  filter: invert(73%) sepia(13%) saturate(1114%) hue-rotate(177deg)
+    brightness(93%) contrast(92%);
   transition: 0.2s;
 }
 
-
 .off-screen-menu li a:hover .icon {
-  filter: invert(26%) sepia(20%) saturate(1376%) hue-rotate(180deg) brightness(93%) contrast(84%);
+  filter: invert(26%) sepia(20%) saturate(1376%) hue-rotate(180deg)
+    brightness(93%) contrast(84%);
 }
 
 /* Close button (X) */
