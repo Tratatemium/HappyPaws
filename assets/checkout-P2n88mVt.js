@@ -1,4 +1,4 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";/* empty css                  */import{p as a}from"./pet-data-ule5Q2b5.js";const i=document.getElementById("toggle"),s=document.getElementById("submit-adoption");document.querySelector("form");const l=document.querySelectorAll(".input");function c(){return new URLSearchParams(window.location.search).get("petId")}function d(e){return a.find(t=>t.id===e)}function p(e){const t=document.querySelector(".pet-card");e&&(t.innerHTML=`
+import"./modulepreload-polyfill-B5Qt9EMX.js";/* empty css                  */import{p as a}from"./pet-data-CYvtR2xC.js";const i=document.getElementById("toggle"),s=document.getElementById("submit-adoption");document.querySelector("form");const l=document.querySelectorAll(".input");function c(){return new URLSearchParams(window.location.search).get("petId")}function d(e){return a.find(t=>t.id===e)}function p(e){const t=document.querySelector(".pet-card");if(!e)return;t.innerHTML=`
    <img src="${e.image_urls[0]}" alt="${e.name}" class="checkout-pet-img" />
 
 
@@ -8,7 +8,7 @@ import"./modulepreload-polyfill-B5Qt9EMX.js";/* empty css                  */imp
      <p>${e.breed}</p>
      <p class="fee"> Loaction : Stockholm </strong></p>
    </div>
- `)}document.addEventListener("DOMContentLoaded",()=>{const e=document.createElement("div");e.classList.add("generated-terms"),e.classList.add("hidden");const t=document.querySelector(".term-list");e.innerHTML=`     <div class='ul-list'>
+ `;const o=document.getElementById("label-pet-name");o.textContent=e.name}document.addEventListener("DOMContentLoaded",()=>{const e=document.createElement("div");e.classList.add("generated-terms"),e.classList.add("hidden");const t=document.querySelector(".term-list");e.innerHTML=`     <div class='ul-list'>
        <p> By adopting a pet from HappyPaws, you agree to:</p>
        <ul>
 <li>
