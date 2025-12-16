@@ -147,3 +147,13 @@ function showToast(message) {
     }, 3000);
   }
 }
+
+
+const closeButton = document.querySelector(".close-button");
+closeButton.addEventListener("click", () => {
+  if (window.history.length > 1) {
+    history.back();
+  } else {
+    window.location.href = "/home";
+  }
+});
