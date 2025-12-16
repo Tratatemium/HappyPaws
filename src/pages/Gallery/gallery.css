@@ -1,7 +1,6 @@
-
 .gallery {
   width: 100%;
-  padding-top: 0.5rem; 
+  padding-top: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   background: var(--bg);
@@ -9,8 +8,8 @@
   flex-direction: column;
   gap: 2rem;
   margin-top: 0;
+  z-index: 1;
 }
-
 
 .gallery h2 {
   font-size: 1.5rem;
@@ -52,10 +51,10 @@
 /* Chip Button Design */
 
 .chip {
-  display: inline-flex; 
-  align-items: center; 
+  display: inline-flex;
+  align-items: center;
   flex-direction: row;
-  gap: 8px; 
+  gap: 8px;
   flex-shrink: 0;
   padding: 8px 16px;
   background-color: #e9f0fa;
@@ -81,7 +80,8 @@
   transition: background 0.25s ease, color 0.25s ease;
   flex-direction: row;
   display: flex;
-  filter: brightness(0) saturate(100%) invert(34%) sepia(26%) saturate(1195%) hue-rotate(187deg) brightness(92%) contrast(89%);
+  filter: brightness(0) saturate(100%) invert(34%) sepia(26%) saturate(1195%)
+    hue-rotate(187deg) brightness(92%) contrast(89%);
 }
 .chip svg {
   fill: #375a8c;
@@ -93,7 +93,8 @@
 
 /* For img tags - use filter to change color */
 .chip img {
-  filter: brightness(0) saturate(100%) invert(34%) sepia(26%) saturate(1195%) hue-rotate(187deg) brightness(92%) contrast(89%);
+  filter: brightness(0) saturate(100%) invert(34%) sepia(26%) saturate(1195%)
+    hue-rotate(187deg) brightness(92%) contrast(89%);
 }
 
 .chip:hover img {
@@ -123,7 +124,6 @@
   }
 }
 
-
 /* ---------- SECTIONS ---------- */
 
 .urgent-section,
@@ -132,7 +132,7 @@
   padding-bottom: 24px;
   width: 100%;
   background: var(--bg);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   border-radius: 12px;
   margin-bottom: 24px;
 }
@@ -186,7 +186,7 @@
   object-fit: cover;
   transition: transform 0.4s ease;
   transform-origin: center;
-} 
+}
 
 /* Only on desctop hover, not on mobile tap */
 @media (hover: hover) and (pointer: fine) {
@@ -208,7 +208,12 @@
   bottom: 0;
   width: 100%;
   height: 80px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) 60%, transparent);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.3) 60%,
+    transparent
+  );
 }
 
 /* Info overlay */
