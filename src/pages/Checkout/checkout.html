@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,14 +9,17 @@
   <link rel="stylesheet" href="../../styles/layout.css">
   <link rel="stylesheet" href="../../styles/variables.css">
   <link rel="stylesheet" href="./checkout.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
   <div class="checkout-wrapper">
     <div class="pet-card">
-     
+
       <div class="pet-info">
-       
+
       </div>
 
     </div>
@@ -23,52 +27,53 @@
 
     <h2>Your information:</h2>
     <div class="form-container">
-  <form>
-    
-      <label for="name" >Name*</label>
-      <input class="input" id="name" placeholder="John Doe" type="text" required />
-      <span class="error-text" id="name-error"></span></span>
-      <label for="email" >E-mail Address*</label>
-      <input class="input" id="email" type="email" placeholder="john@example.com" required/>
-<span class="error-text" id="email-error"></span> </span>
+      <form>
 
-      <label for="number" >Phone Number*</label>
-      <input class="input" id="number" type="number" placeholder="+46 70 123 45 67" required/>
-      
-      <span class="error-text" id="number-error"></span></span>
- <label for="address" >Home Address</label>
- <input class="input" id="address" type="text" placeholder="111 45 Sweden Stockholm Storgatan 12"  required />
- <span class="error-text" id="address-error"></span></span>
- <label for="text-area"   >Your Pet Experience?  </label>
- <textarea id="text-area" title="text" rows="4" cols="30" required> </textarea>
-  <label for="text-area2"  >Why do you want to adopt Mr.Pugu? </label>
- <textarea id="text-area2" title="text" rows="4" cols="10" required></textarea>
- 
-    </form>
+        <label for="name">Name*</label>
+        <input class="input" id="name" placeholder="John Doe" type="text" required />
+        <span class="error-text" id="name-error"></span></span>
+        <label for="email">E-mail Address*</label>
+        <input class="input" id="email" type="email" placeholder="john@example.com" required />
+        <span class="error-text" id="email-error"></span> </span>
+
+        <label for="number">Phone Number*</label>
+        <input class="input" id="number" type="number" placeholder="+46 70 123 45 67" required />
+
+        <span class="error-text" id="number-error"></span></span>
+        <label for="address">Home Address</label>
+        <input class="input" id="address" type="text" placeholder="111 45 Sweden Stockholm Storgatan 12" required />
+        <span class="error-text" id="address-error"></span></span>
+        <label for="text-area">Your Pet Experience? </label>
+        <textarea id="text-area" title="text" rows="4" cols="30" required> </textarea>
+        <label for="text-area2">Why do you want to adopt <span id="label-pet-name">Mr.Pugu?</span> </label>
+        <textarea id="text-area2" title="text" rows="4" cols="10" required></textarea>
+
+      </form>
 
 
-    <div class="adoption-terms">
-      <button id="toggle" aria-expanded="false" area-controls="terms-content" >
-        Terms & Conditions
+      <div class="adoption-terms">
+        <button id="toggle" aria-expanded="false" area-controls="terms-content">
+          Terms & Conditions
 
-       <i id='icon' class="fa-solid fa-chevron-up"></i>
-       </div>
+          <i id='icon' class="fa-solid fa-chevron-up"></i>
+      </div>
 
       <div class="term-list">
 
       </div>
-    
-    
-  <button id="submit-adoption">Submit Application</button>
-    
+
+
+      <button id="submit-adoption">Submit Application</button>
+
 
     </div>
-  <div id="toast">
+    <div id="toast">
 
-  </div>
+    </div>
 
 
   </div>
   <script type="module" src="checkout.js"></script>
 </body>
+
 </html>
