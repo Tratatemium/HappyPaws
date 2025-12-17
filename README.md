@@ -228,7 +228,16 @@ The project uses a custom Vite configuration ([vite.config.js](vite.config.js)) 
 
 ### Environment Setup
 
-No environment variables are required for basic functionality. The application works out of the box with the included pet data.
+The project uses environment variables for configuration:
+
+1. **Create a `.env` file** in the root directory
+2. **Add your environment variables** (prefix with `VITE_` for client-side access):
+   ```env
+   VITE_GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+3. **Restart the development server** after adding new variables
+
+**Note**: Environment variables prefixed with `VITE_` are exposed to the client-side code. Keep sensitive data in server-only variables.
 
 ## 🤝 Contributing
 
